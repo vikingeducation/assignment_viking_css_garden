@@ -1,10 +1,161 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
 
+body {
+  line-height: 1; }
 
+ol, ul {
+  list-style: none; }
 
+blockquote, q {
+  quotes: none; }
 
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
 
- 
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+/* style */
+html {
+  background-color: #eee; }
+
+body {
+  position: relative;
+  font-family: "Open Sans", Arial, sans-serif;
+  top: -30px; }
+
+h1, h2 {
+  font-family: Vollkorn, "Times New Roman", serif; }
+
+a:link, a:visited, a:hover, a:active {
+  color: #223256;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+#main-header {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: #223256;
+  padding: 20px 20px;
+  z-index: 1; }
+  #main-header .site-title {
+    color: white;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  #main-header .tagline {
+    padding-top: 7px;
+    border-top: 1px solid white;
+    margin-top: 5px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+    font-size: .8em;
+    text-align: center; }
+
+.main-content-section {
+  margin: 35px 0;
+  padding: 100px 5% 100px 40%; }
+  .main-content-section:first-child {
+    background: linear-gradient(rgba(208, 202, 229, 0.45), rgba(233, 211, 213, 0.45)), url("images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom; }
+  .main-content-section:last-child {
+    background: linear-gradient(rgba(208, 202, 229, 0.45), rgba(233, 211, 213, 0.45)), url("images/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 0; }
+
+#main-content {
+  margin: 60px 30px 0 30px; }
+
+#main-content .section-title {
+  color: #223256;
+  position: relative;
+  font-size: 5em; }
+#main-content .section-content p {
+  font-size: 16px;
+  position: relative;
+  line-height: 1.5em;
+  color: #333;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 15px; }
+#main-content .section-content p:not(:first-child) {
+  margin-top: 30px; }
+#main-content .citation {
+  color: #223256;
+  font-family: Vollkorn, "Times New Roman", serif;
+  font-size: 2em;
+  text-align: right;
+  margin: 30px 30px 0 0;
+  float: right; }
+
+#sidebar {
+  text-align: center;
+  color: white;
+  margin: 0 30px;
+  width: calc(100% - $margin);
+  background-color: #223256;
+  padding: 20px 20px; }
+  #sidebar h2 {
+    font-size: 1.5em;
+    display: inline-block; }
+  #sidebar nav {
+    margin-left: 30px;
+    display: inline-block; }
+  #sidebar .nav-link-list-item {
+    padding: 0 10px;
+    display: inline-block; }
+    #sidebar .nav-link-list-item a {
+      color: white; }
+
+#main-header, .main-content-section, #sidebar {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+@media screen and (max-width: 910px) {
+  body {
+    position: static; }
+
+  #main-header {
+    position: static; }
+    #main-header .tagline {
+      text-align: left; }
+
+  #main-content {
+    margin: 0; }
+    #main-content .main-content-section {
+      margin: 0;
+      padding: 50px 3%; }
+      #main-content .main-content-section .section-title {
+        position: static; }
+      #main-content .main-content-section p {
+        position: static; }
+      #main-content .main-content-section .citation {
+        margin-top: 15px;
+        font-size: 1.5em; }
+
+  #sidebar {
+    margin: 0; }
+    #sidebar nav {
+      margin-top: 10px; } }
+
+/*# sourceMappingURL=style.css.map */
