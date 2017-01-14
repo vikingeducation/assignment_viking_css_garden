@@ -105,16 +105,16 @@ a:hover {
       background-color: rgba(255,255,255,.8);
       padding: $margin/2+3px $margin/2 $margin/2;
 
-      &:first-letter {
+      &:not(:first-child) {
+        margin-top: $margin;
+      }
+
+      &:not(:only-child):first-letter {
         float: left;
         font-family: $vollkorn;
         font-size: 3.6em;
         margin: .31em 3px 0 -2px;
       }
-    }
-
-    p:not(:first-child) {
-      margin-top: $margin;
     }
   }
 

@@ -100,13 +100,13 @@ a:hover {
   margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 18px 15px 15px; }
-  #main-content .section-content p:first-letter {
+  #main-content .section-content p:not(:first-child) {
+    margin-top: 30px; }
+  #main-content .section-content p:not(:only-child):first-letter {
     float: left;
     font-family: Vollkorn, "Times New Roman", serif;
     font-size: 3.6em;
     margin: .31em 3px 0 -2px; }
-#main-content .section-content p:not(:first-child) {
-  margin-top: 30px; }
 #main-content .citation {
   color: #223256;
   font-family: Vollkorn, "Times New Roman", serif;
