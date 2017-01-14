@@ -42,6 +42,7 @@ h1, h2 {
   font-family: Vollkorn, "Times New Roman", serif; }
 
 a:link, a:visited, a:hover, a:active {
+  cursor: pointer;
   color: #223256;
   text-decoration: none; }
 
