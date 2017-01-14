@@ -1,0 +1,206 @@
+/* reset */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+* { box-sizing: border-box; }
+
+/* style */
+
+@import "vars";
+
+html {
+  background-color: $bkg-gray;
+}
+
+body {
+  position: relative;
+  font-family: $open-sans;
+  top: -$margin;
+}
+
+h1, h2 {
+  font-family: $vollkorn;
+}
+
+a:link, a:visited, a:hover, a:active {
+  cursor: pointer;
+  color: $primary-navy;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#main-header {
+  position: absolute;
+  top: -$margin;
+  left: 0;
+  background-color: $primary-navy;
+  padding: 20px 20px;
+  z-index: 1;
+
+  .site-title {
+    color: white;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .tagline {
+    padding-top: 7px;
+    border-top: 1px solid white;
+    margin-top: 5px;
+    font-family: $open-sans;
+    color: white;
+    font-size: .8em;
+    text-align: center;
+  }
+}
+
+.main-content-section {
+  margin: 35px 0;
+  padding: 100px 5% 100px 40%;
+
+  &:first-child {
+    background: linear-gradient(
+                rgba(208,202,229,0.45), rgba(233,211,213,0.45)
+                ), url("images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  &:last-child {
+    background: linear-gradient(
+                rgba(208,202,229,0.45), rgba(233,211,213,0.45)
+                ), url("images/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 0;
+  }
+}
+
+#main-content {
+  margin: $margin*2 $margin 0 $margin;
+}
+
+#main-content {
+
+  .section-title {
+    color: $primary-navy;
+    position: relative;
+    font-size: 5em;
+  }
+
+  .section-content {
+
+    p {
+      font-size: 16px;
+      position: relative;
+      line-height: 1.5em;
+      color: #333;
+      margin-top: $margin;
+      background-color: rgba(255,255,255,.8);
+      padding: $margin/2+3px $margin/2 $margin/2;
+
+      &:not(:first-child) {
+        margin-top: $margin;
+      }
+
+      &:not(:only-child):first-letter {
+        float: left;
+        font-family: $vollkorn;
+        font-size: 3.6em;
+        margin: .31em 3px 0 -2px;
+      }
+    }
+  }
+
+  .citation {
+    color: $primary-navy;
+    font-family: $vollkorn;
+    font-size: 2em;
+    text-align: right;
+    margin: $margin $margin 0 0;
+    float: right;
+  }
+}
+
+#sidebar {
+  text-align: center;
+  color: white;
+  margin: 0 $margin;
+  width: calc(100% - $margin);
+  background-color: $primary-navy;
+  padding: 20px 20px;
+
+  h2 {
+    font-size: 1.5em;
+    display: inline-block;
+  }
+
+  nav {
+    margin-left: $margin;
+    display: inline-block;
+  }
+
+  .nav-link-list-item {
+    padding: 0 10px;
+    display: inline-block;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+#main-header, .main-content-section, #sidebar {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width: 910px) {
+
+  body {
+    position: static;
+  }
+
+  #main-header {
+    position: static;
+
+    .tagline {
+      text-align: left;
+    }
+  }
+
+  #main-content {
+    margin: 0;
+
+    .main-content-section {
+      margin: 0;
+      padding: 50px 3%;
+
+      .section-title {
+        position: static;
+      }
+
+      p {
+        position: static;
+      }
+
+      .citation {
+        margin-top: 15px;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  #sidebar {
+    margin: 0;
+
+    nav {
+      margin-top: 10px;
+    }
+  }
+}
