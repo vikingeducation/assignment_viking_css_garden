@@ -99,7 +99,12 @@ a:hover {
   color: #333;
   margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 15px 15px; }
+  padding: 18px 15px 15px; }
+  #main-content .section-content p:first-letter {
+    float: left;
+    font-family: Vollkorn, "Times New Roman", serif;
+    font-size: 4em;
+    margin: .3em 3px 0 0; }
 #main-content .section-content p:not(:first-child) {
   margin-top: 30px; }
 #main-content .citation {
