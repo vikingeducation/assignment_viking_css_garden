@@ -103,8 +103,8 @@ a:hover {
   #main-content .section-content p:first-letter {
     float: left;
     font-family: Vollkorn, "Times New Roman", serif;
-    font-size: 4em;
-    margin: .3em 3px 0 0; }
+    font-size: 3.6em;
+    margin: .31em 3px 0 -2px; }
 #main-content .section-content p:not(:first-child) {
   margin-top: 30px; }
 #main-content .citation {
