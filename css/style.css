@@ -2,9 +2,8 @@
  * Your Styles Here
  * ----------------------------------- */
 
-
-
-
-
-
- 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
