@@ -38,23 +38,20 @@ aside {
   text-align: center;
   background-color: $nav_link_background_color;
   padding: 10px;
-
 }
 .nav-link-list-item {
   display: inline-block;
   margin-right: 1px;
-}
-
-.nav-link-list-item a {
+    a {
   background-color: $nav_link_list_item_a_background_color;
   color: $nav_link_list_item_a_text_color;
   width: 120px;
   padding: 5px 10px;
   text-decoration: none;
   font-weight: 700;
-}
-
-.nav-link-list-item a:hover {
+        :hover {
   background-color: $nav_link_list_item_a_text_hover_background_color;
   color: $nav_link_list_item_a_text_hover_background_color;
+        }
+      }
 }

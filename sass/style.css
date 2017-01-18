@@ -34,17 +34,15 @@ aside {
 .nav-link-list-item {
   display: inline-block;
   margin-right: 1px; }
-
-.nav-link-list-item a {
-  background-color: #D7A982;
-  color: #442002;
-  width: 120px;
-  padding: 5px 10px;
-  text-decoration: none;
-  font-weight: 700; }
-
-.nav-link-list-item a:hover {
-  background-color: #442002;
-  color: #442002; }
+  .nav-link-list-item a {
+    background-color: #D7A982;
+    color: #442002;
+    width: 120px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 700; }
+    .nav-link-list-item a :hover {
+      background-color: #442002;
+      color: #442002; }
 
 /*# sourceMappingURL=style.css.map */
