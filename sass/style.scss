@@ -1,0 +1,60 @@
+@import "color";
+
+body {
+  background-color: $main_background_color;
+  color: $main_text_color;
+  margin-right: 10px;
+}
+img {
+  width: 45%;
+  height: auto;
+  float: left;
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+aside {
+  padding-top: 20px;
+}
+
+.citation a {
+  color: $citation_text;
+}
+
+.nav-links {
+  text-align: center;
+  background-color: $nav_link_background_color;
+  padding: 10px;
+
+}
+.nav-link-list-item {
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.nav-link-list-item a {
+  background-color: $nav_link_list_item_a_background_color;
+  color: $nav_link_list_item_a_text_color;
+  width: 120px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav-link-list-item a:hover {
+  background-color: $nav_link_list_item_a_text_hover_background_color;
+  color: $nav_link_list_item_a_text_hover_background_color;
+}
