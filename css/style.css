@@ -187,8 +187,8 @@ body input:checked~nav>h2 {
     font-weight: 100;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    top: 80vh;
+    position: fixed;
+    top: 91.25vh;
     left: 0;
     bottom: 0;
     right: 0;
@@ -262,6 +262,15 @@ body input:checked~nav>h2 {
   display: none;
 }
 
+#info {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #686868;
+}
+
 
 
 /*-------------------
@@ -270,6 +279,6 @@ body input:checked~nav>h2 {
 /* to align h2 heading to the bottom */
 @media (min-width: 800px) {
   body input:checked~nav>h2 {
-    margin: 1.2em auto;
+    top: 90vh;
   }
 }
