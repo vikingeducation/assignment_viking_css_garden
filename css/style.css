@@ -254,6 +254,18 @@ body input:checked~nav>h2 {
 }
 
 
+#left{
+  padding-left: 0px;
+}
+
+#none {
+  display: none;
+}
+
+#info {
+  font-weight: 600; font-size: 1.5em;
+}
+
 
 /*-------------------
     Media Query
