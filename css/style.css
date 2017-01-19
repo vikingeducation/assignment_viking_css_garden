@@ -279,6 +279,6 @@ body input:checked~nav>h2 {
 /* to align h2 heading to the bottom */
 @media (min-width: 800px) {
   body input:checked~nav>h2 {
-    top: 90vh;
+    top: 92vh;
   }
 }
