@@ -187,8 +187,8 @@ body input:checked~nav>h2 {
     font-weight: 100;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
-    margin: 5em auto;
     position: absolute;
+    top: 80vh;
     left: 0;
     bottom: 0;
     right: 0;
@@ -262,9 +262,6 @@ body input:checked~nav>h2 {
   display: none;
 }
 
-#info {
-  font-weight: 600; font-size: 1.5em;
-}
 
 
 /*-------------------
