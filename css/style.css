@@ -193,7 +193,7 @@ body input:checked~nav>h2 {
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     position: fixed;
-    top: 91.25vh;
+    top: 80vh;
     left: 0;
     bottom: 0;
     right: 0;
