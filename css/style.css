@@ -181,6 +181,11 @@ body input:checked~nav>ul>li {
     transition-delay: .5s;
 }
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 body input:checked~nav>h2 {
     display: block;
     color: #686868;
@@ -194,6 +199,9 @@ body input:checked~nav>h2 {
     right: 0;
     text-align: center;
     text-transform: uppercase;
+    -webkit-animation: fadein 5s linear forwards;
+    animation: fadein 4s linear forwards;
+    opacity: 0;
 }
 
 
