@@ -2,6 +2,177 @@
  * Your Styles Here
  * ----------------------------------- */
 
+/*-----------------------------
+ * CSS Resets------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------body--------------*/
+body {
+	width:100%;
+	height:auto;
+	background: #466368;
+	background: -webkit-linear-gradient(#648880, #293f50);
+	font-family: "Helvetica Neue", Helvetica, Arial, saans-seriff;
+	font-size:16px;
+	color:black;
+	line-height:22px;}
+/*--------- Header ------------*/
+
+
+
+#main-header {
+	width:100%;
+	background:#ADBEBB;    
+	height:100px;
+	margin-bottom:10px;	}
+
+
+.site-title {
+	font-size:40px;
+	font-weight:bold;
+	position:absolute;
+	top:15px;
+	left:35%;
+	color:#586841;
+	font-family:verdana, sans-serif;  
+	
+	}
+
+
+.tagline {
+	font-size:20px;
+	font-weight:400px;
+	position:absolute;
+	top:45px;
+	left:37%;
+	color:#A4919C;
+	}
+
+/*---------- Main Content -------------*/
+
+#main-content {
+	margin:1.5%;
+	background:white;
+	padding:12px;
+	float:left;
+	width:66%;
+	}
+
+
+.main-content-section {
+	padding:20px;
+	line-height:30px;
+	word-spacing:2px;
+	}
+
+.section-title {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	  
+	}
+
+
+
+.section-content {
+	margin-top:12px;
+	}
+
+
+.citation a { color: #ADBEBB;
+		text-decoration:none;
+	}
+
+/*-----------sidebar------------*/
+
+
+
+aside{
+	float: right;
+	width: 26%;
+	margin:1.5%;
+	background:#ADBEBB;
+	height:500px;
+	}
+
+
+
+.sidebar-nav{
+	margin-top:25px;
+	}
+
+.nav-links { display:block;
+	}
+.nav-link-list-item {
+	border-bottom: 1px solid white;
+	font-size:20px;
+	line-height:25px;	
+}
+ a:link {
+	text-decoration:none;
+	color:#466368;
+}
+a:visited {
+	text-decoration:none;
+	color:#7ABEAB;
+	}
+a:active {
+	text-decoration:underline;}
+a:hover {
+	background:#6F2F65;}
+
+
+
+
+
 
 
 
