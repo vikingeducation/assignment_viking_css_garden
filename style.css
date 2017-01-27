@@ -62,7 +62,7 @@ aside {
 	width: 17.5%;
 	border-right: 3px dashed black;
 	border-left: 3px solid black;
-	box-shadow: 0 10px #3A4B54;
+	box-shadow: -10px 10px #3A4B54;
 	
 }
 a {
