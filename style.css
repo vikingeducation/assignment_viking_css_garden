@@ -12,16 +12,14 @@ body {
 .tagline {
 	margin-left: 20%;
 	margin-right: 20%;
-	text-align: center;
 	font-family: "Architects Daughter", sans-serif;
-	clear: both;
+	text-align: center;
 	
 }
 h1 {
 	color: black;
 	font-size: 3rem;
 	text-align: center;
-	
 	margin-top: 5%;
 	margin-right: 10%;
 	margin-left: 10%;
@@ -59,7 +57,7 @@ aside {
 	background-color: #BF7428;
 	border-radius: 5px;
 	margin-left: 5%;
-	width: 17.5%;
+	width: 17.6%;
 	border-right: 3px dashed black;
 	border-left: 3px solid black;
 	box-shadow: -10px 10px #3A4B54;
