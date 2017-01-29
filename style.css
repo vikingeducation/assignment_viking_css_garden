@@ -17,7 +17,6 @@ body {
 	
 }
 h1 {
-	color: black;
 	font-size: 3rem;
 	text-align: center;
 	margin-top: 5%;
@@ -73,6 +72,7 @@ a:hover {
 }
 aside .section-title {
 	margin-top: 40%;
+	
 }
 .nav-links {
 	line-height: 5;

@@ -1,0 +1,68 @@
+body {
+  background-color: #33789E; }
+
+h1, main h2 {
+  text-align: center; }
+
+h1 {
+  font-family: "Unkempt", sans-serif; }
+
+.tagline {
+  margin-right: 20%;
+  margin-left: 20%;
+  font-family: "Architects Daughter", sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%; }
+
+main {
+  background-color: #D15715;
+  position: absolute;
+  margin-left: 23%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  box-shadow: 10px 10px #3A4B54;
+  border-right: 3px solid black;
+  width: 65%; }
+
+aside {
+  position: absolute;
+  top: 40%;
+  background-color: #BF7428;
+  border-radius: 5px;
+  margin-left: 5%;
+  width: 17.6%;
+  border-right: 3px dashed black;
+  border-left: 3px solid black;
+  box-shadow: -10px 10px #3A4B54;
+  order-top: 5px;
+  border-bottom: 5px;
+  overflow: auto; }
+
+a {
+  text-decoration: none;
+  color: #4A2C10; }
+
+aside .section-title {
+  margin-top: 40%; }
+
+.nav-links {
+  line-height: 5; }
+
+.section-content {
+  border-bottom: 2px solid black;
+  margin-left: 15%;
+  margin-right: 15%; }
+
+.citation {
+  margin-left: 15%; }
+
+aside h2 {
+  padding-right: 25px;
+  padding-left: 25px; }
+
+/*# sourceMappingURL=new-style.css.map */
