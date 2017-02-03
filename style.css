@@ -1,10 +1,92 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+body {
+  font-family: 'Kalam', cursive;
+  background-color: #C1CDEA;
+  background-image: url("paper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #1E2A47; }
 
+header {
+  text-align: center;
+  margin-bottom: 10px; }
+  header h1 {
+    margin-top: 36px;
+    font-size: 36px;
+    font-weight: 700; }
+  header h2 {
+    margin-top: 8px;
+    font-size: 18px; }
 
+main {
+  max-width: 640px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.5em; }
+  @media screen and (min-width: 840px) {
+    main {
+      max-width: 800px; } }
+  @media screen and (min-width: 1024px) {
+    main {
+      max-width: 984px; } }
+  main h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px; }
+  main article {
+    text-indent: 40px;
+    text-align: justify; }
+  main .citation {
+    line-height: 3em; }
+    main .citation a {
+      color: #544489;
+      text-decoration: none; }
+      main .citation a:hover {
+        color: #AB9BE0; }
 
+aside {
+  max-width: 680px;
+  margin: 20px auto; }
+  @media screen and (min-width: 760px) {
+    aside {
+      max-width: 800px; } }
+  @media screen and (min-width: 982px) {
+    aside {
+      max-width: 1024px; } }
+  aside h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: underline; }
+  aside ul li {
+    display: block;
+    float: left;
+    padding: 10px 5px 10px 5px;
+    border: 1px dashed #AB9BE0;
+    font-size: 16px;
+    margin-bottom: 5px;
+    background-color: #DFD6FB;
+    width: 100%;
+    line-height: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    transition: border 0.3s;
+    box-sizing: border-box; }
+    @media screen and (min-width: 760px) {
+      aside ul li {
+        width: 30%;
+        margin: 10px 0 5px 4px;
+        line-height: 2em; } }
+    @media screen and (min-width: 982px) {
+      aside ul li {
+        width: 13.5%;
+        margin-bottom: 20px; } }
+    aside ul li:hover {
+      border: 2px solid #291F49; }
+    aside ul li a {
+      text-decoration: none;
+      color: #544489; }
+      aside ul li a:hover {
+        color: #AB9BE0; }
 
-
-
- 
+/*# sourceMappingURL=style.css.map */
