@@ -1,32 +1,23 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
- html {
+ body {
    background-image: url('blooming_flower_garden_199003.jpg');
    background-size: cover;
    background-attachment: fixed;
+   width: 1024px;
+   height: 1024px;
    text-align: center;
    font-family: 'Ledger', cursive;
- }
-
- .site-title {
-   font-size: 60px;
-   margin-bottom: 10px;
- }
-
- .tagline {
-   margin-bottom: 50px;
  }
 
  main,
  header,
  aside {
-   width: 50%;
-   margin-left: auto;
-   margin-right: auto;
+   width: 75%;
+   margin-left: 250px;
    padding-left: 30px;
    padding-right: 30px;
-   border-radius: 25px;
    margin-top: 30px;
    margin-bottom: 30px;
  }
@@ -40,16 +31,14 @@
 
  .main-content-section {
    background: rgba(167, 93, 110, .6);
-   border-radius: 25px;
    padding-right: 10px;
    padding-left: 10px;
  }
 
  p {
+   background: rgba(167, 93, 110, .7);
    font-size: 20px;
    font-weight: 500;
-   background: rgba(167, 93, 110, .7);
-   border-radius: 25px;
  }
 
 header {
@@ -57,7 +46,6 @@ header {
   padding-bottom: 1px;
   margin-bottom: 30px;
   border-top: 2px solid rgb(9, 24, 0);
-  border-radius: 25px;
   font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -73,14 +61,18 @@ a {
 a:hover {
   color: rgb(167, 93, 110);
   background: rgb(25, 0, 6);
-  border-radius: 25px;
-  padding: 1px;
 }
 
-aside {
+#sidebar {
   background: rgba(114, 159, 88, .4);
   padding: 10px 30px 30px 30px;
   margin-top: 30px;
+}
+
+.sidebar-nav,
+#sidebar h2.section-title {
+  background: rgba(114, 159, 88, .8);
+  border-top: 2px solid rgb(9, 24, 0);
 }
 
 li {
@@ -88,13 +80,6 @@ li {
   float: left;
   padding: 10px;
 }
-
- .sidebar-nav,
- #sidebar h2.section-title {
-   background: rgba(114, 159, 88, .8);
-   border-top: 2px solid rgb(9, 24, 0);
-   border-radius: 25px;
- }
 
 .nav-links:before,
 .nav-links:after {
@@ -119,7 +104,6 @@ li:hover,
 .nav-link:hover {
   background: rgb(9, 24, 0);
   color: rgb(114, 159, 88);
-  border-radius: 25px;
 }
 
 .nav-link:onclick {
@@ -135,4 +119,26 @@ li:hover,
 header,
 #sidebar {
   color: rgb(9, 24, 0);
+}
+
+.site-title {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  margin-bottom: 50px;
+}
+
+li:hover,
+.nav-link:hover,
+.sidebar-nav,
+#sidebar h2.section-title,
+a:hover,
+header,
+p, .main-content-section,
+main,
+header,
+aside {
+  border-radius: 25px
 }
