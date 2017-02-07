@@ -5,9 +5,8 @@
    background-image: url('blooming_flower_garden_199003.jpg');
    background-size: cover;
    background-attachment: fixed;
-   color: rgb(28, 18, 0);
    text-align: center;
-   font-family: 'Averia Serif Libre', cursive;
+   font-family: 'Ledger', cursive;
  }
 
  .site-title {
@@ -33,13 +32,14 @@
  }
 
  main {
-   background: rgba(167, 93, 110, .4);
+   background: rgba(97, 23, 40, .4);
    padding-bottom: 30px;
    padding-top: 10px;
+   color: rgb(25, 0, 6);
  }
 
  .main-content-section {
-   background: rgba(167, 93, 110, .8);
+   background: rgba(167, 93, 110, .6);
    border-radius: 25px;
    padding-right: 10px;
    padding-left: 10px;
@@ -48,7 +48,7 @@
  p {
    font-size: 20px;
    font-weight: 500;
-   background: rgba(167, 93, 110, .9);
+   background: rgba(167, 93, 110, .7);
    border-radius: 25px;
  }
 
@@ -58,11 +58,11 @@ header {
   margin-bottom: 30px;
   border-top: 2px solid rgb(9, 24, 0);
   border-radius: 25px;
-  font-family: 'Mystery Quest', cursive;
+  font-family: 'Nothing You Could Do', cursive;
 }
 
 .section-title {
-  font-family: 'Mystery Quest', cursive;
+  font-family: 'Nothing You Could Do', cursive;
   font-size: 40px;
 }
 
@@ -130,4 +130,9 @@ li:hover,
   border-top: 2px solid rgb(59, 3, 16);
   padding-bottom: 10px;
   margin-top: 10px;
+}
+
+header,
+#sidebar {
+  color: rgb(9, 24, 0);
 }
