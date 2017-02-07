@@ -1,10 +1,133 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+ html {
+   background-image: url('blooming_flower_garden_199003.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   color: rgb(28, 18, 0);
+   text-align: center;
+   font-family: 'Averia Serif Libre', cursive;
+ }
 
+ .site-title {
+   font-size: 60px;
+   margin-bottom: 10px;
+ }
 
+ .tagline {
+   margin-bottom: 50px;
+ }
 
+ main,
+ header,
+ aside {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 25px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
 
+ main {
+   background: rgba(167, 93, 110, .4);
+   padding-bottom: 30px;
+   padding-top: 10px;
+ }
 
+ .main-content-section {
+   background: rgba(167, 93, 110, .8);
+   border-radius: 25px;
+   padding-right: 10px;
+   padding-left: 10px;
+ }
 
- 
+ p {
+   font-size: 20px;
+   font-weight: 500;
+   background: rgba(167, 93, 110, .9);
+   border-radius: 25px;
+ }
+
+header {
+  background: rgba(114, 159, 88, .7);
+  padding-bottom: 1px;
+  margin-bottom: 30px;
+  border-top: 2px solid rgb(9, 24, 0);
+  border-radius: 25px;
+  font-family: 'Mystery Quest', cursive;
+}
+
+.section-title {
+  font-family: 'Mystery Quest', cursive;
+  font-size: 40px;
+}
+
+a {
+  color: rgb(25, 0, 6);
+}
+
+a:hover {
+  color: rgb(167, 93, 110);
+  background: rgb(25, 0, 6);
+  border-radius: 25px;
+  padding: 1px;
+}
+
+aside {
+  background: rgba(114, 159, 88, .4);
+  padding: 10px 30px 30px 30px;
+  margin-top: 30px;
+}
+
+li {
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+ .sidebar-nav,
+ #sidebar h2.section-title {
+   background: rgba(114, 159, 88, .8);
+   border-top: 2px solid rgb(9, 24, 0);
+   border-radius: 25px;
+ }
+
+.nav-links:before,
+.nav-links:after {
+  content: " ";
+  display: table;
+}
+
+.nav-links:after {
+  clear:both;
+}
+
+.nav-links {
+  clear: both;
+  *zoom: 1;
+}
+
+.nav-link {
+  color: rgb(9, 24, 0);
+}
+
+li:hover,
+.nav-link:hover {
+  background: rgb(9, 24, 0);
+  color: rgb(114, 159, 88);
+  border-radius: 25px;
+}
+
+.nav-link:onclick {
+  color: rgb(114, 159, 88);
+}
+
+.main-content-section {
+  border-top: 2px solid rgb(59, 3, 16);
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
