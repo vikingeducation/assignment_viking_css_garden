@@ -1,9 +1,74 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+h1, h2 {
+  font-family: 'Playfair Display SC', serif;
+ 
+
+}
 
 
+p {
+	text-indent: 20px;
+	font-size: 16px;
+	word-spacing: 4px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
 
+section {
+	float: left;
+	width: 60%;
+	padding: 15px;
+	margin-left: 80px;
+}
+
+aside {
+	float: left;
+	width: 35%;
+	padding: 35px;
+	margin-left: 500px
+
+
+}
+
+aside li {
+	display: inline;
+
+}
+
+.site-title {
+	font-size: 40px;
+	color: #D3D3D3;
+	letter-spacing: 15px;
+	padding-right: 100px;
+}
+
+.tagline {
+	padding-top: 80px;
+	color: #D3D3D3;
+	padding-right: 100px;
+}
+#main-header {
+ 
+ 	padding-top: 5px;
+	text-align: center;
+	height: 250px;
+}
+
+.img {
+    background-image: url("https://i.redd.it/n2jp39l1szdy.png");
+	position: relative;
+}
+
+.section-title {
+	text-align: center;
+
+}
+
+#main-content {
+	padding-left: 280px;
+}
 
 
 
