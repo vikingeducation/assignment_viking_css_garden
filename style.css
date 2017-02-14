@@ -21,6 +21,11 @@
   font-size: 32px;
 }
 
+article {
+  width: 40%;
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Buenard', sans-serif;
   background-size: cover;
@@ -67,4 +72,8 @@ hr.linebreak:before {
 li {
   display: inline-block;
   padding: 20px;
+}
+
+.citation-wrapper {
+  text-align: center;
 }
