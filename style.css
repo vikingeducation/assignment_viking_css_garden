@@ -2,9 +2,74 @@
  * Your Styles Here
  * ----------------------------------- */
 
+#main-header {
+  text-align: center;
+  color: #eee;
+  background-color: #4072B6;
+  padding-bottom: 64px;
+  padding-top: 32px;
+}
 
+.site-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 75px;
+}
 
+.tagline {
+  color: #FFF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+}
 
+article {
+  width: 40%;
+  margin: 0 auto;
+}
 
+body {
+  font-family: 'Buenard', sans-serif;
+  background-size: cover;
+  background: url("escheresque.png") grey;
+  background-repeat: repeat;
+}
 
- 
+hr.linebreak {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr.linebreak:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.section-title {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#sidebar {
+  padding-top: 32px;
+  color: #eee;
+  background-color: #40b667;
+  margin-top: 30px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.citation-wrapper {
+  text-align: center;
+}
