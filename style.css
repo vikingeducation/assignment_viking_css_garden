@@ -29,7 +29,7 @@ article {
 body {
   font-family: 'Buenard', sans-serif;
   background-size: cover;
-  background: url("geometry.png") grey;
+  background: url("escheresque.png") grey;
   background-repeat: repeat;
 }
 
@@ -60,11 +60,7 @@ hr.linebreak:before {
 #sidebar {
   padding-top: 32px;
   color: #eee;
-  background-color: #4072B6;
-  background: -webkit-linear-gradient(#4072B6, #6aa1ed); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#4072B6, #6aa1ed); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#4072B6, #6aa1ed); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#4072B6, #6aa1ed); /* Standard syntax */
+  background-color: #40b667;
   margin-top: 30px;
   text-align: center;
 }
