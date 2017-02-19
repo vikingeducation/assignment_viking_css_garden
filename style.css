@@ -3,8 +3,98 @@
  * ----------------------------------- */
 
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 25px;
+	height: 150px;
+	background-color: #f79b81;
+	color: white;
+	border-bottom: 3px solid white;
+}
+
+h1 {
+		font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+	padding-top: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	width: 50%;
+	margin-left: 100px;		
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.section-title {
+	font-size: 35px;
+}
+
+.section-content p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 18px;
+	line-height: 2.5;
+}
+
+.section-content p::selection {
+	color: white;
+	background-color: #f79b81;
+}
+
+p:first-letter {
+		font-size: 25px;
+}
+
+cite a {
+	color: black;
+}
+
+cite a:hover {
+	color: #f79b81;
+}
 
 
+aside {
+	height: 200px;
+	background-color: #f79b81;
+	color: white;
+	font-family: 'Poppins';
+}
 
+aside	h2 {
+		text-align: center;
+}
 
- 
+aside li {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+aside a:hover {
+	color: #f79b81;
+	background-color: white;
+}
+
+aside a {
+	padding: 30px;
+	text-decoration: none;
+	color: white;
+}
