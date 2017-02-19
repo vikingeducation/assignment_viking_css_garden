@@ -1,10 +1,206 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+ /* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+ */
 
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+ /*
+   ================
+ 	grid
+ 	================
+ */
+ *,
+ *:before,
+ *:after {
+ 	-webkit-box-sizing: border-box;
+ 	   -moz-box-sizing: border-box;
+ 	        box-sizing: border-box;
+ }
+ /*
+   ================
+ 	Custom Styles
+ 	================
+ */
+ body {
+ 	font: Arial, Verdana, sans-serif;
+ 	background: radial-gradient(#81a3eb, #e8dea6);
+ 	background-repeat: no-repeat;
+ 	color: #323945;
+ 	line-height: 1.5em;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ 	height: 100%;
+ }
+ p h1, h2 {
+ 	margin-bottom: 22px;
+ }
+ #main-header {
+ 	background: url("https://placeimg.com/1550/480/nature");
+ 	background-repeat: no-repeat;
+ 	font-size: 100px;
+ 	text-align: center;
+ 	text-shadow: -2px 4px  black;
+ 	line-height: 1.5em;
+ 	color: white;
+ }
 
-
-
-
-
- 
+ .tagline {
+   font-size: 20px;
+ 	font-style: italic;
+ 	text-shadow: -1px 2px black;
+ 	line-height: 1.5em;
+ 	padding-bottom: 40px;
+ }
+ /*
+   ===============
+ 	Nav
+ 	===============
+ */
+ a {
+ 	color: blue;
+ 	text-decoration: none;
+ }
+ a:hover {
+ 	color: #b2cbdd;
+ }
+ /*
+   ===============
+ 	Main-content
+ 	===============
+ */
+ #main-content {
+ 	float: right;
+ 	width: 80%;
+ 	margin-top: 50px;
+ 	border-left: 1px solid black;
+ 	padding-left: 30px;
+ }
+ #sidebar {
+ 	margin-top: 70px;
+ 	width: 20%;
+ 	margin-bottom: 30px;
+ }
+ aside .section-title {
+ 	font-weight: bold;
+ 	font-size: 1.5em;
+ }
+ li .nav-link {
+ 	padding-left: 15px;
+ }
+ .section-title {
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	margin-bottom: auto;
+ }
+ .section-content p {
+ 	text-indent: 30px;
+ 	margin-bottom: 20px;;
+ }
+ /*
+   =================
+ 	Side-pix
+ 	=================
+ */
+ .side-pix {
+ 	float: left;
+ 	width: 20%;
+ 	height: auto;
+ 	margin-bottom: 20px;
+ 	margin-top: 15px;
+ 	padding-left: 0px;
+ 	padding-right: 15px;
+ 	padding-top: 5px;
+ 	opacity: .5;
+ }
+ hr {
+ 	width: 35px;
+ 	text-align: center;
+ }
+ /*
+   =================
+ 	Slidein
+ 	=================
+ */
+ #main-header {
+ 	animation-duration: 3s;
+ 	animation-name: slidein;
+ }
+ @keyframes slidein {
+ 	from {
+ 		margin-left: 100%;
+ 		width: 300;
+ 	}
+ 	to {
+ 		margin-left: 0;
+ 		width: 100%;
+ 	}
+ }
+ @media (min-width: 320px) and (max-width: 480px) {
+ 	#main-header {
+ 		line-height: 1.0em;
+ 	}
+   #main-content {
+ 	  width: 100%;
+ 		border-left: 0;
+ 		padding-left: 0;
+ 		padding-right: 0;
+ 		margin-top: 20px;
+   }
+ 	#sidebar {
+ 		margin-top: 10px;
+ 		padding-top: 20px;
+ 		width: 100%;
+ 	}
+ 	hr {
+ 		margin-top: 15px;
+ 		display: none;
+ 	}
+ 	.side-pix {
+ 		display: none;
+ 	}
+ }
