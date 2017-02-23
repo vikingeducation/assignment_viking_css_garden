@@ -4,7 +4,80 @@
 
 
 
+ #background-img {
+
+   background-image: url("ship.jpeg");
+   background-position: fixed ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 370px;
+
+ }
+
+ .citationa {
+   padding-right: 4px;
+   color: white;
+   text-align: right;
+   position: relative;
+   top: 100px;
+ }
+
+#main-header{
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  left: auto;
+}
+
+#main-content {
+  width: 45%;
+  float: right;
+  padding-right: 25%;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.section-content {
+  font-family: arial;
+}
+
+#sidebar {
+  clear: both;
+}
+
+.section-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sidebar-nav{
+  background-color: #888;
+
+}
+
+.sidebar-nav ul {
+  padding: 0;
+  background-position: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.sidebar-nav li {
+  font-size: x-large;
+  display: inline-block;
+  background-color: white;
+  margin: 4px 2px 4px 8px;
+  padding: 2px 3px 2px 3px;
+  border-radius: 6px;
+}
 
 
+.nav-link {
+  color: #888;
+}
 
- 
+.nav-link {
+  text-decoration: none;
+}
