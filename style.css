@@ -1,10 +1,79 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html{
+  font-family: "Helvetica Neue", Arial, serif;
+  max-width: 800px;
+  max-height: auto;
+  margin: 0 auto;
+}
 
+.site-title,
+.tagline,
+.section-title,
+.section-content,
+.section-content-myth{
+  text-align: center;
+}
 
+.site-title{
+  color: #887CAF;
+  font-size: 65px;
+}
 
+.tagline{
+  color: #9775AA;
+  font-size: 30px;
+}
 
+.section-title{
+  color: #7887AB
+}
 
+.section-content,
+.section-content-myth{
+  color: #222;
+}
 
- 
+.section-content-myth{
+  column-count: 2;
+  column-gap: 128px;
+  column-rule: 1px solid #444;
+  margin-bottom: 128px;
+}
+
+@media screen and (max-width: 700px) {
+  .section-content-myth {
+    column-count: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.nav-link-list-item{
+  display: inline-block;
+  font-size: .8em;
+  float: left;
+  padding: .2em;
+}
+
+a{
+  color: #6451A0;
+}
+
+a:hover,
+a:active{
+  color: #13073A;
+  transition: .5s;
+}
+
+div{
+  background: #fff;
+  background: linear-gradient(#ddd, #fff);
+  border-radius: 6px;
+  height: 960px;
+  position: static;
+}
