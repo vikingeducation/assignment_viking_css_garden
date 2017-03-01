@@ -1,10 +1,170 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
 
+body {
+  /* background-color: #FFB8A4; */
+}
 
+.content {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 960px;
+  margin: 0 auto;
+}
 
+#main-header {
+  background-color: #769DB2;
+}
 
- 
+#main-content {
+  background-color: #FFF2CD;
+  background: linear-gradient(to top, #FFB8A4, #FFF2CD, #769DB2);
+}
+
+#sidebar {
+  background-color: #FFB8A4;
+}
+
+.site-title, .section-title, .tagline {
+  font-family: "News Cycle", sans-serif;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 5em;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.tagline {
+  font-size: 2em;
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
+.section-title {
+  font-size: 3.5em;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  text-decoration: underline;
+}
+
+.section-content p {
+  padding-bottom: 20px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2em;
+  font-size: 1.25em;
+  text-indent: 50px;
+}
+
+.section-content p::first-letter {
+  color: #2E617D;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.main-content-section {
+  padding-bottom: 40px;
+  padding: 20px;
+}
+
+.citation {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 1em;
+  margin-left: 100px;
+}
+
+.sidebar-nav, .sidebar-nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 125px;
+}
+
+.nav-link-list-item {
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #2E617D;
+  background-color: #FFB8A4;
+  border-bottom: 4px solid transparent;
+  transition: border 0.5s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+a:hover  {
+  color: #2E617D;
+  border-color: #2E617D;
+}
+
+.clearfix {
+  clear: both;
+  background-color: #FFB8A4;
+}
