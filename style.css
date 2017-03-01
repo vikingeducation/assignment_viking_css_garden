@@ -80,3 +80,32 @@ body {
 .tagline {
 	font-size: 1.3em;
 }
+/* ----------------------------------- *
+ * Main
+ * ----------------------------------- */
+ #main-content {
+ 	width: 100%;
+ 	position: relative;
+ }
+.main-content-section {
+	width: 100%;
+	margin: 30px;
+}
+
+
+
+
+ @media only screen and (min-width: 960px) {
+ 	#main-content {
+ 		width: 75%;
+ 		margin: 0 auto;
+ 	}
+ 	.main-content-section:last-child {
+ 		float: left;
+ 		width: 60%;
+ 	}
+ 	.main-content-section:first-child {
+ 		float: right;
+ 		width: 30%;
+ 	}
+ }
