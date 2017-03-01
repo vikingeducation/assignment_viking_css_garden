@@ -70,16 +70,15 @@ body {
  * ----------------------------------- */
 #main-header {
 	width: 100%;
-	padding-bottom: 9%;
+	height: 114px;
+	padding-bottom: 20px;
 	text-align: center;
-	background: url(images/header-background.png) no-repeat center top;
-	background-size: 42%;
 	color: #fff;
 	font-family: Skranji, verdana, sans-serif;
 }
 .site-title {
 	font-size: 3em;
-	padding-top: 30px;
+	padding-top: 22px;
 	padding-bottom: 5px;
 }
 .tagline {
@@ -97,6 +96,7 @@ body {
 	width: 100%;
 	padding: 20px;
 	background: rgba(78, 195, 255, 0.5);
+	margin-bottom: 20px;
 }
 
 .section-title {
@@ -115,8 +115,13 @@ body {
 
 
  @media only screen and (min-width: 960px) {
+ 	#main-header {
+ 		background: url(images/header-background.png) no-repeat center top;
+		background-size: 667px 114px;
+		padding-bottom: 140px;
+ 	}
  	#main-content {
- 		width: 75%;
+ 		width: 1280px;
  		margin: 0 auto;
  	}
  	.main-content-section {
@@ -141,7 +146,7 @@ body {
 
  	#sidebar {
  		float: left;
- 		width: 20%;
- 		margin-left: 5%;
+ 		width: 24.15%;
+ 		margin-left: 1.5%;
  	}
  }
