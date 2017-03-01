@@ -179,6 +179,7 @@ body {
  		float: left;
  		width: 680px;
  		padding: 80px 50px 50px 50px;
+ 		margin-bottom: 0px;
  	}
  	.main-content-section:first-child {
  		float: right;
