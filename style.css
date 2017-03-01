@@ -59,6 +59,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	max-width: 100%;
+	color: #fff;
  }
  p {
  	font-family: verdana, helvetica, sans-serif;
@@ -90,7 +91,6 @@ body {
  #main-content {
  	width: 100%;
  	position: relative;
- 	color: #fff;
  }
 .main-content-section {
 	width: 100%;
@@ -123,20 +123,40 @@ body {
  * ----------------------------------- */
 #sidebar {
 	width: 100%;
-	padding: 20px;
+	padding: 40px 0 30px 0;
 	background-image: url(images/icicle-small-right.png);
  	background-position: top right;
  	background-repeat: no-repeat;
  	background-color: rgba(78, 195, 255, 0.5);
  	border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
-
+#sidebar .section-title {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.nav-links {
+	text-align: center;
+}
+.nav-links li a {
+	width: 100%;
+	display: block;
+  	float: left;
+	margin: 0 auto;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-family: verdana, helvetica, sans-serif;
+}
+.nav-links li a:hover {
+	background-color: rgba(255,255,255,0.5);
+}
 
  @media only screen and (min-width: 960px) {
  	#main-header {
  		background: url(images/header-background.png) no-repeat center top;
 		background-size: 667px 114px;
-		padding-bottom: 140px;
+		padding-bottom: 160px;
  	}
  	#main-content {
  		width: 1280px;
@@ -169,7 +189,11 @@ body {
 
  	#sidebar {
  		float: left;
- 		width: 420px;
+ 		width: 460px;
  		margin-left: 40px;
  	}
+ 	.nav-links li a {
+		width: 210px;
+
+	}
  }
