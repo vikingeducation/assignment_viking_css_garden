@@ -72,6 +72,10 @@ html {
     background-color: #ffffee;
 }
 
+body {
+    text-align:center;
+}
+
 h1 { 
     display: block;
     font-size: 2em;
@@ -140,6 +144,7 @@ p {
     margin-bottom: 20px;
     transition: 1s;
     color: #b9b9b9;
+    text-align: left;
 }
 
 
@@ -149,13 +154,15 @@ p {
     position: relative;
     transition: 2s;
     left: 0px;
+    border: 1px solid transparent;
 }
 
 .main-content-section:hover {
-    left: 50px;
+    left: 20px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid #a9a9a9;
 
 }
 
@@ -169,7 +176,7 @@ li {
     padding: 20px;
     display: inline-block;
     text-align: center;
-    transition: 1s;
+    transition: .75s;
     border-radius: 10px;
     width: 33%;
     
