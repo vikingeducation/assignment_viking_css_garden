@@ -1,6 +1,6 @@
 @import 'reset';
 @import 'raleway_font';
-
+@import 'colors';
 $header-font-stack: Raleway, sans-serif;
 
 @mixin section-box-shadow() {
@@ -9,7 +9,7 @@ $header-font-stack: Raleway, sans-serif;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 html {
-    background-color: #ffffee;
+    background-color: $primary-background-color;
 }
 
 body {
@@ -87,7 +87,7 @@ p {
     max-width: 560px;
     margin-bottom: 20px;
     transition: 1s;
-    color: #b9b9b9;
+    color: $deemphasize-text-color;
     text-align: left;
 }
 
@@ -102,21 +102,21 @@ p {
 }
 
 .main-content-section:hover {
-
-    border: 1px solid #a9a9a9;
+    @include section-box-shadow();
+    border: 1px solid $paragraph-border-color;
     top: -3px;
-    background-color:#eeffee;
+    background-color:$paragraph-background-color;
 
 }
 
 .main-content-section:hover p {
-    color: #595959;
+    color: $selected-text-color;
 
 }
 
 
 .main-content-section:hover p:hover {
-    color: #000000;
+    color: $reading-text-color;
 
 }
 
@@ -128,13 +128,13 @@ li {
     transition: .75s;
     border-radius: 10px;
     width: 33%;
-    background-color: lightgray;
-    border: 1px solid gray;
+    background-color: $list-item-button-color;
+    border: 1px solid $list-item-border-color;
     
 }
 
 li:hover {
-    background-color: #aaffaa;
+    background-color: $list-item-background-color;
 }
 
 a {

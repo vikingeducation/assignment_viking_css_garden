@@ -145,6 +145,9 @@ p {
   top: 0px; }
 
 .main-content-section:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border: 1px solid #a9a9a9;
   top: -3px;
   background-color: #eeffee; }
@@ -153,7 +156,7 @@ p {
   color: #595959; }
 
 .main-content-section:hover p:hover {
-  color: #000000; }
+  color: #ffffff; }
 
 li {
   padding: 20px;
@@ -162,11 +165,11 @@ li {
   transition: .75s;
   border-radius: 10px;
   width: 33%;
-  background-color: lightgray;
+  background-color: #aaffaa;
   border: 1px solid gray; }
 
 li:hover {
-  background-color: #aaffaa; }
+  background-color: lightgray; }
 
 a {
   text-decoration: none; }
