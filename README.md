@@ -1,6 +1,7 @@
 assignment_viking_css_garden
 ============================
 Spencer Revare
+
 A place for your styling creativity to grow
 
 http://bungee-shade.surge.sh/ 
