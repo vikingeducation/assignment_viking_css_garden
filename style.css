@@ -159,7 +159,7 @@ p {
 
 }
 
-.main-content-section:hover p {
+.main-content-section:hover p:hover {
     color: #000000;
 
 }
