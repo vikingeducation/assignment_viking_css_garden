@@ -128,13 +128,13 @@ li {
     transition: .75s;
     border-radius: 10px;
     width: 33%;
-    background-color: $list-item-button-color;
+    background-color: $list-item-background-color;
     border: 1px solid $list-item-border-color;
     
 }
 
 li:hover {
-    background-color: $list-item-background-color;
+    background-color: $list-item-button-color;
 }
 
 a {

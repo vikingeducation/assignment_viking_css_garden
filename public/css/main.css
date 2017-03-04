@@ -156,7 +156,7 @@ p {
   color: #595959; }
 
 .main-content-section:hover p:hover {
-  color: #ffffff; }
+  color: #000000; }
 
 li {
   padding: 20px;
@@ -165,11 +165,11 @@ li {
   transition: .75s;
   border-radius: 10px;
   width: 33%;
-  background-color: #aaffaa;
+  background-color: lightgray;
   border: 1px solid gray; }
 
 li:hover {
-  background-color: lightgray; }
+  background-color: #aaffaa; }
 
 a {
   text-decoration: none; }
