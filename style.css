@@ -139,7 +139,7 @@ p {
     max-width: 560px;
     margin-bottom: 20px;
     transition: 1s;
-    color: #d9d9d9;
+    color: #b9b9b9;
 }
 
 
@@ -162,6 +162,21 @@ p {
 .main-content-section:hover p:hover {
     color: #000000;
 
+}
+
+
+li {
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 1s;
+    border-radius: 10px;
+    width: 33%;
+    
+}
+
+li:hover {
+    background-color: #fff;
 }
 
 
