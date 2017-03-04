@@ -189,6 +189,12 @@ p {
 }
 
 .main-content-section:hover p {
+    color: #595959;
+
+}
+
+
+.main-content-section:hover p:hover {
     color: #000000;
 
 }
