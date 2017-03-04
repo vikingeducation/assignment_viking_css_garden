@@ -68,12 +68,21 @@ table {
 }
 */
 
+@font-face {
+    font-family: "Raleway";
+    src: url('https://fonts.googleapis.com/css?family=Raleway');
+}
+
 html {
     background-color: #ffffee;
 }
 
 body {
     text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
 }
 
 h1 { 
