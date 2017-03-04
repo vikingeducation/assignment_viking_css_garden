@@ -207,11 +207,21 @@ li {
     transition: .75s;
     border-radius: 10px;
     width: 33%;
+    background-color: lightgray;
+    border: 1px solid gray;
     
 }
 
 li:hover {
-    background-color: #fff;
+    background-color: #aaffaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
