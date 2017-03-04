@@ -161,9 +161,9 @@ p {
     padding: 20px;
     display: inline-block;
     position: relative;
-    transition: 2s;
-    left: 0px;
+    transition: .75s;
     border: 1px solid transparent;
+    top: 0px;
 }
 
 .main-content-section:hover {
@@ -172,6 +172,7 @@ p {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border: 1px solid #a9a9a9;
+    top: -3px;
 
 }
 
