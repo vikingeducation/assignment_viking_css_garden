@@ -184,10 +184,11 @@ p {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border: 1px solid #a9a9a9;
     top: -3px;
+    background-color:#eeffee;
 
 }
 
-.main-content-section:hover p:hover {
+.main-content-section:hover p {
     color: #000000;
 
 }
