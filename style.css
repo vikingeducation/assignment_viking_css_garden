@@ -2,9 +2,168 @@
  * Your Styles Here
  * ----------------------------------- */
 
+ html {
+   font-family: Helvetica, "Times New Roman", sans-serif;
+ }
+ body {
+   margin:0
+ }
+
+.bungeeLogo {
+   font-family: 'Bungee Shade', cursive;
+   font-size: 58px;
+   color: #444;
+   display: block;
+   width:auto;
+   height: auto;
+   float: left;
+   padding: 0;
+   margin: 0;
+   margin-left: 8px;
+
+ }
+.tagline {
+  font-family: 'Lato', sans-serif, monospace;
+  font-size: 26px;
+  color: #444;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: auto;
+  text-align: right;
+  margin-right:16px;
+  margin-top: 142px;
+  margin-bottom: 0;
+
+}
 
 
 
+#main-header {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  background-color: #C1DAD6;
+  position:fixed;
+  height: 220px;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #444;
+}
 
+main {
+  margin-top: 228px;
+  margin-left: 250px;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  font-size: 18px;
+}
+.main-content-section-top {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size:large;
+  border-radius: 15px;
+  background-color: #ACD1E9;
+  float: right;
+  padding: 27px;
+  margin: 60px;
+  margin-bottom: 30px;
+  margin-left: 45px;
+  width: 30%;
+}
+#main-section-title {
+  font-size: 46px;
+}
+.main-content-section {
+  padding: 30px;
+}
 
- 
+.section-title {
+  font-family: 'Bungee Shade', cursive;
+  font-weight: lighter;
+  color: #444;
+  display: inline-block;
+  background-color: #ACD1E9;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right:10px;
+  border-radius: 10px;
+}
+
+#sidebar {
+  background-color: #6D929B;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  position: fixed;
+  margin: 0;
+  margin-right: 0;
+  padding: 0px;
+  left: 0;
+  width: 218px;
+  top: 218px;
+  bottom: 0;
+}
+  #sidebar-title {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #444;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    display:inline-block;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #444;
+  }
+a{
+  display: inline-block;
+  width: 100%;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: lighter;
+  height: 37px
+}
+#nav-link-list-item-top {
+  border-top: 1px solid #444;
+}
+
+li:hover {
+  background-color: #ACD1E9;
+}
+.citation {
+  font-weight: lighter;
+  color: #444;
+  display: block;
+  background-color: #ACD1E9;
+  width: 220px;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right:10px;
+  border-radius: 10px;
+
+}
+
+  a:link {
+    color: #444;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #444;
+    text-decoration: none;
+  }
