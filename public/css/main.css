@@ -72,101 +72,79 @@ body {
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Raleway, sans-serif; }
+  font-family: Raleway, sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  display: block; }
 
 h1 {
-  display: block;
   font-size: 2em;
   margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold; }
+  margin-bottom: 0.67em; }
 
 h2 {
-  display: block;
   font-size: 1.5em;
   margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold; }
+  margin-bottom: 0.83em; }
 
 h3 {
-  display: block;
   font-size: 1.17em;
   margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold; }
+  margin-bottom: 1em; }
 
 h4 {
-  display: block;
   font-size: 1em;
   margin-top: 1.33em;
-  margin-bottom: 1.33em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold; }
+  margin-bottom: 1.33em; }
 
 h5 {
-  display: block;
   font-size: .83em;
   margin-top: 1.67em;
-  margin-bottom: 1.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold; }
+  margin-bottom: 1.67em; }
 
 h6 {
-  display: block;
   font-size: .67em;
   margin-top: 2.33em;
-  margin-bottom: 2.33em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold; }
+  margin-bottom: 2.33em; }
 
 p {
   font-size: 18px;
   max-width: 560px;
-  margin-bottom: 20px;
   transition: 1s;
   color: #b9b9b9;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 20px; }
 
 .main-content-section {
+  transition: 0.75s;
+  border: 1px solid transparent;
+  top: 0px;
   padding: 20px;
   display: inline-block;
-  position: relative;
-  transition: .75s;
-  border: 1px solid transparent;
-  top: 0px; }
+  position: relative; }
 
 .main-content-section:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border: 1px solid #a9a9a9;
-  top: -3px;
-  background-color: #eeffee; }
-
-.main-content-section:hover p {
-  color: #595959; }
-
-.main-content-section:hover p:hover {
-  color: #000000; }
+  background-color: #eeffee;
+  top: -3px; }
+  .main-content-section:hover p {
+    color: #595959; }
+  .main-content-section:hover p:hover {
+    color: #000000; }
 
 li {
+  transition: 0.75s;
+  background-color: lightgray;
+  border: 1px solid gray;
   padding: 20px;
   display: inline-block;
   text-align: center;
-  transition: .75s;
   border-radius: 10px;
-  width: 33%;
-  background-color: lightgray;
-  border: 1px solid gray; }
+  width: 33%; }
 
 li:hover {
   background-color: #aaffaa; }
