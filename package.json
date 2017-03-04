@@ -1,0 +1,27 @@
+{
+  "name": "assignment_viking_css_garden",
+  "version": "1.0.0",
+  "description": "Viking CSS Garden and SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rttomlinson/assignment_viking_css_garden.git"
+  },
+  "author": "Renzo Tomlinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rttomlinson/assignment_viking_css_garden/issues"
+  },
+  "homepage": "https://github.com/rttomlinson/assignment_viking_css_garden#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  },
+  "scripts" : {
+    "build-css" : "./bin/build-css",
+    "watch-css" : "./bin/watch-css"
+  }
+  
+}
