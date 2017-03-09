@@ -1,10 +1,62 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
 
+body {
+    width: 800px;
+    max-width: 90%;
+    margin-left: 4%;
+    background: linear-gradient(to top left, #C7E4C9, #FFF);
+}
 
+#main-header, h2.section-title {
+    font-family: 'Iceland', cursive;
+    color: #4F7C52;
+}
 
+h2.section-title {
+    font-size: 1.5em;
+    color: #6D9E70;
+}
 
+.site-title {
+    font-size: 2em;
+}
 
+.tagline {
+    font-size: 1.2em;
+}
 
- 
+article.section-content p {
+    margin: 10px auto;
+    line-height: 22px;
+}
+
+section.main-content-section, aside {
+    border: 2px solid #4F7C52;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    background: #FFF;
+    box-shadow: 5px 5px 15px #6D9E70;
+}
+
+a {
+    text-decoration: none;
+    color: #9E6665;
+}
+
+@media (min-width: 730px) {
+    main {
+        float: left;
+        width: 70%;
+    }
+
+    aside {
+        float: right;
+        width: 20%;
+    }
+}
