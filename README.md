@@ -1,6 +1,8 @@
 assignment_viking_css_garden
 ============================
 
+[Sean Luckett](https://seanluckett.github.io/assignment_viking_css_garden/)
+
 A place for your styling creativity to grow
 
 
