@@ -1,10 +1,69 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html {
+	font-family: 'Fruktur', cursive;
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(44,95,145,1) 54%, rgba(24,53,82,1) 92%);
 
+}
 
+body {
+	margin: 0px;
+}
 
+h1, h2 {
+	letter-spacing: .1em;
+}
 
+#main-header {
+ 	padding: 8px 0px 8px 0px;
+ 	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(44,95,145,.1) 54%, rgba(24,53,82,.1) 92%);
+ 	border-bottom:  2px solid rgba(24,53,82,.5);;
+ }
 
+.site-title,
+.tagline {
+	color: #A5B5E8;
+	margin-left: 40px;
+	line-height: 1em;
+	padding: 0px;
+}
 
- 
+.tagline {
+	font-size: 19px;
+}
+
+#main-content {
+	display: block;
+	min-width: 300px;
+	max-width: 60%;
+	float: left;
+	margin-left: 40px;
+	color: #A5B5E8;
+}
+
+.section-content,
+.nav-link {
+	font-family: 'Eczar', serif;
+}
+
+#sidebar {
+	display: block;
+	width: 200px;
+	float: left;
+	margin: 0px 40px 0px 40px;
+	text-align: center;
+	padding: 0px 3% 0px 3%;
+	border-left: 2px solid rgba(24,53,82,.5);
+	color: #A5B5E8;
+}
+
+.nav-links {
+	list-style-type: none;
+	padding: 0px 20% 0px 20%;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #A5B5E8;
+}
