@@ -3,8 +3,149 @@
  * ----------------------------------- */
 
 
+body
+{
+  padding:.25em;
+  font-family: Papyrus, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p
+{
+ padding:1em;
+ font-variant: small-caps;
+ font-size:1.25em;
+}
+#main-header::before,
+#main-header::after {
+  display: table;
+  content: " ";
+}
+#main-header::after {
+  clear: both;
+}
+
+#main-header 
+{
+  padding:.5em;
+  margin:0 auto;
+}
+.site-title
+{
+  background-color: #ad896b;
+  color:#fbd4d4;
+  font-weight: bold;
+  font-size: 5em;
+  float:left;
+  width:75%;
+  padding:1.5em;
+  border-radius:.5em;
+  text-align: left;
+  -webkit-animation-name: colorsHeader; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: colorsHeader;
+  animation-duration: 7s;
+  animation-timing-function: ease-out;
+}
+.tagline
+{
+  font-size: 1em;
+  float:right;
+  position:absolute;
+  right:-15%;
+  width:10%;
+  border-radius: 1em;
+  background-color:#8A4A4A;
+  color:#fbd4d4;
+  padding:4em 3em;
+  box-shadow: 2px 2px 2px 0 #333;
+  line-height: 2em;
+  box-sizing: border-box;
+    -webkit-animation: slide 3s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 3s forwards;
+    animation-delay: 1s;
+}
+ .main-content-section
+ {
+  background-color: #D09898;
+  border-radius:1em;
+  box-sizing: border-box;
+  width:75%;
+  float:left;
+  margin:1%;
+ }
+ .section-title
+ {
+  background-color: #fbd4d4;
+  font-size:2em;
+  padding:1em;
+  width:75%;
+  border-radius: 0em .25em .25em 0em;
+  box-shadow: .1em .1em .1em 0em #333;
+ }
+ .section-content
+ {
+   font-size:1em;
+   padding:1em;
+ }
+
+ #sidebar
+ {
+   background-color: #6F3B58;
+   border-radius:.5em;
+   position:fixed;
+   right: 0%;
+   bottom:0%;
+   float:right;
+   width:22%;
+ }
+
+ a:link, a:visited
+ {
+     color: #fbd4d4;
+ }
+ li{
+   color: #fbd4d4;
+ }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorsHeader {
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
+
+/* Standard syntax */
+@keyframes colorsHeader {
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
 
 
+@-webkit-keyframes slide {
+    100% { right: 25%; }
+}
+
+@keyframes slide {
+    100% { right: 25%; }
+}
 
 
- 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorsContent{
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
+
+/* Standard syntax */
+@keyframes colorsContent {
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
