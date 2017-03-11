@@ -1,3 +1,5 @@
+John Whittington
+
 assignment_viking_css_garden
 ============================
 
