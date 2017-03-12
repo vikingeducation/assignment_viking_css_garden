@@ -1,3 +1,61 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+body {
+  background: #2F294F;
+  color: #E8D44D;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-header {
+  text-align: center;
+
+}
+
+#main-header h2 {
+  color: #E8D44D;
+}
+
+#main-content {
+margin: 20px;
+padding: 10px;
+clear: right;
+}
+
+h2 {
+  color: #F46038;
+}
+
+#sidebar {
+  float: left;
+  margin: 20px;
+}
+
+#sidebar h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1B998B;
+
+}
+
+li{
+
+}
+
+li a{
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F46038;
+}
