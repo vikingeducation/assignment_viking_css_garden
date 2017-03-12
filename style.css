@@ -1,6 +1,29 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+@font-face {
+  font-family: "get_schwifty";
+  src: url("get_schwifty.ttf");
+}
+
+.flashit {
+  -webkit-animation: flash linear 1s 3;
+  animation: flash linear 1s 3;
+}
+
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
+}
+
+
 body {
   background: #2F294F;
   color: #E8D44D;
@@ -13,8 +36,16 @@ body {
 
 }
 
+#main-header h1 {
+  font-family: "get_schwifty", serif;
+  text-shadow: 2px 2px #E71D35;
+  font-size: 35px;
+
+}
+
 #main-header h2 {
   color: #E8D44D;
+  text-shadow: 2px 2px #E71D35;
 }
 
 #main-content {
@@ -23,8 +54,14 @@ padding: 10px;
 clear: right;
 }
 
+#main-content h2{
+  text-align: center;
+}
+
+
 h2 {
   color: #F46038;
+  font-family: "get_schwifty", serif;
 }
 
 #sidebar {
@@ -41,10 +78,7 @@ ul {
   margin: 0;
   padding: 0;
   background-color: #1B998B;
-
-}
-
-li{
+  border-radius: 25px;
 
 }
 
@@ -56,6 +90,16 @@ li a{
   text-decoration: none;
 }
 
-li a:hover {
+ul li a:hover {
   background-color: #F46038;
+  border-radius: 25px;
+}
+
+cite a {
+  text-decoration: none;
+  color: #F46038;
+}
+
+cite a:hover {
+  color: #1B998B;
 }
