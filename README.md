@@ -1,6 +1,7 @@
 assignment_viking_css_garden
 ============================
 Christopher Rimes
+View my Rick and Morty inspired CSS Garden on <a href="https://chrdev86.github.io/assignment_viking_css_garden/ target="_blank>Github Pages</a>
 
 A place for your styling creativity to grow
 
