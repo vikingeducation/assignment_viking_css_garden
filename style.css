@@ -3,8 +3,96 @@
  * ----------------------------------- */
 
 
+html, body {
+  font-family: 'Sansita', sans-serif;
+   background: linear-gradient(to bottom right, #3e7213, rgb(255,255,255) );
+
+ }
+
+main{
+  float:right;
+  max-width: 70%;
+  color: #224c00;
+  padding-right: 20px;
+  padding-bottom: 40px;
+
+}
+
+
+aside {
+  padding-left: 10px;
+  float: left;
+  max-width: 30%;
+  color: #224c00;
+
+}
+
+aside >h2{
+  border-bottom: 5px solid #3e7213;
+}
+
+
+
+.site-title {
+  text-align: center;
+  text-shadow: 2px 2px #ffffff;
+  font-size: 3em;
+  font-style: oblique;
+  color: #224C00;
+
+}
+
+.tagline {
+  text-align: center;
+  text-shadow: 2px 2px #ffffff;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #3e7213;
+  color: #224C00;
+}
 
 
 
 
- 
+p::first-letter {
+  font-size: 2em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.nav-links{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link-list-item{
+  display: block;
+  padding-left: 20px;
+  line-height: 3em;
+  text-align: left;
+}
+
+.nav-link-list-item a {
+  color: #BAE397;
+  text-decoration: none;
+  border-bottom: 3px double transparent;
+  border-right: 3px double transparent;
+  border-radius: 15px;
+  transition: border 1s;
+  padding: 8px;
+}
+
+.nav-link-list-item a:hover{
+    color: #224C00;
+  border-color: #224C00;
+}
+
+.nav-links::before,
+.nav-links::after {
+  display: table;
+  content: " ";
+}
+.nav-links::after {
+  clear: both;
+}
