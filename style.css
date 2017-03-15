@@ -1,10 +1,73 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+
+
+html {
+  font-family: Helvetica, sans-serif;
+  background-image: url("ocean.jpeg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+#main-header {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  border: 3px solid darkblue;
+}
+
+.site-title {
+  color: blue;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+#main-content {
+  color: #000;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-content-section {
+}
+
+.section-title {
+  color: purple;
+  text-align: center;
+}
+
+.section-content {
+  text-align: center;
+}
+
+.citation {
+
+}
+
+#sidebar {
+  background-color: cyan;
+}
+
+.sidebar-nav {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.nav-links {
+
+}
+
+
+.nav-link-list-item {
+  display:inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+
+}
 
 
 
 
-
-
- 
