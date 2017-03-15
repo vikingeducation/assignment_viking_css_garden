@@ -5,31 +5,63 @@
 
 html, body {
   font-family: 'Sansita', sans-serif;
-   background: linear-gradient(to bottom right, #3e7213, rgb(255,255,255) );
-
+   background-color: #9ED78F;
+    position: relative;
  }
 
 main{
-  float:right;
-  max-width: 70%;
+
   color: #224c00;
   padding-right: 20px;
   padding-bottom: 40px;
-
 }
 
 
 aside {
   padding-left: 10px;
-  float: left;
-  max-width: 30%;
   color: #224c00;
+}
+
+@media (min-width: 700px) {
+  main{
+    float:right;
+    max-width: 70%;
+
+  }
+  aside {
+    float: left;
+    max-width: 30%;
+  }
+
+  aside >h2{
+    border-bottom: 5px double #3e7213;
+
+  }
+}
+
+@media (max-width: 699px) {
+  aside {
+    position: absolute;
+    top: 140px;
+    border-bottom: 5px solid #3e7213;
+    padding-bottom: 20px;
+  }
+
+  main {
+    position: absolute;
+    top: 325px;
+    padding-left: 10px;
+  }
+
+  .nav-link-list-item{
+    display: block;
+    float: left;
+  }
+
 
 }
 
-aside >h2{
-  border-bottom: 5px solid #3e7213;
-}
+
 
 
 
@@ -71,21 +103,24 @@ p {
   padding-left: 20px;
   line-height: 3em;
   text-align: left;
+
 }
 
 .nav-link-list-item a {
-  color: #BAE397;
+  color: #6CB359;
   text-decoration: none;
   border-bottom: 3px double transparent;
   border-right: 3px double transparent;
   border-radius: 15px;
   transition: border 1s;
   padding: 8px;
+
 }
 
 .nav-link-list-item a:hover{
     color: #224C00;
   border-color: #224C00;
+
 }
 
 .nav-links::before,
