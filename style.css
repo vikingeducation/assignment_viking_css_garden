@@ -9,6 +9,17 @@ html, body {
     position: relative;
  }
 
+article {
+  padding: 20px;
+  border: 5px solid #3e7213
+}
+
+header {
+  background-color: #6CB359;
+  border-top: 5px solid #3e7213;
+  border-bottom: 5px solid #3e7213;
+}
+
 main{
 
   color: #224c00;
@@ -42,14 +53,14 @@ aside {
 @media (max-width: 699px) {
   aside {
     position: absolute;
-    top: 140px;
+    top: 180px;
     border-bottom: 5px solid #3e7213;
     padding-bottom: 20px;
   }
 
   main {
     position: absolute;
-    top: 325px;
+    top: 365px;
     padding-left: 10px;
   }
 
@@ -72,13 +83,14 @@ aside {
   font-style: oblique;
   color: #224C00;
 
+
 }
 
 .tagline {
   text-align: center;
   text-shadow: 2px 2px #ffffff;
   padding-bottom: 20px;
-  border-bottom: 5px solid #3e7213;
+
   color: #224C00;
 }
 
@@ -116,6 +128,7 @@ p {
   padding: 8px;
 
 }
+
 
 .nav-link-list-item a:hover{
     color: #224C00;
