@@ -1,6 +1,8 @@
 assignment_viking_css_garden
 ============================
 
+## Project by Bill Hefty
+
 A place for your styling creativity to grow
 
 
