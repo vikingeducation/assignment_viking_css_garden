@@ -1,10 +1,104 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+
+body {
+background-color: #98A1A4;
+margin: 0px;
+font-family: Charter, Helvetica;
+font-size: 14px;
+}
+
+.site-title, .tagline {
+ background-color: #CDEBF4;
+ padding: 10px;
+ width: none;
+ font-family: 'Kalam', cursive;
+ border: 0;
+ margin: 0;
+ text-align: center;
+ border-radius: 5px	
+}
+
+#header {
+background-color: #CDEBF4;
+margin: 10px;
+height:90px;
+border-radius: 5px;
+
+}
+
+.imagesidebar {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 26.5px;
+margin-bottom: 10px;
+float: right;
+width: 300px;
+clear:right;
+border-radius: 5px;
+opacity: 1.0;
+transition: opacity 0.5s ease-in-out;
+}
 
 
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 
 
+.sidebar {
 
- 
+background-color: #E3F5FB;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+float: right;
+width: 260px;
+clear:right;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+ul li:before
+{
+    content: '\2743';
+    
+}
+
+li{
+	 margin: 10px 0;
+}
+
+
+a:hover { 
+  text-decoration: none;
+  color: #191970;
+  background-color: #C9C3ED;
+}
+
+.main {
+
+background-color: #E3F5FB;
+margin-left: 10px;
+margin-right: 320px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+}
+
+#footer {
+	background-color: #E3F5FB;
+	margin: 10px;
+	height: 60px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Raleway;
+}
