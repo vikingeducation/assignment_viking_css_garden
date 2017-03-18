@@ -1,8 +1,9 @@
 
 body {
-background-color: #98A1A4;
+background-image: url("http://i0.wp.com/raspberrywedding.com/wp-content/uploads/2013/09/gren.jpg");
+background-size: cover;
 margin: 0px;
-font-family: Charter, Helvetica;
+font-family: Charter, serif;
 font-size: 14px;
 }
 
@@ -43,8 +44,13 @@ transition: opacity 0.5s ease-in-out;
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
+a:visited {
+  text-decoration:none;
+  color:#7ABEAB;
+}
 
-.sidebar {
+
+.sidebar {gi
 
 background-color: #E3F5FB;
 margin-left: 10px;
@@ -72,6 +78,7 @@ ul li:before
 }
 
 li{
+	 display: inline-block;
 	 margin: 10px 0;
 }
 
