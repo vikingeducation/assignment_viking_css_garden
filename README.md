@@ -1,6 +1,8 @@
 assignment_viking_css_garden
 ============================
 
+Name: Christian Florez
+
 A place for your styling creativity to grow
 
 
