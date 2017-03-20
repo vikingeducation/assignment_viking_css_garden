@@ -2,8 +2,67 @@
  * Your Styles Here
  * ----------------------------------- */
 
-
-
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-image:url(walrus.png),url(huts.jpg);
+	background-repeat:no-repeat,no-repeat;
+	background-position:bottom left, bottom right;
+	background-color:#c5c6ca;
+	margin:0;
+	padding:0;
+}
+header, aside{
+	background-color:#98c680;
+	box-shadow:5px 5px 10px 10px #1a1a1a;
+	padding-left:10px;
+}
+aside{
+	width:25%;
+	max-width:200px;
+	padding-bottom:10px;
+	position:fixed;
+}
+main{
+	float:right;
+	width:70%;
+	margin:0 10px;
+	padding:0 10px 50px 10px;
+	background-color:#c6ae80;
+}
+h1, h2{
+	font-family: 'Eagle Lake', sans-serif;
+	text-transform: uppercase;
+}
+h1.site-title{
+	padding-top:10px;
+	font-size:2.5em;
+}
+h2.tagline{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+li{
+	list-style-type:none;
+	padding:2px 0;
+}
+li a{
+	color:#000;
+	text-decoration:none;
+}
+li a:hover{
+	font-weight:600;
+}
+@media only screen and (max-device-width:400px){
+	main{
+		float:none;
+		width:90%;
+    	margin-left:5px;
+	}
+	aside{
+		position:static;
+		width:100%;
+		max-width:none;
+	}
+}
 
 
 
