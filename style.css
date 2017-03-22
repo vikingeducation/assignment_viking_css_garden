@@ -2,10 +2,14 @@
  * TODO
  * 1. Style anchor links with transitions/asides/etc.
  * 2. Style aside
- * 3. Style citation
- * 4. Add media queries:
+ *      a. excuse to use flexbox?
+ * 3. Add additional fonts to headers
+ * 4. Style citation
+ * 5. Consider making background image cover (get large image!!!)
+ * 6. Add media queries:
  *      a. Remove margins/padding for most content
  *      b. Make header slightly smaller
+ * 7. Run through backwards-compatibility thingy-izer
  */
 
 /*
