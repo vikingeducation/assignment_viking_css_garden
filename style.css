@@ -39,38 +39,40 @@ h1 {
 h2 {
     font-size: 1.618em;
     font-weight: 700;
-}
-<<<<<<< HEAD
 
+    text-transform: uppercase
+}
 
 /*
  * Header Styles
  */
 
 header {
-    background: rgba(107,22,17,1);
-    background: -moz-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(107,22,17,1)), color-stop(100%, rgba(23,5,4,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: linear-gradient(135deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b1611', endColorstr='#170504', GradientType=1 );
-    /*height: 600px;*/
+    background: rgba(27,152,163,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(27,152,163,1) 0%, rgba(19,105,110,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(27,152,163,1)), color-stop(100%, rgba(19,105,110,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(27,152,163,1) 0%, rgba(19,105,110,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(27,152,163,1) 0%, rgba(19,105,110,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(27,152,163,1) 0%, rgba(19,105,110,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(27,152,163,1) 0%, rgba(19,105,110,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b98a3', endColorstr='#13696e', GradientType=1 );
     color: white;
     font-family: 'Cormorant Unicase', serif;
-}
-
-header h1 {
-    margin: 0% 15% 5% 15%;
-    padding-top: 10%;
+    padding: 10% 0% 5% 0%;
 }
 
 header .tagline {
     text-align: right;
-    margin: 0% 15%;
-    padding-bottom: 10%;
-    font-size: 1.618em;
+    font-size: 1.618em;;
+}
+
+#header-wrapper {
+    box-sizing: border-box;
+    margin: 0% 15% 5% 15%;
+    padding: 2% 5% 3% 5%;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, .65);
+    text-transform: uppercase
 }
 
 /*
@@ -108,73 +110,3 @@ section:last-of-type {
 .main-content-section {
    margin-top: 80px;
 }
-=======
-
-
-/*
- * Header Styles
- */
-
-header {
-    background: rgba(107,22,17,1);
-    background: -moz-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(107,22,17,1)), color-stop(100%, rgba(23,5,4,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    background: linear-gradient(135deg, rgba(107,22,17,1) 0%, rgba(23,5,4,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b1611', endColorstr='#170504', GradientType=1 );
-    /*height: 600px;*/
-    color: white;
-    font-family: 'Cormorant Unicase', serif;
-}
-
-header h1 {
-    margin: 0% 15% 5% 15%;
-    padding-top: 10%;
-}
-
-header .tagline {
-    text-align: right;
-    margin: 0% 15%;
-    padding-bottom: 10%;
-    font-size: 1.618em;
-}
-
-/*
- * Main Styles
- */
-
-main,
-aside {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0% 15%;
-}
-
-aside {
-    background-color: #CCC;
-}
-
-main h2 {
-    color: #326A6F;
-    border-bottom: 5px solid #326A6F;
-}
-
-main p:first-child {
-    margin-top: 50px;
-}
-
-main p {
-    margin-bottom: 45px;
-}
-
-section:last-of-type {
-    margin-bottom: 80px;
-}
-
-.main-content-section {
-   margin-top: 80px;
-}
-
->>>>>>> 91c137bc546a5cb39f9f261842cd1c42fa78f035
