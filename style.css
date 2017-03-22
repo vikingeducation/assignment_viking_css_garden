@@ -1,18 +1,4 @@
 /*
- * TODO
- * 1. Style anchor links with transitions/asides/etc.
- * 2. Style aside
- *      a. excuse to use flexbox?
- * 3. Add additional fonts to headers
- * 4. Style citation
- * 5. Consider making background image cover (get large image!!!)
- * 6. Add media queries:
- *      a. Remove margins/padding for most content
- *      b. Make header slightly smaller
- * 7. Run through backwards-compatibility thingy-izer
- */
-
-/*
  * Global Styles
  */
 
@@ -41,6 +27,21 @@ h2 {
     font-weight: 700;
 
     text-transform: uppercase
+}
+
+a {
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: 2px solid #1b98a3;
+    color: #1b98a3;
+}
+
+a:hover {
+    background-color: #FF3227;
+    color: white;
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
 }
 
 /*
@@ -87,9 +88,6 @@ aside {
     padding: 0% 15%;
 }
 
-aside {
-    background-color: #CCC;
-}
 
 main h2 {
     color: #326A6F;
@@ -102,6 +100,7 @@ main p:first-child {
 
 main p {
     margin-bottom: 45px;
+    text-indent: 6%;
 }
 
 section:last-of-type {
@@ -111,6 +110,43 @@ section:last-of-type {
 .main-content-section {
    margin-top: 80px;
 }
+
+.citation {
+    font-size: 1.618em;
+    color: #AAA;
+    display: block;
+    text-align: right;
+}
+
+/*
+ * Aside Styles
+ */
+
+aside {
+    background-color: #11379D;
+    color: white;
+    padding-top: 5%; 
+    padding-bottom: 5%;
+}
+
+aside a {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+aside a:hover {
+    background-color: #11379D;
+    color: #E99E00;
+    border-bottom: 2px solid #E99E00;
+    transition: 0.5s;
+}
+
+aside ul li {
+    margin: 1% 0%;
+}
+/*
+ * Media Queries
+ */
 
 @media (max-device-width: 1024px) {
     html {
