@@ -2,9 +2,92 @@
  * Your Styles Here
  * ----------------------------------- */
 
+html {
+	font-family: Lora, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1.88;
+	font-size: 18px;
+	color: #736262; 
+	background: #ffeded; 
+	margin: 0; 
+	padding: 0;
+}
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 22px;
+}
+#main-header {
+	background-color: #B67777;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
 
+.logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	float: left;
+}
 
+.site-title {
+	color: #FAEADD;
+	font-weight: 800;
+}
+.tagline {
+	color: #FAEADD;
+	font-style: italic;
+}
 
+.main-content-section {
+	width: 75%;
+	display: inline-block;
+	float: right;
+	border-left: 2px solid #D7A8A8;
+	border-collapse: collapse;
+	padding: 10px;
+	color: #B69477;
+}
 
+.section-title {
+	color: #736262;
+	font-size: 26px;
+}
 
- 
+p:nth-child(1)::first-letter {
+	font-size: 24px;
+	font-weight: bold;
+	color: #736262;
+	padding: 1px;
+}
+
+.citation {
+	color: #D7BDA8;
+}
+
+#sidebar {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#sidebar.section-title {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #9e8b8b
+}
+
+a:hover {
+	color: #ccbaba;
+}
