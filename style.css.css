@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(61, 60, 60);
+  font-family: Helvetica, sans-serif;  
+  box-sizing: border-box;
+}
+
+p {
+   line-height: 1.5em;
+   margin-bottom: 20px;
+}
+
+
+#main-header {
+margin-top: 100px;
+margin-left: 150px;
+display: flex;
+flex-flow: column nowrap;
+align-contect: space-around;
+width: 33%
+}
+
+#main-content {
+  margin-bottom: 100px;
+}
+
+.site-title, .section-title {
+  font-family: Future, sans-serif;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  maring: auto;
+}
+
+.site-title {
+  border-left: solid 12px rgb(230,215,184);
+  padding: 7px;
+  position: relative;
+  left: -15px;
+  margin-bottom: 30px;
+  
+}
+.section-title {
+  margin-top: 35px;
+}
+
+.tagline, .creativity {
+  font-family: Megrim;
+  font-size: 60px;
+  font-weight:100;
+  margin: auto;
+}
+.creativity {
+  color: rgb(101,209,255);
+}
+
+#main-content {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.YourGarden {
+  margin-right: 85px;
+  text-align: right;
+  padding: 10px;
+  width: 33%;
+  align-self: flex-end;
+  border-right: solid 1px rgb(230,215,184);
+}
+
+.NorseMythology {
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-left: 10px;
+  width: 50%;
+  border-left: solid 1px rgb(98,235,255);
+}
+
+
+
+#sidebar {
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(230,215,184);
+  font-size: 14px;  
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;  
+}
+
+.nav-list-item {
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.nav-links {
+  text-transform: uppercase;
+}
+
+li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+
+}
+ 
+a:hover {
+  background-color: white; 
+  color: rgb(61, 60, 60);
+  padding: 10px 5px 10px 5px;
+  padding-top: 10px;
+  border-left: solid 4px rgb(98,235,255);
+  border-right: solid 4px rgb(98,235,255);
+   transition: background-color 1s ease-in-out;
+}
+
+
+
