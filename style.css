@@ -1,10 +1,140 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+#main-header {
+  background: rgba(28, 11, 11, 1);
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-image: url("iceland.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+#main-header:hover {
+  background-image: url("icelandHover.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#grad {
+
+}
+
+#main-content {
+  float: left;
+  width: 80%;
+}
+
+#sidebar {
+  float: right;
+  width: 20%;
+  height: 100%;
+}
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.site-title {
+  font-family: 'Berkshire Swash', cursive;
+  color:  rgba(255, 255, 255, .8);
+  padding:0px;
+  text-align:center;
+  margin-top:0px;
+  font-size: 60px;
+  letter-spacing: .5em;
+
+}
+
+h2 {
+
+  font-family: 'Raleway', sans-serif;
+  color: rgba(103, 158, 152, 1);
+  background: -webkit-linear-gradient(rgba(103, 158, 152, 1) 60%, rgba(186,191,188, .7)); /* For Safari 5.1 to 6.0 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tagline {
+  font-family: 'Berkshire Swash', cursive;
+  color: rgba(255, 255, 255, .7);
+  background: -webkit-linear-gradient(rgba(103, 158, 152, .8) 3%, rgba(255, 255, 255, 1)); /* For Safari 5.1 to 6.0 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align:center;
+  margin-top: 30px;
+  letter-spacing: .15em;
+  word-spacing: 10px;
+}
+
+.citation {
+  font-family: 'Lato', sans-serif;
+  max-width: 500px;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.nav-links {
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link-list-item{
+  list-style-type: none;
+  display: block;
+  margin-bottom:10px;
+  text-align: left;
+}
+
+a:hover {
+  color: rgba(28, 11, 11, 1);
+}
+
+#sidebar h2{
+  text-align: left;
+}
+
+#sidebar li{
+  font-size: 17px;
+}
 
 
 
+main h2:first-letter {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px;
+}
 
+aside h2:first-letter {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px;
+}
 
+p {
+  font-family: 'Lato', sans-serif;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- 
+a {
+  font-family: 'Lato', sans-serif;
+  color: rgba(115, 135, 123, 1);
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: .05s;
+  transition-timing-function: linear;
+}
