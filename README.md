@@ -1,5 +1,6 @@
 assignment_viking_css_garden
 ============================
+Lorraine Chan
 
 A place for your styling creativity to grow
 
