@@ -1,10 +1,25 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+/*-- Main Header --*/
 
+.content-container {
+    margin: 5% 20% 5% 20%;
+    margin: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
 
+body {
+    font-family: 'Macondo', cursive;
+    background-image: url(images/blossoms.jpg)
+}
 
+.section-content {
+    font-family: 'Open Sans', sans-serif;
+}
 
-
-
- 
+ul li {
+	list-style-type: none;
+	display:inline-block;
+	padding: 10px;
+}
