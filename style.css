@@ -2,83 +2,97 @@
  * Your Styles Here
  * ----------------------------------- */
 
- .wrapper {
-   max-width: 100%;
-   margin: 0 auto;
- }
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
 
- @media screen and (min-width: 800px) {
-   .wrapper {
-     max-width: 90%;
-   }
-   header {
-     width: 100%;
-   }
-   nav,
-   section {
-     float: left;
-   }
-   nav {
-     width: 20.83333%;
-     margin-right: 1.041667%;
-   }
-   section {
-     width: 78.125%;
-   }
- }
+@media screen and (min-width: 800px) {
+    .wrapper {
+        max-width: 90%;
+    }
+    header {
+        width: 100%;
+    }
+    nav, section {
+        float: left;
+    }
+    nav {
+        width: 20.83333%;
+        margin-right: 1.041667%;
+    }
+    section {
+        width: 78.125%;
+    }
+}
 
- @media screen and (min-width: 1000px) {
-   .wrapper {
-     max-width: 66.66667%;
-   }
- }
+@media screen and (min-width: 1000px) {
+    .wrapper {
+        max-width: 66.66667%;
+    }
+}
 
 
- /**************************************
+/* --------------------------------- *
  CSS TO MAKE THE EXAMPLE LOOK PRETTY
- **************************************/
+ * --------------------------------- */
 
- *,
- *:before,
- *:after {
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
- }
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
- body {
-   background: #5b8de3;
-   color: #FFF;
-   font-family: Helvetica;
-   margin: 0;
- }
+body {
+    background: rgb(0, 0, 0);
+    color: #FFF;
+    font-family: Helvetica;
+    margin: 0;
+}
 
- header,
- nav,
- section {
-   border: 1px solid rgba(255, 255, 255, 0.8);
-   margin-bottom: 10px;
-   border-radius: 3px;
- }
+header, nav, section {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
 
- header {
-   padding: 20px 0;
-   text-align: center;
- }
+header {
+    background-image: url(http://miriadna.com/desctopwalls/images/max/Viking-in-Montreal-Botanical-Garden.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    text-align: center;
+}
 
- nav,
- section {
-   padding: 20px 10px;
- }
+nav, section {
+    padding: 20px 10px;
+}
 
- .section-title {
-   text-align: center;
- }
+.section-title {
+    text-align: center;
+}
 
- nav ul li {
-   list-style: none;
- }
+nav ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
 
- ul  {
-   -webkit-padding-start: 0;
- }
+ul {
+    -webkit-padding-start: 0;
+}
+
+header .title-wrapper {
+    border: #FFF 1px solid;
+    margin: 50px 225px;
+    background: rgba(0, 0, 0, 0.3);
+    background-blend-mode: lighten;
+}
+
+a {
+    color: rgb(48, 240, 0);
+}
+
+section {
+    line-height: 1.5em;
+}
