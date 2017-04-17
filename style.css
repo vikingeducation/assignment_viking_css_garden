@@ -71,7 +71,7 @@ li {
 /** Header **/
 
 header {
-    background: url(garden.jpg) no-repeat;
+    background: url(/garden.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     padding: 55px;
