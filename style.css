@@ -3,8 +3,83 @@
  * ----------------------------------- */
 
 
+/** Default layout **/
+
+p {
+    text-indent: 15px;
+}
+
+body {
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 18px;
+    font-size-adjust: auto;
+    font-family: 'Old Standard TT', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+#footer-link {
+    padding: 0;
+    color: #000;
+}
+
+#main-content {
+    float: right;
+    width: 70.99%;
+    height: auto;
+}
+
+#sidebar {
+    width: 28.99%;
+    float: left;
+    background: #fffeb3;
+    height: auto;
+}
 
 
+/** Sidebar **/
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
 
 
- 
+/** Header **/
+
+header {
+    background: url(garden.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 55px;
+}
+
+.site-title,
+.tagline {
+    text-align: right;
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+}
