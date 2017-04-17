@@ -52,6 +52,11 @@ a {
     color: #000;
     display: block;
     padding: 20px;
+    transition: text 0.3s ease-in;
+}
+
+a:hover {
+    transform: scale(1.1);
 }
 
 ul {
@@ -64,14 +69,19 @@ li {
     display: block;
     padding: 8px;
     text-align: center;
-    border-bottom: 2px solid #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+li:hover {
+    background-color: darkseagreen;
 }
 
 
 /** Header **/
 
 header {
-    background: url(/garden.jpg) no-repeat;
+    background: url(garden.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     padding: 55px;
@@ -82,4 +92,16 @@ header {
     text-align: right;
     font-family: 'Lobster Two', cursive;
     font-size: 40px;
+    transition: text 0.3s ease-out;
+    animation-name: left-to-right;
+    animation-duration: 3s;
+}
+
+@keyframes left-to-right {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-right: 10px;
+    }
 }
