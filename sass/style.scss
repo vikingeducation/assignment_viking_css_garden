@@ -1,0 +1,127 @@
+@import 'reset';
+@import 'colors';
+@import 'animations';
+
+
+//********Mixins*******
+
+@mixin padding{
+  padding: 1em;
+}
+//*********************
+
+
+
+body
+{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/118/710/original/olive-vector-western-flourish-seamless-pattern.jpg');
+  background-color: $beige;
+  padding:.25em;
+  font-family: Papyrus, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p
+{
+ @include padding;
+ font-variant: small-caps;
+ font-size:1.25em;
+}
+#main-header::before,
+#main-header::after {
+  display: table;
+  content: " ";
+}
+#main-header::after {
+  clear: both;
+}
+
+#main-header 
+{
+  @include padding;
+  margin:0 auto;
+}
+.site-title
+{
+  background-color: $beige;
+  color: $light_pink;
+  font-weight: bold;
+  font-size: 5em;
+  float:left;
+  width:75%;
+  @include padding;
+  border-radius:.5em;
+  text-align: left;
+  -webkit-animation-name: colorsHeader; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: colorsHeader;
+  animation-duration: 7s;
+  animation-timing-function: ease-out;
+}
+.tagline
+{
+  font-size: 1em;
+  float:right;
+  position:absolute;
+  right:-15%;
+  width:10%;
+  border-radius: 0em 0em 1em 1em;
+  background-color: $maroon_red;
+  color: $light_pink;
+  padding:1em 3em;
+  box-shadow: 2px 2px 2px 0 $dark-grey;
+  line-height: 2em;
+  box-sizing: border-box;
+    -webkit-animation: slide 3s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 3s forwards;
+    animation-delay: 1s;
+}
+ .main-content-section
+ {
+  background-color: $pink;
+  border-radius:1em;
+  box-sizing: border-box;
+  width:75%;
+  float:left;
+  margin:1%;
+ }
+ .section-title
+ {
+  background-color: $light_pink;
+  font-size:2em;
+  @include padding;
+  width:75%;
+  margin-top:1em;
+  border-radius: 0em .25em .25em 0em;
+  box-shadow: .1em .1em .1em 0em $dark-grey;
+ }
+ .section-content
+ {
+   @include padding;
+ }
+
+ #sidebar
+ {
+   @extend .main-content-section;
+   background-color: $maroon;
+   position:fixed;
+   right: 0%;
+   bottom:5%;
+   float:right;
+   width:22%;
+ }
+ .sidebar-nav
+ {
+  @include padding;
+ }
+.sidebar-nav li
+{
+  padding:.5em;
+}
+ a:link, a:visited
+ {
+     color: $light_pink;
+ }
+ li{
+   color:$light_pink;
+ }
