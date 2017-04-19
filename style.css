@@ -1,10 +1,168 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
 
+ /* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+ */
 
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
 
+/* my code */
 
+html {
+  height: 100%;
+}
 
+body {
+  height: 100%;
+  margin: 0;
+  background: #FFFFCC;
+  background: -webkit-linear-gradient(300deg, #FFFF87, #FFFFCD);
+  background:    -moz-linear-gradient(300deg, #FFFF87, #FFFFCD);
+  background:     -ms-linear-gradient(300deg, #FFFF87, #FFFFCD);
+  font-family: 'Open Sans', sans-serif;
+  line-height: normal;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #82AD2B;
+}
 
- 
+#main-header, #footer {
+  background-color: #618812;
+}
+
+#main-header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  color: #FFFF87;
+  font-family: 'Playfair Display SC', serif;
+  padding: 30px 0 30px 0;
+}
+
+.site-title, .tagline, .main-content-section, .footer-nav {
+  margin-left: 50px;
+}
+
+.site-title {
+  font-size: 3em;
+}
+
+.tagline {
+  font-size: 2em;
+}
+
+.section-title {
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#main-content {
+  float: left;
+  margin: 0 1.5% 60px 0;
+  width: 63%;
+  padding-top: 200px;
+}
+
+p {
+  margin: 1em;
+}
+
+/* sidebar */
+
+#sidebar {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  padding-top: 303px;
+}
+
+.sidebar-nav-link-list-item {
+  margin: 2em;
+}
+
+.sidebar-nav-link {
+  display: block;
+  width: 200px;
+}
+
+/* footer */
+
+#footer {
+  color: #FFFF87;
+  height: 50px;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  padding-top: 10px;
+  }
+
+.footer-nav-link-list-item {
+  display: inline-block;
+  font-size: .75em;
+  width: 150px;
+}
+
+.footer-nav-links {
+  margin: 7px;
+}
+
+/* hyperlinks */
+.sidebar-nav a:hover, .footer-nav a:hover, .citation a:hover  {
+  color: #436500;
+}
+.citation a {
+  font-style: italic;
+}
+.citation a, .sidebar-nav a {
+  color: #82AD2B;
+}
+.footer-nav a {
+  color: #FFFF87;
+}
