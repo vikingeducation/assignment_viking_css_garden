@@ -4,7 +4,212 @@
 
 
 
+ /* CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************************************************/
+
+body
+{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/118/710/original/olive-vector-western-flourish-seamless-pattern.jpg');
+  background-color: #ad896b;
+  padding:.25em;
+  font-family: Papyrus, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p
+{
+ padding:1em;
+ font-variant: small-caps;
+ font-size:1.25em;
+}
+#main-header::before,
+#main-header::after {
+  display: table;
+  content: " ";
+}
+#main-header::after {
+  clear: both;
+}
+
+#main-header 
+{
+  padding:.5em;
+  margin:0 auto;
+}
+.site-title
+{
+  background-color: #ad896b;
+  color:#fbd4d4;
+  font-weight: bold;
+  font-size: 5em;
+  float:left;
+  width:80%;
+  padding:1.5em;
+  border-radius:.5em;
+  text-align: left;
+  -webkit-animation-name: colorsHeader; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: colorsHeader;
+  animation-duration: 7s;
+  animation-timing-function: ease-out;
+}
+.tagline
+{
+  font-size: 1em;
+  float:right;
+  position:absolute;
+  right:-15%;
+  width:10%;
+  border-radius: 0em 0em 1em 1em;
+  background-color:#8A4A4A;
+  color:#fbd4d4;
+  padding:1em 3em;
+  box-shadow: 2px 2px 2px 0 #333;
+  line-height: 2em;
+  box-sizing: border-box;
+    -webkit-animation: slide 3s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 3s forwards;
+    animation-delay: 1s;
+}
+ .main-content-section
+ {
+  background-color: #D09898;
+  border-radius:1em;
+  box-sizing: border-box;
+  width:75%;
+  float:left;
+  margin:1%;
+ }
+ .section-title
+ {
+  background-color: #fbd4d4;
+  font-size:2em;
+  padding:.75em;
+  width:75%;
+  margin-top:1em;
+  border-radius: 0em .25em .25em 0em;
+  box-shadow: .1em .1em .1em 0em #333;
+ }
+ .section-content
+ {
+   font-size:1em;
+   padding:1em;
+ }
+
+ #sidebar
+ {
+   background-color: #6F3B58;
+   border-radius:.5em;
+   position:fixed;
+   right: 0%;
+   bottom:5%;
+   float:right;
+   width:22%;
+ }
+ .sidebar-nav
+ {
+  padding:1em;
+ }
+.sidebar-nav li
+{
+  padding:.5em;
+}
+ a:link, a:visited
+ {
+     color: #fbd4d4;
+ }
+ li{
+   color: #fbd4d4;
+ }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorsHeader {
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
+
+/* Standard syntax */
+@keyframes colorsHeader {
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
 
 
+@-webkit-keyframes slide {
+    100% { right: 20%; }
+}
 
- 
+@keyframes slide {
+    100% { right: 20%; }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes colorsContent{
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
+
+/* Standard syntax */
+@keyframes colorsContent {
+    0%   {background-color: #AD6b6b;}
+    25%  {background-color: #ad896b;}
+    50%  {background-color: #8b5674;}
+    100% {background-color: #ad896b;}
+}
+
