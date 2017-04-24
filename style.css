@@ -1,10 +1,104 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+	background-color: darkgray;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	opacity: 1;
+	animation-duration: 5s;
+	animation-name: slidein;
+	}
+header {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid #888888;
+	color: #dbdbdb;
+	border-radius: 25px;
+	background-color: rgb(18, 135, 186);
+	box-shadow: 10px 10px 5px #888888;
+	padding: 5px;
+}
+main {
+	width: 85%;
+	min-width: 80%;
+	float: right;
+	margin-top: -200px;
+}	
+aside {
+	width: 15%;
+	word-wrap: break-word;
+	text-align: center;
+	min-width: 15%;
+	max-width: 15%
+	border-radius: 5px;
+	border: 2px solid black;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-top: 200px;
+	line-height: 20px;
+	background: #f1e767;
+	background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+}
+aside a {
+	color: black;
+	text-decoration: none;
+	margin-left: -20px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: rgb(18, 135, 186);
+}
+ul {
+	list-style-type: none;
+}
+.section-title {
+	text-align: center;
+}
+p::first-letter {
+	color: rgb(18, 135, 186);
+	font-size: 30px;
+	font-weight: 800;
+}
+cite {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
 
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
-
-
-
- 
+cite {
+	text-align: center;
+	border: 2px solid #888888;
+	display: block;
+	color: #dbdbdb;
+	border-radius: 25px;
+	background-color: rgb(18, 135, 186);
+	box-shadow: 10px 10px 5px #888888;
+	padding: 5px;
+	width: 100%;
+}
