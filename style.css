@@ -1,10 +1,267 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+/*
+=============================================
+CSS reset
+=============================================
+*/
 
+ /* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+ */
 
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
 
+/*
+===================================================
+Body
+===================================================
+ */
 
+html {
+  height: 100%;
+}
 
+body {
+  margin: 0;
+  background: #ffc;
+  background: -webkit-linear-gradient(300deg, #ffff87, #ffffcd);
+  background:    -moz-linear-gradient(300deg, #ffff87, #ffffcd);
+  background:     -ms-linear-gradient(300deg, #ffff87, #ffffcd);
+  font-family: 'Open Sans', sans-serif;
+  line-height: normal;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #82ad2b;
+}
 
- 
+/*
+======================================
+Header
+======================================
+*/
+
+.main-header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  color: #ffff87;
+  background-color: #9dc44e;
+  font-family: 'Playfair Display SC', serif;
+  padding: 30px 0 30px 0;
+}
+
+.site-title, .tagline, .main-content-section, .footer-nav {
+  margin-left: 50px;
+}
+
+.site-title {
+  font-size: 3em;
+}
+
+.tagline {
+  font-size: 2em;
+}
+
+/*
+================================================
+Main section
+================================================
+*/
+
+.section-title {
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.section-content {
+  margin: 1em;
+}
+
+/*
+==========================================
+Sidebar
+==========================================
+*/
+
+.sidebar-nav-link-list-item {
+  margin: 2em;
+}
+
+.sidebar-nav-link {
+  display: block;
+  width: 200px;
+}
+
+/*
+========================================
+Clearfix for main content and sidebar
+========================================
+*/
+
+  .clearfix:before,
+  .clearfix:after {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+  }
+  .clearfix {
+    clear: both;
+    *zoom: 1;
+  }
+
+.main-content {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+  padding-top: 200px;
+}
+
+.sidebar {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  padding-top: 303px;
+  text-align: center;
+}
+
+/*
+=============================================
+Hyperlinks
+=============================================
+*/
+
+.nav-link {
+  text-decoration: none;
+  color: #ffff87;
+}
+
+.sidebar-nav a {
+  color: #ffff87;
+}
+
+.citation a {
+  color: #82ad2b;
+  font-style: italic;
+}
+
+/*
+=============================================
+Buttons
+=============================================
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.btn-alt {
+  padding: 15px;
+  background: #9dc44e;
+  height: 22px;
+  line-height: 22px;
+  width: 10em;
+  box-shadow: 5px 5px 2px 0 #5c8210 inset;
+}
+
+.btn:hover {
+  background-color: #7ea62d;
+}
+
+.btn:active {
+  background-color: #5c8210;
+}
+
+/*
+==========================================
+Media queries
+==========================================
+*/
+
+@media all and (max-width: 420px) {
+  .main-content {
+    float: none;
+    padding-top: 200px;
+  }
+
+  .sidebar {
+    float: none;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  .sidebar-title {
+    width: 10em;
+    text-align: center;
+    padding-left: 10px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main-content {
+    float: none;
+    padding-top: 200px;
+    width: 100%;
+    margin-right: 4em;
+  }
+
+  .sidebar {
+    float: none;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  .sidebar-title {
+    width: 10em;
+    text-align: center;
+    padding-left: 10px;
+ }
+}
