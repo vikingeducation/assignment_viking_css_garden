@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri|Cinzel');
 
+/**
+ * Global Settings
+ */
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -50,9 +54,12 @@ article p::first-line {
 	color: red;
 }
 
+/**
+ * Header 
+ */
+
 #main-header {
 	text-align: center;
-/*	border-bottom: 1px solid black;*/
 	margin-bottom: 10%;
 	padding-bottom: 5%;
 	box-shadow:
@@ -80,6 +87,19 @@ article p::first-line {
 	padding-right: 5%;
 }
 
+/**
+ * Main
+ */
+
+#main-content {
+	margin-bottom: 10%;
+}
+
+
+.section-title::first-letter {
+	font-size: 1.5em;
+}
+
 .section-title, .section-content {
 	margin-bottom: 5%;
 
@@ -90,14 +110,9 @@ article p::first-line {
 	text-shadow: 1px 1px black;
 }
 
-#main-content {
-	margin-bottom: 10%;
-}
-
-
-.section-title::first-letter {
-	font-size: 1.5em;
-}
+/**
+ * Navbar
+ */
 
 #sidebar {
 	background: url(./img/gardenframe.png) 
