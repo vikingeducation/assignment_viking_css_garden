@@ -71,7 +71,7 @@ article p::first-line {
 .site-title::first-letter {
 	color: red;
 	text-shadow: 2px 2px black;
-	background: url(http://thegraphicsfairy.com/wp-content/uploads/2015/05/angelframe-graphicsfairy004bwblanksm.jpg) 
+	background: url(./img/angelframe.jpeg) 
               no-repeat 
               center / cover;
 	font-size: 2.5em;
@@ -100,7 +100,7 @@ article p::first-line {
 }
 
 #sidebar {
-	background: url(http://www.clipartkid.com/images/764/scroll-page-borders-clipart-best-Hd0KLX-clipart.png) 
+	background: url(./img/gardenframe.png) 
               no-repeat 
               center / cover;
   padding: 8%;
