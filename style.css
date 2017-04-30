@@ -46,6 +46,10 @@ li {
 	padding: 1%;
 }
 
+article p::first-line {
+	color: red;
+}
+
 #main-header {
 	text-align: center;
 /*	border-bottom: 1px solid black;*/
@@ -90,8 +94,8 @@ li {
 	margin-bottom: 10%;
 }
 
+
 .section-title::first-letter {
-	color: red;
 	font-size: 1.5em;
 }
 
@@ -106,9 +110,13 @@ li {
 
 #sidebar .section-title {
 	text-align: center;
-/*	padding-left: 28%;*/
 	padding-top: 9%;
 }
+
+#sidebar .section-title::first-letter {
+	color: red;
+}
+
 
 .nav-links {
 	padding-left: 18%;
