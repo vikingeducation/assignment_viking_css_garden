@@ -35,23 +35,134 @@ html {
   border-left: 2px solid #852E09;
 }
 
-.section-content {
-  position: fixed;
+
+#main-content section:first-of-type h2 {
+  position: absolute;
+  left: 19%;
+  top: 4%;
+  color: #A79224;
+  font-size: 4em;
+  font-weight: 700;
+  background-color: #5F1C00;
+  padding: 20px;
+}
+
+#main-content section:nth-of-type(2) h2 {
+  position: absolute;
+  left: 19%;
+  top: 27%;
+  color: #852E09;
+  font-size: 3em;
+  font-weight: 600;
+  background-color: #A79224;
+  padding: 15px;
+}
+
+#main-content section:first-of-type p {
+  position: absolute;
+  left: 55%;
+  top: 7%;
+  color: #A79224;
+  font-size: 1.3em;
+  font-weight: 600;
+  background-color: #041C3E;
+  padding: 20px;
+  height: 21%;
+  width: 17%;
+}
+
+#main-content section:nth-of-type(2) .section-content {
+  position: absolute;
   left: 19%;
   top: 35%;
   margin-right: 55px;
   margin-left: 10px;
   background-color: #0D2D58;
+  font-family: sans-serif;
+  padding 15px;
 }
 
-.section-content p {
+#main-content section:nth-of-type(2) .section-content p {
   padding: 15px 20px 15px 20px;
   font-size: 1.2em;
   font-family: sans-serif;
   color:#A79224;
 }
 
-.main-content-section .section-content p:first-of-type::first-letter {
+#main-content section:nth-of-type(2) .section-content p:first-of-type::first-letter {
   color:#852E09;
   font-size: 2em;
+  padding: 1px;
+  border: 1px solid #852E09;
+  margin-right: 1px;
+  font-family: serif;
+}
+
+#main-content cite {
+  position: absolute;
+  top: 92.5%;
+  left: 85%;
+  font-style: italic;
+  color:#A79224;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+#main-content cite a {
+  text-decoration: none;
+  color: #852E09;
+  font-weight: 700;
+}
+
+#sidebar {
+  position: absolute;
+  left: 0%;
+  top: 55%;
+}
+
+#sidebar h2 {
+  color: #852E09;
+  font-size: 1.2em;
+  margin-left: 69px;
+  padding-bottom: 4px;
+  font-weight: 600;
+  border-bottom: 1.5px solid #852E09;
+  text-align: center;
+}
+
+#sidebar li {
+  margin: 20px 0 20px 65px;
+  background-color: #A79224;
+  padding: 12px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  text-align: center;
+  color: #041C3E;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: auto 0;
+  display: block;
+}
+
+#sidebar li:hover {
+  background-color: #041C3E;
+  border: 1.5px solid #852E09;
+}
+
+#sidebar a:hover {
+  color: #A79224;
+}
+
+#sidebar li:active {
+  margin: 21px 0 20px 65px;
+  background-color: #041C3E;
+  border: 1.5px solid #852E09;
+  color: #A79224;
+}
+
+#sidebar a:active {
+  color: #A79224;
 }
