@@ -7,12 +7,22 @@ html, body{
 }
 
 html {
-  background-color: #405665;
+  background-color: #22465F;
 }
 
 header {
   position: absolute;
-  background-color: #182B39;
+  background-color: #0F2F46;
   width: 15%;
   height: 100%;
+  padding-top: 60px;
+  padding-left: 15px;
+}
+
+.site-title {
+  font-size: 4em;
+  color: #6D1E11;
+  font-family: serif;
+  font-weight: 600;
+  padding: 60px 0px 60px 30px;
 }
