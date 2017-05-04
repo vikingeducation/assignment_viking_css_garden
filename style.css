@@ -1,7 +1,18 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html, body{
+  min-height: 100%;
+  min-width: 100%;
+}
+
 html {
-  background: url("viking-ship.jpeg") no-repeat center center fixed;
-  background-size: cover;
+  background-color: #405665;
+}
+
+header {
+  position: absolute;
+  background-color: #182B39;
+  width: 15%;
+  height: 100%;
 }
