@@ -7,22 +7,51 @@ html, body{
 }
 
 html {
-  background-color: #22465F;
+  background-color: #203F6F;
+  font-family: serif;
 }
 
-header {
-  position: absolute;
-  background-color: #0F2F46;
+#main-header {
+  position: fixed;
+  background-color: #041C3E;
   width: 15%;
   height: 100%;
   padding-top: 60px;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 .site-title {
   font-size: 4em;
-  color: #6D1E11;
-  font-family: serif;
+  color: #857109;
   font-weight: 600;
-  padding: 60px 0px 60px 30px;
+}
+
+.tagline {
+  font-size: 2.5em;
+  color: #A79224;
+  font-weight: 400;
+  margin: 40px 0px 60px 0px;
+  padding: 0 20px 10px 6px;
+  border-left: 2px solid #852E09;
+}
+
+.section-content {
+  position: fixed;
+  left: 19%;
+  top: 35%;
+  margin-right: 55px;
+  margin-left: 10px;
+  background-color: #0D2D58;
+}
+
+.section-content p {
+  padding: 15px 20px 15px 20px;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color:#A79224;
+}
+
+.main-content-section .section-content p:first-of-type::first-letter {
+  color:#852E09;
+  font-size: 2em;
 }
