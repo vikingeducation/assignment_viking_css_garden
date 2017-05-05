@@ -2,9 +2,162 @@
  * Your Styles Here
  * ----------------------------------- */
 
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .main {
+      margin-top: 30px;
+    }
+
+    .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          max-width: 95%;
+          margin: auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .flex-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .main {
+      margin-top: 5px;
+    }
+
+    .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          max-width: 95%;
+          margin: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .flex-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+}
+
+
+/* --------------------------------- *
+ CSS TO MAKE THE EXAMPLE LOOK PRETTY
+ * --------------------------------- */
+
+ header {
+     background-image: url(http://miriadna.com/desctopwalls/images/max/Viking-in-Montreal-Botanical-Garden.jpg);
+     background-position: center;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     padding: 20px 0;
+     text-align: center;
+     width: 99%;
+     position: fixed;
+ }
+
+ .flex-container {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 90%;
+ }
+
+ .body-container {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   margin-top: 180px;
+ }
+
+ .main {
+ }
+
+ .nav {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 97%;
+   -webkit-box-align: baseline;
+       -ms-flex-align: baseline;
+           align-items: baseline;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   padding: 0px 10px;
+ }
+
+ .nav-links-title {
+   -ms-flex-negative: 1;
+       flex-shrink: 1;
+ }
+
+ .nav-links {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   list-style: none;
+   -webkit-box-flex: 3;
+       -ms-flex-positive: 3;
+           flex-grow: 3;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+       margin-left: -30px;
+ }
 
 
 
 
 
- 
+body {
+    background: rgb(0, 0, 0);
+    color: #FFF;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+header, nav, section {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+section {
+    padding: 20px 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+    color: rgb(48, 240, 0);
+}
+
+section {
+    line-height: 1.5em;
+}
