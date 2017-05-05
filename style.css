@@ -16,7 +16,7 @@
 }
 
 /* Import normalize */
-@import url('/normalize.css');
+@import url('normalize.css');
 
 /* Import fonts from google */
 @import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans|Roboto|Ubuntu');
@@ -36,7 +36,7 @@ p {
 
 /* Background image */
 body {
-  background-image: url('/images/background.jpg');
+  background-image: url('images/background.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
