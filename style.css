@@ -10,16 +10,47 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .flex-container {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
     }
 
-    .nav-links{
+    .main {
+      margin-top: 30px;
+    }
+
+    .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          max-width: 95%;
+          margin: auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .flex-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .main {
+      margin-top: 5px;
+    }
+
+    .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          max-width: 95%;
+          margin: auto;
     }
 }
 
@@ -48,13 +79,18 @@
  }
 
  .flex-container {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
    width: 90%;
  }
 
  .body-container {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
    margin-top: 180px;
  }
 
@@ -62,23 +98,35 @@
  }
 
  .nav {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   width: 99%;
-   align-items: baseline;
-   justify-content: center;
+   width: 97%;
+   -webkit-box-align: baseline;
+       -ms-flex-align: baseline;
+           align-items: baseline;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   padding: 0px 10px;
  }
 
  .nav-links-title {
-   flex-shrink: 1;
-   padding-left: 20px;
-
+   -ms-flex-negative: 1;
+       flex-shrink: 1;
  }
 
  .nav-links {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
    list-style: none;
-   flex-grow: 3;
-   justify-content: space-around;
+   -webkit-box-flex: 3;
+       -ms-flex-positive: 3;
+           flex-grow: 3;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+       margin-left: -30px;
  }
 
 
