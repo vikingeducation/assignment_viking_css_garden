@@ -2,9 +2,62 @@
  * Your Styles Here
  * ----------------------------------- */
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: rgba(119, 152, 144, 0.10)
+}
 
+h1 {
+  color: #413423;
+  font-size: 44px;
+}
 
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
 
+a {
+  text-decoration: none;
+  color: #4A446F;
+  font-weight: bold;
+  transition: all 0.3s ease-in; 
+}
 
- 
+a:hover{
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #39675D;
+  -webkit-fill-color: #39675D;
+  text-shadow: 1px 0px 20px purple;
+} 
+  
+header {
+  float: left;
+  width: 100%;
+  border-bottom: solid #664B1D;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-content-section {
+  float: left;
+  width: 80%;
+  margin-right: 50px;
+}
+
+#sidebar {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+.god {
+  color: #244F45;
+  font-style: italic;
+}
