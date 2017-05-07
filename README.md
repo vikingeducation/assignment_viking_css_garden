@@ -1,4 +1,4 @@
-assignment_viking_css_garden
+Viking CSS Garden
 ============================
 
 This was an assignment for Viking Code School's advanced prep work. I was provided an HTML framework and used CSS to style the page.
