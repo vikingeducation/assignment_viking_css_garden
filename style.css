@@ -4,7 +4,8 @@
 
 * {
   box-sizing: border-box;
-}
+  font-family: 'Roboto', sans-serif;
+  }
 
 body {
   background-color: rgba(119, 152, 144, 0.10)
@@ -13,6 +14,7 @@ body {
 h1 {
   color: #413423;
   font-size: 44px;
+  font-family: 'Asul', sans-serif;
 }
 
 h2 {
@@ -57,7 +59,4 @@ li {
   padding: 5px;
 }
 
-.god {
-  color: #244F45;
-  font-style: italic;
-}
+
