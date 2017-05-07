@@ -1,10 +1,164 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
 
 
+html {
+  background-image: url('/images/map.jpg');
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-position: top;
+}
 
+body {
+  padding: 10px;
+  line-height: 1.5;
+  margin: 10px;
+}
 
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
 
+h2 {
+  font-size: 28px;
+}
 
- 
+h1, h2 {
+  font-family: 'Merienda One', cursive;
+  margin: 20px auto;
+  background: rgba(255,255,255,0.8);
+  display: table;
+  padding: 5px;
+}
+
+p, cite, h1, h2, #sidebar {
+  border-radius: 15px;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+#sidebarTitle, p {
+  margin: 0 auto;
+}
+
+#image2 {
+  position: absolute;
+  top: 670px;
+  left: 0px;
+}
+#image1 {
+  position: absolute;
+  top: 1000px;
+  left: 0;
+}
+
+a:link {
+  color: #00352E;
+}
+a:visited {
+  color: #43857C;
+}
+a:hover {
+  color: #04194A;
+}
+a:active {
+  color: #3B5AA3;
+}
+
+p, cite {
+  font-family: Georgia, sans-serif;
+  background: rgba(255,255,255,0.8);
+  padding: 5px;
+  width: 30%;
+  border: solid 2px black;
+}
+
+cite {
+  border: none;
+  text-align: right;
+}
+
+#sidebar {
+  background: rgba(255,255,255,1);
+  padding: 10px;
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  background: url('/images/ship-icon.jpg') no-repeat;
+  padding-left: 35px;
+  line-height: 30px;
+}
+
+.map img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+#mapCredit {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+/*styling for the viking ship and helmet animations*/
+#cf, #cf1 {
+  position: fixed;
+  right: 0;
+}
+
+#cf {
+  top: 0;
+}
+
+#cf1 {
+  top: 256px;
+}
+
+#cf img, #cf1 img {
+  position: absolute;
+  right: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover, #cf1 img.top:hover {
+  opacity:0;
+}
+
+/*responsive settings */
+@media screen and (max-width: 1000px) {
+  #cf, #cf1, #mapCredit {
+    visibility: hidden;
+  }
+  #image1, #image2 {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    margin: auto;
+  }
+  #image1 {
+    max-height: 250px;
+    max-width: 116px;
+  }
+  #image2 {
+    max-width: 400px;
+  }
+  p, cite, #image1, #image2 {
+    width: 100%;
+  }
+}
