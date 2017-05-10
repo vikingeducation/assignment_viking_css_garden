@@ -96,27 +96,19 @@ table {
   ========================================
 */
 
-h1, h2, h3, h4 {
-  color: #09390F;
+h1, h2 {
 	font-family: 'Berkshire Swash', cursive;
 }
 h1 {
   font-size: 36px;
   line-height: 60px;
+	color: #09390F;
 }
 h2 {
   font-size: 30px;
-  line-height: 44px;
+  line-height: 150%;
 }
-h3 {
-  font-size: 21px;
-}
-h4 {
-  font-size: 18px;
-}
-strong {
-  font-weight: 400;
-}
+
 
 /*
   ========================================
@@ -125,7 +117,7 @@ strong {
 */
 
 a {
-  color: #012A26;
+  color: #6B0051;
   text-decoration: underline;
 }
 a:hover {
@@ -148,29 +140,30 @@ a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+#main-header h2 {
+	color: #6B0051;
+}
 
 .site-title {
   display: block;
-	padding: 40px 0 0 20px;
-  width: 100%;
-  height: 50px;
+	padding: 50px 0 0 20px;
   text-align: left;
   font-size: 50px;
 	font-weight: bolder;
-	line-height: 55px
+	line-height: 150%;
   vertical-align: middle;
-	background-color: rgba(229, 252, 219, 0.3);
+	background-color: rgba(229, 252, 219, 0.45);
 
 }
 
 .tagline {
-	display: block;
-	padding: 40px 20px 10px 0;
-  text-align: right;
-	width: -50%;
-	height: 50px;
+	display: inline-block;
+	padding: 50px 5px 50px 0;
+	margin: 0px 10px 0 auto;
+	text-align: right;
+	height: 180%;
 	font-size: 36px;
-	background-color: rgba(229, 252, 219, 0.3);
+	background-color: rgba(229, 252, 219, 0.45);
 
 }
 
@@ -180,41 +173,77 @@ a:hover {
   ========================================
 */
 #main-content {
-	background-color: rgba(212, 181, 106, 0.2);
+	background-color: #DDE2DA;
 }
 
-.section-title {
+.section-title  {
 	display: block;
 	padding: 10px;
 	text-align: center;
+}
 
-
+h2 .section-content {
+	color: #09390F;
 }
 
 .section-content {
 	display: block;
-	padding: 10px 5px 10px 5px;
-	margin: 5px 10px 5px 10px;
+	padding: 10px 5px 5px;
+	margin: 5px 10px 0 5px;
 	text-align: left;
 	font-family: 'Cormorant', serif;
 	font-size: 24px;
-	color: #371200;
+	color: #3A3A3A;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: 150%;
 }
 
 .citation {
 	display: block;
-	font-family: sans-serif;
-	color: #371200;
-	margin: 5px 0 20px 5px;
-	padding-bottom: 5px;
+	margin: 5px 5px 0 0;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #09390F;
+	font-family: 'Cormorant', serif;
+	color: black;
 	text-align: right;
 }
 
-#sidebar {
-  display: block;
-	float: left;
-  width: 100%;
-  padding: 15px;
+#sidebar h2{
+	color: #6B0051;
+}
+nav ul li {
+	padding: 15px;
+	margin: 5px;
+	margin-top: 10px;
+	font-family: 'Cormorant', serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+aside {
+	background-color: #909090;
+	padding-bottom: 20px;
+
+}
+
+li {
+	display: inline;
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #C8C8C8;
+	border: 5px solid #505050;
+	color: #C8C8C8;
+
+}
+
+.sidebar-nav, h2 {
+	width:100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.nav-link {
+	color: #6B0051;
+	font-family:'Cormorant', serif;
+	font-size: 20px;
 }
