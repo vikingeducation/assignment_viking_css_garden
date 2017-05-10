@@ -1,5 +1,5 @@
 /* ----------------------------------- *
- * Your Styles Here
+ * CSS Reset
  * ----------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,15 +45,6 @@ table {
 	border-spacing: 0;
 }
 
-/*
-  ========================================
-  Custom styles
-  ========================================
-*/
-
-body {
-  color: #071106;
-  font: 300 16px/22px "Homemade Apple", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /*
   ========================================
@@ -61,7 +52,7 @@ body {
   ========================================
 */
 
-*,
+*:,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -106,15 +97,15 @@ body {
 */
 
 h1, h2, h3, h4 {
-  color: #420207;
-  margin-bottom: 22px;
+  color: #09390F;
+	font-family: 'Berkshire Swash', cursive;
 }
 h1 {
   font-size: 36px;
-  line-height: 44px;
+  line-height: 60px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 44px;
 }
 h3 {
@@ -125,7 +116,7 @@ h4 {
 }
 strong {
   font-weight: 400;
-
+}
 
 /*
   ========================================
@@ -139,7 +130,7 @@ a {
 }
 a:hover {
   color: #093802;
-	}
+}
 
 /*
   ========================================
@@ -148,27 +139,39 @@ a:hover {
 */
 
 #main-header {
-  display: inline;
-  margin: 20px;
+  display: block;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	border-bottom: 5px solid #09390F;
+	border-top: 5px solid #09390F;
+  background-image: url("Viking_Garden.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .site-title {
-  display: inline-block;
-  padding: 40px 0 22px 0;
-  width: 40%;
-  height: 100px;
-  margin: 0 1.5%;
-  float: left;
-  font-size: 48px;
-  font-weight: 200;
+  display: block;
+	padding: 40px 0 0 20px;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-size: 50px;
+	font-weight: bolder;
+	line-height: 55px
+  vertical-align: middle;
+	background-color: rgba(229, 252, 219, 0.3);
 
 }
 
 .tagline {
+	display: block;
+	padding: 40px 20px 10px 0;
   text-align: right;
-  width: 60%;
-  height: 100px;
-  margin: 0 1.5%;
+	width: -50%;
+	height: 50px;
+	font-size: 36px;
+	background-color: rgba(229, 252, 219, 0.3);
+
 }
 
 /*
@@ -176,36 +179,42 @@ a:hover {
   Main content
   ========================================
 */
+#main-content {
+	background-color: rgba(212, 181, 106, 0.2);
+}
 
-.section-content,
-.main-section-content {
-  line-height: 44px;
-  padding: 22px 80px 66px 80px;
+.section-title {
+	display: block;
+	padding: 10px;
+	text-align: center;
+
+
+}
 
 .section-content {
-  text-align: center;
+	display: block;
+	padding: 10px 5px 10px 5px;
+	margin: 5px 10px 5px 10px;
+	text-align: left;
+	font-family: 'Cormorant', serif;
+	font-size: 24px;
+	color: #371200;
+	font-weight: bold;
+	line-height: 40px;
 }
 
-.section-content h2 {
-  font-size: 36px;
+.citation {
+	display: block;
+	font-family: sans-serif;
+	color: #371200;
+	margin: 5px 0 20px 5px;
+	padding-bottom: 5px;
+	text-align: right;
 }
-
-.section-content p {
-  font-size: 24px;
-  font-weight: 100;
-
-.main-section-content {
-  text-align: left;
-}
-
-.main-section-content h2 {
-  font-size: 32px;
-}
-
 
 #sidebar {
-  float: left;
-  width: 40%;
-  padding; 15px;
+  display: block;
+	float: left;
+  width: 100%;
+  padding: 15px;
 }
-	
