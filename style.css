@@ -139,6 +139,7 @@ a:hover {
   background-image: url("Viking_Garden.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 #main-header h2 {
 	color: #6B0051;
@@ -196,6 +197,10 @@ h2 .section-content {
 	color: #3A3A3A;
 	font-weight: bold;
 	line-height: 150%;
+}
+
+p {
+	margin-bottom: 1em;
 }
 
 .citation {
