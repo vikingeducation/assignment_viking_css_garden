@@ -1,0 +1,220 @@
+/* ----------------------------------- *
+ * CSS Reset
+ * ----------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*:,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3, h4 {
+  color: #09390F;
+	font-family: 'Berkshire Swash', cursive;
+}
+h1 {
+  font-size: 36px;
+  line-height: 60px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+strong {
+  font-weight: 400;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #012A26;
+  text-decoration: underline;
+}
+a:hover {
+  color: #093802;
+}
+
+/*
+  ========================================
+  Main header
+  ========================================
+*/
+
+#main-header {
+  display: block;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	border-bottom: 5px solid #09390F;
+	border-top: 5px solid #09390F;
+  background-image: url("Viking_Garden.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.site-title {
+  display: block;
+	padding: 40px 0 0 20px;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-size: 50px;
+	font-weight: bolder;
+	line-height: 55px
+  vertical-align: middle;
+	background-color: rgba(229, 252, 219, 0.3);
+
+}
+
+.tagline {
+	display: block;
+	padding: 40px 20px 10px 0;
+  text-align: right;
+	width: -50%;
+	height: 50px;
+	font-size: 36px;
+	background-color: rgba(229, 252, 219, 0.3);
+
+}
+
+/*
+  ========================================
+  Main content
+  ========================================
+*/
+#main-content {
+	background-color: rgba(212, 181, 106, 0.2);
+}
+
+.section-title {
+	display: block;
+	padding: 10px;
+	text-align: center;
+
+
+}
+
+.section-content {
+	display: block;
+	padding: 10px 5px 10px 5px;
+	margin: 5px 10px 5px 10px;
+	text-align: left;
+	font-family: 'Cormorant', serif;
+	font-size: 24px;
+	color: #371200;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.citation {
+	display: block;
+	font-family: sans-serif;
+	color: #371200;
+	margin: 5px 0 20px 5px;
+	padding-bottom: 5px;
+	text-align: right;
+}
+
+#sidebar {
+  display: block;
+	float: left;
+  width: 100%;
+  padding: 15px;
+}
