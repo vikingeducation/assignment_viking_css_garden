@@ -4,7 +4,7 @@ Viking CSS Garden
 This was an assignment for Viking Code School's advanced prep work. I was provided an HTML framework and used CSS to style the page.
 
 You can view the actual static site published <a href="http://fb-clone-aws.surge.sh/" target="_blank">here</a>.
-You can view a blog post explaining my styling <a href="https://austinwsmith.wordpress.com/2017/05/10/facebook-clones/" target="_blank">here</a>.
+You can view a blog post on this assignment <a href="https://austinwsmith.wordpress.com/2017/05/10/facebook-clones/" target="_blank">here</a>.
 
 A place for your styling creativity to grow.
 
