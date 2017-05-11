@@ -1,10 +1,112 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    color: darkgray;
+}
+
+header {
+    width: 100%;
+
+    text-align: left;
+    background: url(images/viking-garden.jpg) no-repeat;
+    background-attachment: scroll;
+    background-position: 50%;
+    background-size: cover;
+}
+header h1, header h2 {
+    padding: 0 10%;
+    margin: 0;
+    font-weight:normal;
+}
+
+header h1 {
+    -webkit-margin-after: 0;
+    font-family: Griffy, cursive;
+    font-size:60px;
+    color: #334754;
+}
+
+header h1::before {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    content: "";
+    width: 80px;
+    height: 80px;
+    margin: -20px 20px 0 0;
+    background: url(images/viking-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+}
+
+header h2 {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-top: none;
+    color: darkslategrey;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:40px;
+    font-weight:normal;
+}
+
+header h2::before {
+    content: " ";
+    padding: 50px;
+}
+
+body h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size:25px;
+    color: #1574AB;
+    font-weight:normal;
+}
+
+aside h2 {
+    color: darkslategrey;
+}
+
+main {
+    width: 66%;
+    padding: 1em 5% 1em 10%;
+}
+
+#sidebar {
+    position: absolute;
+    top: 190px;
+    right: 30px;
+    width: 290px;
+    padding: 0 0 20px 20px;
+    margin: 0;
+    overflow: visible;
+    background-color: #9FC9E2;
+    border-radius: 0.5rem;
+}
+#sidebar li {
+    float: none;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 29.4% 0 14.7%; /* 0 10% 0 5% of total width */
+}
+
+.sidebar-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: square;
+    overflow: hidden;
+}
 
 
-
-
-
-
- 
