@@ -1,9 +1,127 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+   }
+
+#container{
+    min-height: 100%;
+    position: relative;
+}
+
+/* body black and white to color */
+
+body{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    background-image: url(http://www.publicdomainpictures.net/pictures/30000/velka/white-paper-texture.jpg);
+    background-size: cover;
+}
+
+body:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none; 
+    background-image: url(https://c1.staticflickr.com/4/3607/3468811439_48da9e71eb_b.jpg);
+    background-size: cover;
+}
+
+/*header Position*/
+
+#main-header{
+    background-image: url(http://wallpaper-gallery.net/images/ancient-egyptian-wallpaper/ancient-egyptian-wallpaper-5.jpg);   
+    background-size:cover;
+    padding: 5px; 
+    text-align: center;    
+}
+
+/* Headings color */
+
+.section-title{
+    color: maroon;
+    }
+
+h1{
+    color: yellow;
+}
+
+h2{
+    color: greenyellow;
+}
+
+/*Main content*/
+
+#main-content{
+    padding: 10px;
+    padding-bottom: 220px;
+    text-align: justify;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* imgs properties */
+
+img{
+    height: 272px;
+    width: 272px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+/*for leftside image*/
+
+.textwrap-left{
+    
+    float: left;
+}
+
+/*for rightside img*/
+
+.textwrap-right{
+   
+    float:right;
+}
+
+/* img rotation on vertical axis*/
+
+img:hover{
+    transform: rotateY(180deg);
+    }
 
 
+/*footer section*/
 
+#sidebar{
+    position: absolute;
+    width:100%;
+    background-color:maroon;
+    bottom: 0;
+    height: 200px;
+    
+  }
+
+a:link{
+    color: yellow;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:visited{
+    color: darkorange;
+}
+
+ul{
+    color:aqua;
+}
 
 
 
