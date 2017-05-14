@@ -2,9 +2,130 @@
  * Your Styles Here
  * ----------------------------------- */
 
+/* CSS Reset */
+@import url("reset.css");
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+header, main, aside {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
 
+body {
+	background: #F2F2F2;
+	width: 100%;
+	margin: 0 auto;
+}
 
+#container {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
 
- 
+#main-header {
+	margin: 0px auto;
+	margin-top: 30px;
+	width: 100%;
+	height: 178px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 100px,rgba(242,242,242,1) 100%);
+}
+
+#main-header:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -150px;
+	width: 100%;
+	height: 358px;
+	z-index: -1;
+	opacity: 0.25;
+	background: url('http://www.kiwicare.co.nz/content/images/633/1600x358crop/Header_Banner-garden-aids.jpg') no-repeat;
+	background-size: cover;
+}
+
+.site-title {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #02735E;
+	width: 60%;
+	border-bottom: 1px solid;
+}
+
+.tagline {
+	color: #BF663A;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#main-content {
+	width: 80%;
+	margin: 0 auto;
+	float: left;
+}
+
+.main-content-section {
+	margin: 20px;
+	background: #E6E6E6;
+	padding: 10px;
+	letter-spacing: 0.5px;
+	line-height: 1.3em;
+}
+
+#main-content p {
+	margin: 10px;
+}
+
+#main-content h2 {
+	color: #02735E;
+	font-weight: bold;
+	font-size: 1.3em;
+	border-bottom: 1px solid;
+}
+
+#main-content h2::first-letter {
+	font-size: 1.5em;
+}
+
+.citation {
+	font-family: serif;
+	font-style: italic;
+	color: #777;
+	margin-left: 10px;
+}
+
+#sidebar {
+	float: right;
+	margin-top: 20px;
+	width: 18%;
+	padding-left: 20px;
+}
+
+#sidebar .section-title {
+	font-weight: bold;
+	font-size: 1.3em;
+	background: #E6E6E6;
+	padding: 8px;
+}
+
+.sidebar-nav li {
+	padding: 5px 0;
+	margin-left: 10px;
+}
+
+a, a:visited {
+	color: #BF663A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #02735E;
+}
+
