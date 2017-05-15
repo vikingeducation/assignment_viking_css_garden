@@ -11,6 +11,7 @@ body {
 img{
   float: right;
   margin: 30px;
+  border-radius: 25%;
 }
 
 header {
@@ -40,6 +41,7 @@ header .tagline {
   margin: 46px;
   padding: 10px;
   position: relative;
+  z-index: -1;
 }
 
 .section-title {
