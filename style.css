@@ -1,7 +1,24 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+<style>
+  
+  	p {
+  		color: green;
 
+  	}	
+
+  	body {
+  		background: red;
+}
+
+	#main-header {
+    	font-family: "Times New Roman", Times, serif;
+    	color: blue;
+    	font-size: 20px;
+  }
+
+</style>
 
 
 
