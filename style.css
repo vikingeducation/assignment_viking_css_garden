@@ -3,8 +3,76 @@
  * ----------------------------------- */
 
 
+body {
+    background: url(viking_garden.jpg) no-repeat #346C09;
+    font-family: serif;
+    }
 
+img{
+  float: right;
+  margin: 30px;
+}
 
+header {
+  font-family: fantasy;
+  margin: 0;
+  display: inline;
+  text-align: right;
+  color: #cecece
+}
 
+header .site-title {
+  font-size: 48px;
+  margin-bottom: 0;
 
- 
+}
+
+header .tagline {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.main-content-section {
+  background: #152800;
+  border-radius: 5%;
+  opacity: 0.9;
+  color: #cecece;
+  margin: 46px;
+  padding: 10px;
+  position: relative;
+}
+
+.section-title {
+  background: #152800;
+  border-radius: 5%;
+  opacity: 0.9;
+  font-family: fantasy;;
+  color: #cecece;
+  display: inline;
+  text-align: center;
+}
+nav {
+  background: #152800;
+  opacity: 0.9;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+nav li {
+  flex: 1 1 0;
+
+}
