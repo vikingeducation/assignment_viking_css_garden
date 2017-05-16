@@ -15,18 +15,20 @@ img{
 }
 
 header {
-  font-family: fantasy;
-  margin-right: 0;
-  display: inline;
-  text-align: right;
-  color: #cecece
-      
-}
+    font-family: fantasy;
+    display: inline-block;
+    text-align: center;
+    color: whitesmoke;
+    background: #152800;
+    border-radius: 5%;
+    opacity: 0.8;
+    padding: 10px;
+    margin: 0 400px;    
+    }
 
 header .site-title {
   font-size: 48px;
   margin-bottom: 0;
-
 }
 
 header .tagline {
@@ -40,7 +42,7 @@ header .tagline {
   border-radius: 5%;
   opacity: 0.8;
   color: #cecece;
-  margin: 46px;
+  margin: 32px;
   padding: 10px;
   position: relative;
   z-index: -1;
@@ -53,9 +55,13 @@ header .tagline {
   border-radius: 5%;
   opacity: 0.8;
   font-family: fantasy;;
-  color: #cecece;
-  display: inline;
-  text-align: center;
+  color: whitesmoke;
+  display: inline-block;
+}
+
+aside .section-title {
+  margin: 0 500px;
+  border-radius: 10%;
 }
 
 nav {
