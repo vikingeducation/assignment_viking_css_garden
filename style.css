@@ -4,7 +4,7 @@
 
 
 body {
-    background: url(viking_garden.jpg) no-repeat #346C09;
+    background: url(viking_garden.jpg);
     font-family: serif;
     }
 
@@ -16,10 +16,11 @@ img{
 
 header {
   font-family: fantasy;
-  margin: 0;
+  margin-right: 0;
   display: inline;
   text-align: right;
   color: #cecece
+      
 }
 
 header .site-title {
@@ -33,29 +34,33 @@ header .tagline {
   margin-top: 0;
 }
 
+
 .main-content-section {
   background: #152800;
   border-radius: 5%;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #cecece;
   margin: 46px;
   padding: 10px;
   position: relative;
   z-index: -1;
+  display: flex;
+  flex-flow: column;
 }
 
 .section-title {
   background: #152800;
   border-radius: 5%;
-  opacity: 0.9;
+  opacity: 0.8;
   font-family: fantasy;;
   color: #cecece;
   display: inline;
   text-align: center;
 }
+
 nav {
   background: #152800;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 nav ul {
