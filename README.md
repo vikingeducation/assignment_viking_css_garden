@@ -1,4 +1,4 @@
-assignment_viking_css_garden
+Joanne's assignment_viking_css_garden
 ============================
 
 A place for your styling creativity to grow
