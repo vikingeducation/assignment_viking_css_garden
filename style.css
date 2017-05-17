@@ -26,9 +26,9 @@
   	}
 
   	p {
-  		font-family: Arimo, sans-serif;
-  		color: black;
-  		font-size: 20px;
+  		font-family: "Alegreya Sans", sans-serif;
+  		color: rgb(26,28,30);
+  		font-size: 25px;
   	}	
 
  body {
@@ -43,7 +43,6 @@
 	display: inline-block;
 	margin: 0 2%;
 	width: 30%;
-	vertical-align: top;
 	float: left;
 	text-align: justify;
 }
@@ -61,16 +60,13 @@
 	display: inline-block;
 	margin: 0 2%;
 	width: 30%;
-	vertical-align: bottom;
 	float: left;
 	text-align: center
 }
 
 .sidebar-nav {
-	font-family: Arimo; sans-serif;
-	color: #6a6b5b;
-	font-size: 20px;
-	line-height: 35px;
+	font-size: 25px;
+	line-height: 40px;
 }
 
 #seeds {
@@ -83,6 +79,9 @@ ul {
 
 a:link {
     text-decoration: none;
+    color: #815b4e;
+    font-weight: bold;
+    font-family: "Inknut Antiqua", serif;
 }
 	
 
