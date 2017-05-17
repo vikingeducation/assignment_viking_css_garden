@@ -77,11 +77,16 @@ ul {
 	list-style-type: none;
 }
 
+li {
+	margin-left: -100px;
+}
+
 a:link {
     text-decoration: none;
     color: #815b4e;
     font-weight: bold;
     font-family: "Inknut Antiqua", serif;
+    margin-left: -10px;
 }
 	
 
