@@ -3,8 +3,15 @@
  * ----------------------------------- */
 
 
+.main-header {
+ color: #000444
+}
 
 
+ header h1 {
+   align-content: center;
+ }
 
-
- 
+body {
+  background: #8e8d92
+}
