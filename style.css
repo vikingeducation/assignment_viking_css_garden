@@ -1,17 +1,125 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+#ship {
+  position: relative;
+  right: -48px;
+  width: 25%;
 
-
-.main-header {
- color: #000444
 }
 
+.main-text {
+  position: relative;
+    top: -230px;
+  width: 100%;
+  margin: 0px;
+}
 
- header h1 {
-   align-content: center;
- }
+/* -----------------Side-content-------------- */
+#sidebar {
+  position: relative;
+top: -200px;
+  right: -48px;
+float: left;
+   background: #e1e5e1;
+  width: 20%;
+  padding: 16px;
+  padding-top: 2px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: #001E00;
+  border-style: solid;
+  background-image: url("https://dtj-human.github.io/assignment_viking_css_garden/tree-transparent.png");
+    background-size: 60%;
+  background-repeat: no-repeat;
+background-position: 165% -20%;
+  box-shadow:         5px 5px 4px 2px #314731;
 
+}
+
+/* -----------------Main-Content-------------- */
+.main-content-section {
+  float:left;
+  width: 60%;
+  padding: 24px;
+  margin-left: 24px;
+    background: #e1e5e1;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.divider {
+
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 24px;
+  padding-left: 24px;
+    background: #6f0000;
+}
+.divider-section-title {
+  color: #e1e5e1;
+      font-family: 'Inknut Antiqua', serif;
+  line-height: 6px;
+
+}
+.sidebar-nav {
+   font-family: Tahoma, Geneva, sans-serif;
+}
+/* -----------------Top-Content-------------- */
+.top-content-section {
+  position: relative;
+  top: -240px;
+  left: 50%;
+  width:  45%;
+  padding: 16px;
+  padding-top: 2px;
+  padding-bottom: 8px;
+  background: #e1e5e1;
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: #001E00;
+  border-style: solid;
+  background-image: url("https://dtj-human.github.io/assignment_viking_css_garden/tree-transparent.png");
+    background-size: 60%;
+  background-repeat: no-repeat;
+background-position: 165% -5%;
+    box-shadow:         5px 5px 4px 2px #314731;
+
+}
+.section-title {
+    font-family: 'Inknut Antiqua', serif;
+    color: #6f0000;
+  line-height: 26px;
+}
+.section-content {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* -----------------Header-------------- */
+
+header {
+  color: #6f0000;
+  font-family: 'Inknut Antiqua', serif;
+  padding: 18px;
+  margin: 24px;
+}
+.site-title {
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: -2px;
+}
+.tagline {
+  position: relative;
+  top: -28px;
+  font-size: 18px;
+  line-height: 20px;
+    letter-spacing: -1px;
+}
 body {
-  background: #8e8d92
+   background-image: url("https://dtj-human.github.io/assignment_viking_css_garden/viking_winter_grad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
