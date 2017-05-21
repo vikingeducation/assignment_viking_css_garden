@@ -1,4 +1,5 @@
-assignment_viking_css_garden
+assignment_viking_css_garden by Iva Erceg
+Live on: https://ivaerceg.github.io/assignment_viking_css_garden/
 ============================
 
 A place for your styling creativity to grow
