@@ -54,7 +54,6 @@ html {
     color: #333;
     font-size: 16px;
     font-family: 'Lato', serif;
-
 }
 
 #main-header, aside {
@@ -86,8 +85,6 @@ html {
     margin-bottom: 15px;
 }
 
-
-
 #main-content {
     width: 80%;
     margin: 0 auto;
@@ -97,6 +94,18 @@ html {
     margin-bottom: 30px;
     padding: 10px;
     border-bottom: 5px solid #00bf8f;
+}
+
+.section-content p:nth-of-type(2) {
+    background-image: url("../images/chariot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-content p:nth-of-type(4) {
+    background-image: url("../images/odin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
@@ -111,3 +120,10 @@ p:first-letter{
     color: #001510;
 }
 
+/*media queries*/
+@media screen and (min-width: 767px) {
+    #main-content {
+    width: 50%;
+}
+
+}
