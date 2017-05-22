@@ -2,9 +2,82 @@
  * Your Styles Here
  * ----------------------------------- */
 
+h1, h2 {
+  color: #cc0000;
+  font-family: Arial;
+}
+
+h1{
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  color: #ccc;
+  font-size: 1.5em;
+  font-family: Arial;
+
+}
+
+body {
+  background-color: #000;
+}
+
+#main-header{
+  background-image: url(images/thorimage.jpg);
+  background-size: cover;
+  padding-left: 100px;
+  padding-bottom: 500px;
+  padding-top: 150px;
+}
+
+.main-content-section-1{
+  position: relative;
+  padding: 1em;
+  border: 0.3em solid #333;
+  margin-left: 10%;
+  width: 80%;
+  background-color: #050505;
+  float: left;
+}
 
 
+.main-content-section-2{
+  margin-top: 20px;
+  background-color: #050505;
+  position: relative;
+  padding: 1em;
+  border: 0.3em solid #333;
+  margin-left: 10%;
+  width: 80%;
+  float: left;
+}
 
+.section-title{
+  color: #ccc;
+}
 
+#sidebar{
+  display: block;
+  float: left;
+  margin-left: 10%;
+  position: relative;
+  margin-top: 100px;
+}
 
- 
+li{
+  display: inline;
+  background-color: #ccc;
+  border: 2em solid #ccc;
+  outline: 0.2em solid #333;
+  margin: 0.2em;
+  float:left;
+}
+
+.nav-link-list-item:hover{
+  background-color: #111;
+  border-color: #111;
+}
