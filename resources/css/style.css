@@ -38,7 +38,7 @@ p {
  }
 
 .main-content-section3 {
-    padding: 250px 100px 250px 100px;
+    padding: 200px 100px 200px 100px;
     height: auto;
     text-align: center;
 }
@@ -51,6 +51,7 @@ p {
 
 .col1, .col2, .col3, .col4 {
     margin: auto;
+    padding-top: 50px;
     padding-left: 5%;
     display: block;
     width: 20%;
@@ -62,8 +63,8 @@ p {
     font-family: 'Playfair Display SC', serif; 
     font-size: 1.5em;
     margin-top: 50px;
-    border-top: 4px solid #f3f3f3;
-    border-bottom: 4px solid #f3f3f3;
+    /*border-top: 4px solid #f3f3f3;*/
+    /*border-bottom: 4px solid #f3f3f3;*/
     display: inline-block;
     width: 500px;
 }
@@ -75,4 +76,33 @@ p {
 
 .clear {
     clear: both;
+}
+
+footer {
+    height: auto;
+    padding: 150px 100px 150px 100px;
+    background-color: #E27D5F;
+    color: #fff;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer ul {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    columns: 3;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.source {
+    padding-top: 150px;
+    text-align: center;
 }
