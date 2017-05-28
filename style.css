@@ -25,6 +25,7 @@
   		font-size: 30px;
   	}
 
+
   	p {
   		font-family: "Alegreya Sans", sans-serif;
   		color: rgb(26,28,30);
@@ -78,7 +79,7 @@ ul {
 }
 
 li {
-	margin-left: -100px;
+	margin-left: -30px;
 }
 
 a:link {
