@@ -1,0 +1,78 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+ html, body, #hero{
+  width:100%;
+  height:100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#hero {
+  background-image: url('/resources/images/alexey-topolyanskiy-66875_sm.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#main-header, #main-content {
+    height: auto;
+    text-align: center;
+    padding: 250px 100px 250px 100px;
+    background-color: #7CC2AA;
+}
+
+.site-title, .section-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#main-content {
+     background-color: #f7f7f7;
+ }
+
+.main-content-section3 {
+    padding: 250px 100px 250px 100px;
+    height: auto;
+    text-align: center;
+}
+
+.section-content2 {
+    margin-top: 50px;
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.col1, .col2, .col3, .col4 {
+    margin: auto;
+    padding-left: 5%;
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.citation {
+    font-family: 'Playfair Display SC', serif; 
+    font-size: 1.5em;
+    margin-top: 50px;
+    border-top: 4px solid #f3f3f3;
+    border-bottom: 4px solid #f3f3f3;
+    display: inline-block;
+    width: 500px;
+}
+
+.citation a {
+    text-decoration: none;
+    color: #E27D5F;
+}
+
+.clear {
+    clear: both;
+}
