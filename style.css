@@ -2,9 +2,149 @@
  * Your Styles Here
  * ----------------------------------- */
 
+html {
+	font-family: "Open Sans", Verdana, sans-serif;
+}
 
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
+h1, h2 {
+	font-family: "Philosopher", Helvetica, sans-serif;
+	margin: 0;
+}
 
+#main-header {
+	position: relative;
+	background: #0D4D4D;
+	background: -moz-linear-gradient(top, #665f88 1%, #474f73 33%, #224b69 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #665f88 1%, #474f73 33%, #224b69 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #665f88 1%, #474f73 33%, #224b69 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin: 0;
+	margin-top: 20px;
+	padding: 10px;
+	z-index: 1;
+}
 
+.site-title {
+	font-size: 72px;
+	color: white;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 30px;
+	letter-spacing: 3px;
+}
 
- 
+.tagline {
+	font-size: 36px;
+	color: #dee;
+	font-style: italic;
+	font-weight: 400;
+	margin: 10px 150px;
+}
+
+#container {
+	max-width: 960px;
+	margin: -200px auto;
+	z-index: 0;
+}
+
+#main-content {
+	width: 75%;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.9);
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+	padding-top: 240px;
+  display: inline-block;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  display: table-cell
+}
+
+#sidebar {
+	width: 25%;
+	height: 100%;
+	padding: 20px;
+	padding-top: 240px;
+	background-color: rgba(17, 13, 40, 0.9);
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	display: table-cell
+
+}
+
+.nav-links {
+	padding: 0;
+}
+
+.nav-link-list-item {
+	display: block;
+	padding: 10px;
+	border-bottom: 2px solid #b39daf;
+	border-radius: 3px;
+}
+
+.nav-links > a:last-child li {
+	border: none;
+}
+
+.nav-link, .nav-link li {
+	color: white;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.nav-link:hover li {
+	color: #b39daf;
+	background-color: rgba(255, 255, 255, .05);
+
+}
+
+.main-content-section {
+	margin-bottom: 50px;
+}
+
+.main-content-section h2 {
+	font-size: 30px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #a199ac;
+	margin-bottom: 30px;
+	color: #433358;
+	letter-spacing: 1px;
+}
+
+.main-content-section p {
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+
+.citation {
+	display: block;
+	text-align: right;
+	margin-right: 80px;
+}
+
+.citation a {
+	text-decoration: none;
+	color: #7b5a79;
+	transition: 0.5s;
+}
+
+.citation a:hover {
+	color: #433358;
+	text-decoration: underline;
+}
