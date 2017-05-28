@@ -1,0 +1,286 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+ html, body, #hero{
+  width:100%;
+  height:100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#hero {
+  background-image: url('/resources/images/alexey-topolyanskiy-66875_sm.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#main-header, #main-content {
+    height: auto;
+    text-align: center;
+    padding: 250px 100px 250px 100px;
+    background-color: #7CC2AA;
+}
+
+.site-title, .section-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#main-content {
+     background-color: #f7f7f7;
+ }
+
+.main-content-section3 {
+    padding: 200px 100px 200px 100px;
+    height: auto;
+    text-align: center;
+}
+
+.section-content2 {
+    margin-top: 50px;
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.col1, .col2, .col3, .col4 {
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 5%;
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.citation {
+    font-family: 'Playfair Display SC', serif; 
+    font-size: 1.5em;
+    margin-top: 50px;
+    display: inline-block;
+    width: 500px;
+}
+
+.citation a {
+    text-decoration: none;
+    color: #E27D5F;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height: auto;
+    padding: 150px 100px 150px 100px;
+    background-color: #E27D5F;
+    color: #fff;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer ul {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    columns: 3;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2em;
+}
+
+footer a:hover {
+  color: #c14924;
+}
+
+.source {
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    #main-header, #main-content {
+      height: auto;
+      text-align: center;
+      padding: 50px 25px 50px 25px;
+      background-color: #7CC2AA;
+    }
+    #main-content {
+      background-color: #f7f7f7;
+     }
+    
+    .col1, .col2, .col3, .col4 {
+      margin: auto;
+      padding-top: 25px;
+      padding-left: 5%;
+      display: block;
+      width: 100%;
+      float: left;
+      text-align: center;
+      line-height: 1em;
+    }
+    
+    .main-content-section3 {
+      padding: 200px 100px 200px 100px;
+      height: auto;
+      text-align: center;
+    }
+
+    .section-content2 {
+      margin-top: 50px;
+      column-count: 4;
+      column-gap: 1em;
+    }
+
+    .col1, .col2, .col3, .col4 {
+      margin: auto;
+      padding-top: 50px;
+      padding-left: 5%;
+      display: block;
+      width: 90%;
+      float: left;
+      text-align: left;
+      text-align: center;
+    }
+
+    .citation {
+      font-family: 'Playfair Display SC', serif; 
+      font-size: 1.5em;
+      margin-top: 50px;
+      display: inline-block;
+      width: 500px;
+    }
+
+    .citation a {
+      text-decoration: none;
+      color: #E27D5F;
+    }
+    
+    footer ul {
+      margin: auto;
+      padding-top: 50px;
+      text-align: center;
+      columns: 1;
+    }
+    
+    .source {
+      font-size: .75em;
+      padding-top: 50px;
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    
+  #main-header, #main-content {
+    height: auto;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    background-color: #7CC2AA;
+  }
+  
+  .site-title, .section-title {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+  
+  p {
+    line-height: 1.5em;
+  }
+  
+  #main-content {
+    background-color: #f7f7f7;
+   }
+
+  .main-content-section3 {
+    padding: 20px 10px 20px 10px;
+    height: auto;
+    text-align: center;
+  }
+
+  .section-content2 {
+    margin-top: 10px;
+    column-count: 1;
+    column-gap: 1em;
+  }
+  
+  .col1, .col2, .col3, .col4 {
+    margin: auto;
+    padding-top: 10px;
+    display: block;
+    width: 90%;
+    float: left;
+    text-align: center;
+  }
+
+  .citation {
+    font-family: 'Playfair Display SC', serif; 
+    font-size: 1em;
+    margin-top: 50px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+
+  .citation a {
+    text-decoration: none;
+    color: #E27D5F;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  footer {
+    height: auto;
+    padding: 150px 100px 150px 100px;
+    background-color: #E27D5F;
+    color: #fff;
+  }
+  
+  footer h2 {
+    text-align: center;
+  }
+  
+  footer ul {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    columns: 1;
+  
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2em;
+  }
+  
+  .source {
+    padding-top: 150px;
+    text-align: center;
+  }
+    
+}
