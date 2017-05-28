@@ -1,6 +1,96 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+  	.site-title {
+    	font-family: "Pirata One", cursive;
+    	color: #453830;
+    	text-align: center;
+    	font-size: 60px;
+    	text-shadow: 3px 6px 2px rgba(133, 157, 196, .4);
+    	letter-spacing: 4px;
+  }
+
+  	.tagline {
+  		font-family: Courgette, cursive;
+  		color: #815b4e;
+  		text-align: center;
+  		font-size: 40px;
+  	}
+
+  	.section-title {
+  		font-family: "Inknut Antiqua", serif;
+  		color: #585a28;
+  		text-shadow: 2px 3px 2px rgba(0, 0, 0, .4);
+  		text-align: center;
+  		font-size: 30px;
+  	}
+
+
+  	p {
+  		font-family: "Alegreya Sans", sans-serif;
+  		color: rgb(26,28,30);
+  		font-size: 25px;
+  	}	
+
+ body {
+    background-image: url("greenland.jpg");
+    background-attachment: fixed;
+    background-color: rgba(255,255,255,0.6);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+
+#growing-garden {
+	display: inline-block;
+	margin: 0 2%;
+	width: 30%;
+	float: left;
+	text-align: justify;
+}
+
+#norse-mythology {
+  	display: inline-block;
+  	margin: 0 2%;
+  	width: 60%;
+  	float: right;
+  	text-align: justify;
+  	padding-bottom: 10px;
+}
+
+#sidebar {
+	display: inline-block;
+	margin: 0 2%;
+	width: 30%;
+	float: left;
+	text-align: center
+}
+
+.sidebar-nav {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+#seeds {
+	display: block;
+    margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-left: -30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #815b4e;
+    font-weight: bold;
+    font-family: "Inknut Antiqua", serif;
+    margin-left: -10px;
+}
+	
+
 
 
 
