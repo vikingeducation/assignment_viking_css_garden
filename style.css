@@ -2,9 +2,163 @@
  * Your Styles Here
  * ----------------------------------- */
 
+ /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+   License: none (public domain)
+ */
 
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+   display: block;
+ }
+ body {
+   line-height: 1;
+ }
+ ol, ul {
+   list-style: none;
+ }
+ blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+   content: '';
+   content: none;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
 
+ /*
+   Grid
+ */
 
+ *,
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+ }
 
+ /* Clearfix */
 
- 
+ #sidebar::before,
+ #sidebar::after,
+ #main-content::before,
+ #main-content::after,
+ #main-header::before,
+ #main-header::after {
+   display: table;
+   content: " ";
+ }
+ #sidebar::after,
+ #main-content::after,
+ #main-header::after  {
+   clear: both;
+ }
+
+/* HEADER */
+header {
+  background-color: rgb(156, 213, 169);
+  height: 135px;
+  position: relative;
+}
+
+.site-title {
+  background-color: rgb(54, 152, 76);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 50px;
+  float: left;
+  border-radius: 50px;
+}
+.tagline {
+  left: 40px;
+  margin: 25px 10px 25px 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  text-transform: lowercase;
+  font-style: italic;
+  float:left;
+}
+
+/* MAIN CONTENT */
+
+p {
+  font-size: 20px;
+  color: #808080;
+  padding: 30px 30px 30px 30px;
+  line-height: 25px;
+  background-color: rgb(216, 238, 221);
+
+}
+
+.section-title {
+  position: static;
+  margin: 20px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  font-family: Georgia;
+  font-style: italic;
+  background-color: rgb(99, 186, 118);
+  border-radius: 50px;
+}
+
+.section-content {
+  padding: 30px 40px 44px 220px;
+}
+
+#main-content {
+margin: 0 auto;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+main-content-section {
+  padding: 30px;
+}
+
+.citation {
+  position: static;
+  margin-bottom: 15px;
+  float: right;
+  display: inline;
+}
+
+/*LINKS*/
+
+#sidebar {
+  margin-left: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  color: rgb(19, 60, 130);
+}
+
+a:hover {
+  color: rgb(8, 42, 101);
+}
