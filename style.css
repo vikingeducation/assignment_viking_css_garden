@@ -1,10 +1,155 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Satisfy');
+
+
+/* HTML reset */
+ HTML {
+	background: white;
+	font-family: Helvetica, "Time New Roman", sans-serif;
+}
+
 /* ----------------------------------- *
- * Your Styles Here
+ * Background
  * ----------------------------------- */
 
+HTML {
+	background: linear-gradient(to top right, #b6d7a8, white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1410px;
+  min-height: 2000px;
+}
+
+/* ----------------------------------- *
+ * Header & Title Styles
+ * ----------------------------------- */
+
+#main-header {
+  text-align: center;
+}
+
+.site-title {
+  color: #b6d7a8;
+	font-family: "Satisfy";
+	font-size: 90px;
+  margin: 50px 0px 0 0;
+  font-style: italic;
+}
+
+.tagline {
+  color: #FFAAAA;
+  font-family: "Lobster";
+  font-size: 28px;
+  margin: -30px 0 0 200px;
+}
+
+/* ----------------------------------- *
+ * Main Content Styles
+ * ----------------------------------- */
+
+#main-content {
+  width: 1000px;
+  float: left;
+  margin: 50px 0 20px 70px;
+}
+
+.main-content-section {
+  background: #DDEBCD;
+  border: 4px solid #FFAAAA;
+  margin: 30px 0 0 10px;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Satisfy";
+  font-size: 41px;
+  font-style: italic;
+  color: #FFAAAA;
+}
+
+.section-content {
+  margin: 0 45px 30px 45px;
+  line-height: 28px;
+  font-size: 18px;
+  text-indent: 25px;
+  font-family: "Comfortaa";
+  color: #63744F;
+}
+
+.citation {
+  background: rgba(79, 130, 149, .3);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin: -50px -20px 100px 0;
+  font-family: "Comfortaa";
+  color: #63744F;
+  text-align: center;
+  font-size: 25px;
+  line-height: 37px;
+  border: 2px solid #63744F;
+  font-weight: 900;
+}
+
+.citation a {
+  color: #63744F;
+}
+
+/* ----------------------------------- *
+ * Sidebar Styles
+ * ----------------------------------- */
+
+#sidebar {
+  text-align: center;
+  margin: 20px 0px 0 20px;
+  width: 300px;
+  float: left;
+}
+
+#sidebar .section-title {
+  background: #DDEBCD;
+  border: 4px solid #FFAAAA;
+  font-size: 40px;
+  font-family: "Satisfy";
+  font-style: italic;
+  color: #FFAAAA;
+  margin-top: 60px;
+  line-height: 100px;
+}
+
+#sidebar li {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  list-style-type: none;
+  border: 2px solid #b6d7a8;
+}
+
+#sidebar .nav-link-list-item:hover {
+  outline: 8px solid #b6d7a8;
+}
 
 
+#sidebar li:nth-child(odd){
+  margin: 0 20px 10px 0;
+  background: linear-gradient(to top right, white, #FFAAAA);
+}
 
+#sidebar li:nth-child(even){
+  margin: 0 20px 10px 120px;
+  background: linear-gradient(to top right, white, #FDFC6F);
+}
 
-
- 
+.nav-link {
+  position: relative;
+  top: 23px;
+  text-decoration: none;
+  font-family: "Comfortaa";
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  font-weight: 900;
+  color: #6F8E4B;
+}
