@@ -148,6 +148,7 @@ cite .citation{
  margin: 1em;
 }
 
+/*Page Column Layout*/
 #last-para{
   column-count: 3;
   column-rule-style: solid;
