@@ -3,8 +3,157 @@
  * ----------------------------------- */
 
 
+/*Base Styles*/
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background-image: url('vcs_logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+#main-header{
+  margin: 0.5em auto;
+  text-align: center;
+}
+
+#main-header h1{
+ color: #000000;
+ font-size: 3em;
+ text-shadow: 2px 2px white;
+}
+
+#main-header h1::first-letter{
+  background-color: #990000;
+  border: 1px solid black;
+  text-shadow: 1px 1px white;
+}
+
+#main-header h2{
+  line-height: .7;
+}
+
+#main-header h2::first-letter{
+  background-color: #000000;
+  border: 1px solid #990000;
+  color: #990000;
+  text-shadow: 1px 1px white;
+}
+
+h2{
+ font-size: 2em;
+ line-height: 2;
+ text-shadow: 2px 2px white;
+}
+
+#first-sub{
+ color: #990000;
+}
+
+p::first-letter{
+  background-color: #000000;
+  border: 1px solid #990000;
+  color: #990000;
+  font-size: 2em;
+  font-weight: 900;
+  font-style: italic;
+  text-shadow: 1px 1px white;
+}
 
 
+hr{
+  background-color: #990000;
+  height: 1px;
+  opacity: .3;
+  width: 60%;
+}
 
+#other-garden{
+  color: #000000;
+}
 
- 
+#other-garden::first-letter{
+  background-color: #000000;
+  color: #990000;
+  border: 1px solid#990000;
+  font-size: 1.5em;
+}
+/*Main Section*/
+.main-content-section{
+  margin-top: 5em;
+}
+/**/
+.main2-content-section{
+  width: 80vw;
+  height: 100vh;
+}
+
+#first-para{
+  width: 65%;
+}
+/*Sidebar Navigation*/
+#sidebar{
+  border-radius: 40%;
+  border: 1px solid #ffffff;
+  display: relative;
+  height: 95vh;
+  padding-left: 1em;
+  padding-right: 2em;
+  position: absolute;
+  top: 25%;
+  right: .5%;
+  line-height: 4;
+  text-align: center;
+  width: 17%;
+}
+
+#other-garden{
+  display: absolute;
+  top: 2em;
+  right: 1.5em;
+  line-height: 1;
+}
+
+.nav-link-list-item{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 40%;
+  margin: 3px;
+  font-family: Roman;
+  line-height: 3em;
+  font-size: .6em;
+  list-style-type: none;
+}
+
+.nav-link{
+  color: #000000;
+  text-decoration: none;
+}
+
+li:hover{
+  transform:scale(2,2);
+}
+
+cite .citation{
+ font-size: 1em;
+ font-weight: 900;
+ font: italic;
+ margin: 1em;
+}
+
+/*Page Column Layout*/
+#last-para{
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: #cccccc;
+  column-rule-width: 1px;
+  column-width: 20%;
+  column-gap: 1em;
+}
