@@ -1,0 +1,10 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+*{
+  box-sizing: border-box;
+}
+
+header #main-header{
+  background-color: blue;
+}
