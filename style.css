@@ -2,9 +2,48 @@
  * Your Styles Here
  * ----------------------------------- */
 
+html {
+  font-family: Helvetica, sans-serif;
+}
 
+#main-header {
+  background: #7A90CF;
+  color: white;
+  padding: 15px;
+  line-height: 30px;
+  border: 1px solid #999999;
+}
 
+.tagline {
+  font-style: italic;
+  font-weight: lighter;
+}
 
+#main-content {
+  border: 1px solid #999999;
+  padding: 15px;
+  line-height: 35px;
+  color: #555555;
+}
+#main-content p {
+  font-size: 25px;
+}
 
+#sidebar {
+  padding: 15px;
+  line-height: 30px;
+  border: 1px solid #999999;
+  color: #555555;
+}
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+}
 
- 
+ul {
+  list-style-type: square;
+}
+
+a {
+  color: #7A90CF;
+}
