@@ -1,10 +1,8 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+html {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 20px;
+}
 
-
-
-
-
-
- 
+h1, h2 {
+  font-family: 'Inknut Antiqua', serif;
+}
