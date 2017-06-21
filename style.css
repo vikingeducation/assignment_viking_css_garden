@@ -22,7 +22,7 @@ html, body {
 width:auto;
 min-height: 100%;
 text-align: center;
-/*background-image:url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png);
+/*background-image:url(celtictreeoflife.png);
   background-size: 175px 155px;
   background-position:4% 97%;
   background-repeat: no-repeat;
@@ -113,12 +113,12 @@ p::first-letter{
 
 .aside-1 {
   background: rgba(34,50,86,0.2); /*fallback*/
- background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png) bottom left   no-repeat padding-box, -webkit-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
-  background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png)bottom left  no-repeat padding-box, -o-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
-  background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png) bottom left  no-repeat padding-box, -moz-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
-  background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png) bottom left  no-repeat padding-box, linear-gradient(rgba(34,50,86,0.6), rgba(34,50,86,0.2));
+ background: url(celtictreeoflife.png) bottom left   no-repeat padding-box, -webkit-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
+  background: url(celtictreeoflife.png)bottom left  no-repeat padding-box, -o-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
+  background: url(celtictreeoflife.png) bottom left  no-repeat padding-box, -moz-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
+  background: url(celtictreeoflife.png) bottom left  no-repeat padding-box, linear-gradient(rgba(34,50,86,0.6), rgba(34,50,86,0.2));
  background-size: 165px 145px, cover;
- /*background-image:url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png);
+ /*background-image:url(celtictreeoflife.png);
   background-size: 175px 155px;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ p::first-letter{
 
 .aside-2 {
   background: rgba(34,50,86,0.2);
-  background-image:url(/home/melissa/viking/projects/css/assignment_viking_css_garden/norway-latefossen.jpg), url(/home/melissa/viking/projects/css/assignment_viking_css_garden/norway-spring.jpg), url(/home/melissa/viking/projects/css/assignment_viking_css_garden/lake.jpg);
+  background-image:url(norway-latefossen.jpg), url(norway-spring.jpg), url(lake.jpg);
      background-repeat: no-repeat;
      background-position:top center, center center, bottom center;
      background-size: 450px 420px, 450px 450px, 450px 450px;
