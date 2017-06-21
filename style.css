@@ -1,10 +1,201 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+@import "compass/css3";
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+        margin: 0;
+        padding: 0;
+        color: #222;
+        }
 
 
 
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+width:auto;
+min-height: 100%;
+text-align: center;
+/*background-image:url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png);
+  background-size: 175px 155px;
+  background-position:4% 97%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;*/
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+
+}
+
+.header {
+  background:#223265;
+}
+.site-title {
+  text-align: center;
+     color: #ffffff;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+padding-bottom: 0;
+margin-bottom: 0;
+border-bottom: 2px solid white;
+text-shadow: lavender 3px 3px 5px;
+font-variant: small-caps;
+margin-top: 0;
+padding-top: 0;
+
+}
+.tagline {
+    font-family:Tangerine, bookman, serif;
+     color: white;
+     font-size: 57px;
+     text-align: center;
+     font-weight: 200;
+     margin-top: 0;
+     padding-top: 5px;
+     margin-bottom:0;
+     padding-bottom: 0;
+
+   }
 
 
+.main {
+display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  text-align: right;
+  background: rgba(34,50,86,0.2);
+  padding-bottom: 2em;
 
- 
+}
+
+.section-title{
+
+     color: #112145;
+     font-size: 2.5em;
+     font-family:"EB Garamond", Georgia, 'Times New Roman', Times, serif;
+padding-top: 0;
+
+ }
+ .main .section-title{
+   text-align: left;
+   padding-left: 15px;
+ }
+ p{
+   width: 95%;
+   height: auto;
+    font-family:"love Ya Like A Sister", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px;
+    letter-spacing: 0.03em;
+    font-weight: 100;
+    text-align: left;
+}
+p::first-letter{
+  font-size: 2em;
+  font-weight: 600;
+  color: #223256;
+  margin-left: 30px;
+  line-height: 1em;
+}
+
+
+.aside-1 {
+  background: rgba(34,50,86,0.2); /*fallback*/
+ background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png) bottom left   no-repeat padding-box, -webkit-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
+  background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png)bottom left  no-repeat padding-box, -o-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
+  background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png) bottom left  no-repeat padding-box, -moz-linear-gradient(rgba(34,50,86,0.6),rgba(34,50,86,0.2));
+  background: url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png) bottom left  no-repeat padding-box, linear-gradient(rgba(34,50,86,0.6), rgba(34,50,86,0.2));
+ background-size: 165px 145px, cover;
+ /*background-image:url(/home/melissa/viking/projects/css/assignment_viking_css_garden/celtictreeoflife.png);
+  background-size: 175px 155px;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-origin: padding-box;*/
+
+}
+
+.aside-2 {
+  background: rgba(34,50,86,0.2);
+  background-image:url(/home/melissa/viking/projects/css/assignment_viking_css_garden/norway-latefossen.jpg), url(/home/melissa/viking/projects/css/assignment_viking_css_garden/norway-spring.jpg), url(/home/melissa/viking/projects/css/assignment_viking_css_garden/lake.jpg);
+     background-repeat: no-repeat;
+     background-position:top center, center center, bottom center;
+     background-size: 450px 420px, 450px 450px, 450px 450px;
+     background-origin:content-box;
+     border: 5px, lightgrey;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+
+}
+
+.citation{
+  font-size: 1.8em;
+  padding-top: 1em;
+  }
+.citation a{
+  text-decoration:none;
+  color:#223256;
+
+}
+.citation a:hover{
+  color:#7b2323;
+}
+
+#sidebar {
+  background: rgba(34,50,86,0.2);
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-links{
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+}
+li {
+  display: inline-block;
+padding-bottom: 1em;
+}
+li a{
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 100%;
+
+}
+li a:hover:not(active){
+  background-color: #aaa;
+  color: #7b2323;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 0 0;
+  }
+}
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  #sidebar { order: 4; }
+}
