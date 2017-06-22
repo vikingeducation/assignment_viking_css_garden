@@ -1,1 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
+body {
+  background: linear-gradient(to right, rgb(21, 153, 87), rgb(21, 87, 153));
+  font-family: 'Bubbler One', sans-serif;
+}
+
+#main-header {
+  width:75%
+}
+
+h1.site-title {
+  display: block;
+  height: 68px;
+  font-size: 68px;
+}
+
+h2.tagline {
+  padding-top: 10px;
+  position: relative;
+  padding-left: 661px;
+  font-size: 22px;
+}
+
+main section h2 {
+  font-size: 28px;
+  /*padding-top: 50px;*/
+
+}
+
+h2.section-title {
+}
+
+#garden {
+  border-top: 1px black solid;
+  padding-bottom:40px
+}
+
+#garden p {
+  padding-top: 10px;
+}
+
+.main-content-section {
+  display: inline-block;
+  width: 74%;
+  float:left;
+  border-right: 1px black solid;
+}
+
+aside {
+  display: inline-block;
+  width: 19%;
+  float: right;
+  position: absolute;
+  margin-top: -11px;
+  margin-left: -47px;
+}
+
+aside div {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    left: 91px;
+    padding-top: 18px;
+}
+
+aside h2 {
+  font-size: 27px;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a.nav-link {
+  color: black;
+}
+
+a.nav-link:hover {
+  color:rgb(255,255,102);
+}
