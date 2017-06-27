@@ -2,9 +2,57 @@
  * Your Styles Here
  * ----------------------------------- */
 
+* {
+  font-family: 'Norse', 'Nunito','Times New Roman', monospace, 'Courier New';
+  color: #ccc;
+  font-size: 22px;
+}
+
+body {
+  background-image: url("/assests/backgrounds/journal_gen.png");
+  background-repeat: repeat;
+
+  padding-left: 10px;
+}
 
 
+#main-header {
+  background: linear-gradient(#514730, #8e7e5b);
+  border: 4px solid #999;
+}
+#main-content {
+  padding-left: 10px;
+  width: 67%;
+  float: left;
+}
+#sidebar {
+  position: fixed;
+  right: 4%;
+  padding: 0px;
+  width: 20%;
+  border-left: 4px solid #999;
+  border-right: 4px solid #999;
+  background-color: #8e7e5b;
+  background: linear-gradient(#514730, #8e7e5b);
+}
 
-
-
- 
+/*make the sidebar a fancy navbar thing*/
+.nav-links{
+  padding: 0px;
+  margin: 0px;
+}
+.nav-link-list-item{
+  text-align: left;
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  padding-left: 10px;
+  border-left: 8px solid transparent;
+  transition: border .5s;
+  color: #FF750B;
+}
+.nav-link-list-item a:hover{
+  color: #EE6700;
+  border-color: #EE6700;
+}

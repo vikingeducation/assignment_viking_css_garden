@@ -1,0 +1,6 @@
+/* testing these fonts, pare them down later */
+/*FONTS*/
+@font-face {
+  font-family: "Norse";
+  src: url( "fonts/norse/norse/Norse.woff" );
+}
