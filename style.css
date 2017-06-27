@@ -2,9 +2,103 @@
  * Your Styles Here
  * ----------------------------------- */
 
+* {
+  font-family: 'Norse', 'Nunito','Times New Roman', monospace, 'Courier New';
+  color: #ccc;
+  font-size: 22px;
+  padding-left: 22px;
+}
+
+h {
+  font-family: 'Nunito', 'Raleway', monospace;
+}
+
+body {
+  /*background-color: #13C300;*/
+  /*background-image: url("/assests/backgrounds/journal_3.jpg");
+  background-image: url("/assests/backgrounds/thor.jpg");
+  */
+  /*background-image: url("thor_2.jpg");*/
+
+  /* shitty, aspect-ratio destroyed journal background
+  background-image: url("/assests/backgrounds/journal_fill.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+  /* moderately shitty, computer gen'd journal 'eske' background*/
+  background-image: url("/assests/backgrounds/journal_gen.png");
+  background-repeat: repeat;
+
+}
 
 
+#main-header {
+  /*
+  background: linear-gradient(#49DE3A, #0B7900);
+  background: linear-gradient(#FF9443, #944000);
+  */
+
+  /*
+  border: 10px solid #999;
+  border: 10px solid #0F9D00;
+  border-radius: 5px;
+  */
+}
+#main-content {
+  /*background-color: #0F9D00;*/
+  width: 67%;
+  /*float:left;*/
+}
+#sidebar {
+  /*option 1, float it; option 2 scroll it */
+  /*float: right;*/
+
+  /*
+  position: fixed;
+  right: 0%;
+  */
+
+  width: 33%;
+  /*background-color: #FC0B17;
+  background-color: #D60985;*/
+  /*background-color: #910007;*/
+}
+/*
+aside {
+  float: right;
+  position: absolute;
+  background-color: #FC0B17;
+  background-color: #D60985;
+}
+*/
+/*
+#main-content {
+  float: right;
+}
+#sidebar {
+  float: left;
+}
+*/
+
+/*make the sidebar a fancy navbar thing*/
 
 
+.nav-links{
+  padding: 0px;
+  margin: 0px;
+}
+.nav-link-list-item{
+  /*display: block;*/
 
- 
+  text-align: left;
+}
+.nav-link {
+  text-decoration: none;
+  border-right: 8px solid transparent;
+  transition: border .5s;
+  color: #FC0B17;
+}
+.nav-link-list-item a:hover{
+  color: #D60985;
+  border-color: #D60985;
+}
