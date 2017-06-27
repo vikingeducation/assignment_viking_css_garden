@@ -6,99 +6,53 @@
   font-family: 'Norse', 'Nunito','Times New Roman', monospace, 'Courier New';
   color: #ccc;
   font-size: 22px;
-  padding-left: 22px;
-}
-
-h {
-  font-family: 'Nunito', 'Raleway', monospace;
 }
 
 body {
-  /*background-color: #13C300;*/
-  /*background-image: url("/assests/backgrounds/journal_3.jpg");
-  background-image: url("/assests/backgrounds/thor.jpg");
-  */
-  /*background-image: url("thor_2.jpg");*/
-
-  /* shitty, aspect-ratio destroyed journal background
-  background-image: url("/assests/backgrounds/journal_fill.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  */
-  /* moderately shitty, computer gen'd journal 'eske' background*/
   background-image: url("/assests/backgrounds/journal_gen.png");
   background-repeat: repeat;
 
+  padding-left: 10px;
 }
 
 
 #main-header {
-  /*
-  background: linear-gradient(#49DE3A, #0B7900);
-  background: linear-gradient(#FF9443, #944000);
-  */
-
-  /*
-  border: 10px solid #999;
-  border: 10px solid #0F9D00;
-  border-radius: 5px;
-  */
+  background: linear-gradient(#514730, #8e7e5b);
+  border: 4px solid #999;
 }
 #main-content {
-  /*background-color: #0F9D00;*/
+  padding-left: 10px;
   width: 67%;
-  /*float:left;*/
-}
-#sidebar {
-  /*option 1, float it; option 2 scroll it */
-  /*float: right;*/
-
-  /*
-  position: fixed;
-  right: 0%;
-  */
-
-  width: 33%;
-  /*background-color: #FC0B17;
-  background-color: #D60985;*/
-  /*background-color: #910007;*/
-}
-/*
-aside {
-  float: right;
-  position: absolute;
-  background-color: #FC0B17;
-  background-color: #D60985;
-}
-*/
-/*
-#main-content {
-  float: right;
-}
-#sidebar {
   float: left;
 }
-*/
+#sidebar {
+  position: fixed;
+  right: 4%;
+  padding: 0px;
+  width: 20%;
+  border-left: 4px solid #999;
+  border-right: 4px solid #999;
+  background-color: #8e7e5b;
+  background: linear-gradient(#514730, #8e7e5b);
+}
 
 /*make the sidebar a fancy navbar thing*/
-
-
 .nav-links{
   padding: 0px;
   margin: 0px;
 }
 .nav-link-list-item{
-  /*display: block;*/
-
   text-align: left;
+  list-style-type: none;
 }
 .nav-link {
   text-decoration: none;
-  border-right: 8px solid transparent;
+  padding-left: 10px;
+  border-left: 8px solid transparent;
   transition: border .5s;
-  color: #FC0B17;
+  color: #FF750B;
 }
 .nav-link-list-item a:hover{
-  color: #D60985;
-  border-color: #D60985;
+  color: #EE6700;
+  border-color: #EE6700;
 }
