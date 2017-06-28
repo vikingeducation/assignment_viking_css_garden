@@ -1,10 +1,172 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+ /* CSS reset */
+html, html * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
 
+body {
+	line-height: 1;
+}
 
+ol, ul {
+	list-style: none;
+}
 
+blockquote, q {
+	quotes: none;
+}
 
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+ }
+/* End of CSS reset */
+/* ...Header... */
+@font-face {
+	font-family: Viking;
+	src: url("Viking-Normal.otf");
+}
 
- 
+html {
+	background-image: url("oldmap2.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -999;
+}
+
+#main-header {
+	width: 1200px;
+	height: 250px;
+	margin: auto; 
+	border-top: 20px solid rgba(65, 117, 117, 0.95);
+	background-image: linear-gradient(rgba(12, 40, 40, 0.97), rgba(60, 92, 92, 0.97));
+	/* background-image: url("hammer.jpg"); 
+	background-position: right top;
+	background-repeat: no-repeat; */
+}
+
+.site-title {
+	font-family: Viking;
+	font-size: 62px;
+	color: rgb(240, 240, 250);
+	margin: 50px 0 0 40px;
+}
+
+.tagline {
+	font-family: Arial;
+	padding-top: 50px;
+	margin-left: 47px;
+	font-size: 28px;
+	color: rgb(240, 240, 250);
+}
+
+/* ...Main Section ...*/
+#main-content {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	background-color: rgba(5, 16, 16, 0.92);
+	padding-bottom: 50px;
+}
+
+.section-title, .section-content, .citation {
+	color: rgb(240, 240, 250);
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.section-title:first-child {
+	padding-top: 100px;
+}
+
+.section-title {
+	padding-bottom: 2.0em;
+	font-family: Viking;
+	font-size: 24px;
+}
+
+.section-content {
+	line-height: 1.5em;
+	font-family: Arial;
+}
+
+.section-content p {
+	padding-bottom: 1.5em;
+}
+
+.citation a {
+	padding-left: 15px;
+}
+
+.citation a:hover {
+	color: #FDD700;
+}
+/* ...Sidebar - Nav... */
+#sidebar {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	background-image: linear-gradient(rgba(12, 40, 40, 0.97), rgba(60, 92, 92, 0.97));
+	border-bottom: 20px solid rgba(65, 117, 117, 0.95);
+}
+
+#sidebar .section-title {
+	padding-top: 75px;
+}
+
+.sidebar-nav {
+	margin-bottom: 50px
+}
+
+.nav-link {
+	text-decoration: none;
+	color: rgb(240, 240, 250);
+	transition-property: color, font-size;
+	transition-duration: 0.3s;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.nav-link:hover {
+	font-size: 22px;
+	color: #FDD700;
+}
+
+.nav-link-list-item {
+	display: flex;
+	line-height: 1.5em;
+}
+
+.nav-link-list-item:before {
+	font-family:'FontAwesome';
+	content:"\f11d";
+	float:left;
+	width:1.3em;
+	color:#FDD700;
+	font-size:20px;
+}
+
+.nav-links {
+	column-count: 3;
+	column-gap: 165px; 
+	column-rule: 3px solid rgb(105, 105, 105);
+	/* column-width: 200px; */
+	padding-left: 150px;
+	padding-right: 140px;
+}
