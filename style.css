@@ -1,6 +1,264 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+.clear-fix {
+	clear: both;
+}
+
+span.green {
+	color: #0D754B;
+	
+	text-transform: uppercase;
+}
+
+span.red {
+	color: #CC0026;
+	
+	text-transform: uppercase;
+}
+
+#main-header {
+	
+	background: url(https://static.pexels.com/photos/207301/pexels-photo-207301.jpeg) no-repeat fixed center;
+	background-size: cover;
+	color: #879B00;
+	text-align: center;
+	font-weight: bolder;
+	font-family: 'Roboto Slab', serif;
+	height: 500px;
+	
+	}
+
+.inner-content {
+	background-color: rgba(0,0,0,0.7);
+	height: 500px;
+	
+	
+}
+
+.site-title {
+	padding-top: 150px;
+	font-size: 60px;
+	
+}
+
+.tagline {
+	font-size: 30px;
+	padding-top: 25px;
+}
+
+/* Growing Gareden Section */
+
+.section-title {
+	
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #218736;
+}
+
+.section p {
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.7);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
+
+.section img {
+	width: 20%;
+}
+
+/* Decription Section */
+
+.section  {
+	text-align: center;
+	
+}
+
+.line {
+	width: 15%;
+	border-top: 3px solid rgba(9,185,54,0.7);
+}
+
+
+.description {
+	background-color: #eeeeee;
+	height: 1000px;
+	padding-bottom: 50px;
+	
+}
+
+.content {
+	
+	line-height: 1.1;
+	font-family: 'Arvo', serif;
+
+
+}
+.content .para1 {
+	color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	float: left;
+	width: 70%;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+.content .hammer {
+	float: right;
+	width: 20%;
+	padding-right: 70px;
+}
+
+.content .thor {
+	float: left;
+	width: 30%;
+	padding-top: 20px;
+}
+.content .para2 {
+	color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	float: right;
+	width: 60%;
+	padding-top: 50px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+
+
+/* Parellex effect */
+
+.parellex {
+	background: url(https://www.videvo.net/videvo_files/images/Raindrops_Videvo.jpg) no-repeat fixed center;
+	height: 600px;
+	
+}
+
+
+
+
+.garden-title {
+	
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: rgba(0,0,0,0.7);
+	font-weight: bolder;
+}
+
+.gardens {
+	padding-left: 75px;
+	padding-top: 30px;
+
+}
+
+.garden img {
+	width: 400px;
+	height: 200px;
+	float: left;
+	
+	
+}
+
+.garden img:hover {
+	opacity: 0.8;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+	height: 160px;
+	background-color: #217563;
+	text-align: center;
+
+}
+
+footer img {
+	padding-top: 30px;
+}
+
+footer p {
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	padding-top: 10px; 
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px)  {
+	#main-header {
+		text-align: center;
+		width: 100%;
+		background-size: 100% 100%;
+	}
+	.inner-content {
+		height: 500px;
+
+	}
+
+	.site-title {
+		font-size: 30px;
+		padding-top: 200px;
+		
+	}
+
+	.tagline {
+		font-size: 15px;
+		
+	}
+
+	.description,
+	.parellex {
+		height: auto;
+	}
+	
+
+	.content .para1,
+
+	.content .para2 {
+		float: none;
+		text-align: center;
+		width: 100%;
+		font-size: 15px;
+		padding: 0;
+	}
+
+	.content .hammer,
+	.content .thor {
+		float: none;
+		text-align: center;
+		width: 50%;
+		margin: auto;
+		display: none;
+	}
+
+	.gardens {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+	.garden img {
+		float: none;
+		width: 100%;
+	}
+
+}
+
+
+
 
 
 
