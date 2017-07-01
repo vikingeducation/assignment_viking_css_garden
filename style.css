@@ -1,10 +1,30 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+#greeting {
+  float: right; }
 
+.site-title {
+  position: absolute;
+  /* or absolute */
+  top: 5%;
+  left: 50%; }
 
+.animated {
+  height: 200px;
+  width: 200px;
+  content: url("pixelDirt.png");
+  src: url("pixelDirt.png");
+  position: relative; }
 
+.animated:active {
+  content: url("pixelFlower.png");
+  src: url("pixelFlower.png"); }
 
+.hiddenText {
+  position: absolute;
+  /* or absolute */
+  top: 100%;
+  left: 100%;
+  height: 0px;
+  line-height: 0px;
+  overflow: hidden; }
 
-
- 
+/*# sourceMappingURL=style.css.map */
