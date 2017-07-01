@@ -1,10 +1,7 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
-
-
-
-
-
-
- 
+{
+"version": 3,
+"mappings": "AAMA,SAAU;EACR,KAAK,EAAE,KAAK;;AAEd,WAAY;EACV,QAAQ,EAAE,QAAQ;EAAI,iBAAiB;EACvC,GAAG,EAAE,EAAE;EACP,IAAI,EAAE,GAAG;;AAEX,SAAU;EACR,MAAM,EAAE,KAAK;EACb,KAAK,EAAC,KAAK;EACX,OAAO,EAAC,oBAAU;EAClB,GAAG,EAAE,oBAAU;EACf,QAAQ,EAAE,QAAQ;;AAGpB,gBAAiB;EACjB,OAAO,EAAC,sBAAY;EACpB,GAAG,EAAE,sBAAY;;AAGjB,WAAW;EACT,QAAQ,EAAE,QAAQ;EAAI,iBAAiB;EACvC,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,IAAI;EACV,MAAM,EAAE,GAAG;EACX,WAAW,EAAE,GAAG;EAClB,QAAQ,EAAE,MAAM",
+"sources": ["style.scss"],
+"names": [],
+"file": "style.css"
+}
