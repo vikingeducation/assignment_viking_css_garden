@@ -1,7 +1,30 @@
-{
-"version": 3,
-"mappings": "AAMA,SAAU;EACR,KAAK,EAAE,KAAK;;AAEd,WAAY;EACV,QAAQ,EAAE,QAAQ;EAAI,iBAAiB;EACvC,GAAG,EAAE,EAAE;EACP,IAAI,EAAE,GAAG;;AAEX,SAAU;EACR,MAAM,EAAE,KAAK;EACb,KAAK,EAAC,KAAK;EACX,OAAO,EAAC,oBAAU;EAClB,GAAG,EAAE,oBAAU;EACf,QAAQ,EAAE,QAAQ;;AAGpB,gBAAiB;EACjB,OAAO,EAAC,sBAAY;EACpB,GAAG,EAAE,sBAAY;;AAGjB,WAAW;EACT,QAAQ,EAAE,QAAQ;EAAI,iBAAiB;EACvC,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,IAAI;EACV,MAAM,EAAE,GAAG;EACX,WAAW,EAAE,GAAG;EAClB,QAAQ,EAAE,MAAM",
-"sources": ["style.scss"],
-"names": [],
-"file": "style.css"
-}
+#greeting {
+  float: right; }
+
+.site-title {
+  position: absolute;
+  /* or absolute */
+  top: 5%;
+  left: 50%; }
+
+.animated {
+  height: 200px;
+  width: 200px;
+  content: url("pixelDirt.png");
+  src: url("pixelDirt.png");
+  position: relative; }
+
+.animated:active {
+  content: url("pixelFlower.png");
+  src: url("pixelFlower.png"); }
+
+.hiddenText {
+  position: absolute;
+  /* or absolute */
+  top: 100%;
+  left: 100%;
+  height: 0px;
+  line-height: 0px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
