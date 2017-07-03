@@ -62,7 +62,40 @@ a{
 
 }
 
+
+
+@media(min-width: 921px){
+
+@keyframes header{
+	from{
+	width: 0%;
+	height: 0%;
+	background: none;
+    /*-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+	padding: 0%;
+	text-align: center;
+	font-size: 1em;
+	position: fixed;
+	color: black;
+}
+	to{
+	width: 100%;
+	height: 20%;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/2/21/20090510_Shanghai_Yuyan_6689.jpg") no-repeat;
+    /*-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+	padding: 1%;
+	text-align: center;
+	font-size: 2em;
+	position: fixed;
+	color: white;
+}
+}
 #main-header{
+	animation-name: header;
+	animation-duration: 1s;
+	animation-iteration-count: 1; 
 	width: 100%;
 	height: 20%;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/2/21/20090510_Shanghai_Yuyan_6689.jpg") no-repeat;
@@ -133,6 +166,84 @@ li {
 
 li:hover{
 	background: black;
+}
+}
+
+@media(max-width: 920px){
+
+	#main-header{
+	width: 100%;
+	height: 10%;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/2/21/20090510_Shanghai_Yuyan_6689.jpg") no-repeat;
+    /*-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+	padding: 1%;
+	text-align: center;
+	font-size: 1em;
+	margin-top:10%;
+	position: fixed;
+	color: white;
+}
+
+#main-content{
+	position: relative;
+	margin-top: 20%;
+	width: 100%;
+	height: 100%;
+	background: rgb(200,255,255);
+    background: -webkit-linear-gradient(rgb(200,255,255), white);
+    background:    -moz-linear-gradient(rgb(200,255,255), white);
+    background:         linear-gradient(rgb(200,255,255), white);
+}
+.section-title{
+	width: 100%;
+	font-size: 20px;
+	background: purple;
+	background: -webkit-linear-gradient(white, rgb(200,255,255));
+    background:    -moz-linear-gradient(white, rgb(200,255,255));
+    background:         linear-gradient(white, rgb(200,255,255));
+	color: blue;
+	padding: 2%;
+	font-family: cursive;
+	text-align: center;
+	font-weight: 900;
+}
+.section-content{
+	padding: 2%;
+}
+
+#sidebar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 20%;
+	margin: auto;
+	background: rgb(255,100 ,255);
+	background: -webkit-linear-gradient(rgb(200,255,255), rgb(255,200 ,255));
+    background:    -moz-linear-gradient(rgb(200,255,255), rgb(255,200 ,255));
+    background:         linear-gradient(rgb(200,255,255), rgb(255,200 ,255));
+}
+
+#sidebar a:hover{
+	color: white;
+}
+
+.nav-links{
+/*	padding:7% 4% 4% 4% ;*/
+}
+
+li {
+  display: inline-block;
+  width: 13%;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/2/21/20090510_Shanghai_Yuyan_6689.jpg") 0 .1% no-repeat;
+  list-style-type: none;
+  border-radius: 10px;
+  color: white;
+}
+
+li:hover{
+	background: black;
+}
 }
 
 
