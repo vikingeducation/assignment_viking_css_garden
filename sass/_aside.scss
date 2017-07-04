@@ -1,0 +1,53 @@
+@import "queries";
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  a, img {
+    display: block;
+  }
+  img {
+    width: 60%;
+    margin: 0 auto 0 auto;
+    padding: 0.5rem;
+    height: auto;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+  }
+  img:hover {
+    filter: unset;
+    width: 95%;
+    transition-duration: 0.5s;
+  }
+  img, img:hover {
+    @include tablet {
+      width: 100%;
+      padding: 1rem 0 0 0;
+    }
+  }
+  @include tablet {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+  }
+  @include phone {
+    width: 80%;
+    margin: 2% 10%;
+  }
+}
+
+aside {
+  width: 30%;
+  float: right;
+  @include desktop {
+    width: 40%;
+  }
+  @include tablet {
+    width: 100%;
+  }
+}
