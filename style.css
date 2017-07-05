@@ -1,21 +1,8 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+
 .clear-fix {
 	clear: both;
 }
 
-span.green {
-	color: #0D754B;
-	
-	text-transform: uppercase;
-}
-
-span.red {
-	color: #CC0026;
-	
-	text-transform: uppercase;
-}
 
 #main-header {
 	
