@@ -1,3 +1,54 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*CSS RESET*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
@@ -30,10 +81,11 @@ body, header {
   font-family: 'Vollkorn', serif;
   background-color: white;
   width: 100%;
-  font-size: 24px;
+  font-size: 40px;
   display: inline-block;
   margin-right: auto;
   box-shadow: 1px 1px 3px #888888;
+  padding: 5px;
 }
 
 #main-header h1{
@@ -41,6 +93,7 @@ body, header {
   margin-top: 5px;
   font-size-adjust: auto;
   display: inline-block;
+  padding: 5px;
 }
 
 #main-header h2 {
@@ -54,7 +107,9 @@ body, header {
 }
 
 cite {
-  padding-left: 200px;
+  padding-left: 150px;
+  margin: 20px;
+  font-size: 18px
 }
 
 cite a {
@@ -83,21 +138,25 @@ cite a:hover {
   border-width: 1px;
   border-color: grey;
   font-size: 14px;
-  padding: 5px
-
+  padding: 5px;
+  line-height: 150%;
 }
 
 .box-section h2 {
-  font-size: 16px;
+  font-size: 22px;
 
 }
 
 .article {
   margin-right: 40%;
   margin-left: 5%;
+  line-height: 150%;
+  padding-bottom: 20px;
+
 }
 
 .article h2 {
+  padding: 20px;
   border-bottom-style: solid;
   border-bottom-color: grey;
   margin-right: 10px;
@@ -121,7 +180,7 @@ p::first-letter {
 
   background-image: url("mountain2.jpg");
 
-  height: 500px;
+  height: 600px;
 
   background-attachment: fixed;
   background-position: center;
@@ -131,11 +190,12 @@ p::first-letter {
 }
 
 aside h2 {
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   border: 0px;
   float: left;
   font-style: italic;
+  font-size: 30px;
 }
 
 li {
