@@ -212,7 +212,7 @@ pre {
 /* Body */
 
 body {
-    background: linear-gradient(to right, #F5F2F1 ,#F2CF98 50%, #F7CCB2);
+    background: linear-gradient(to right, #B3D89C, #F5F2F1);
     box-sizing: border-box;
     width: 100%;
 }
@@ -226,7 +226,7 @@ body {
 
 #main-header {
     margin-bottom: 22px;
-    margin-top: 22px;
+    margin-top: 44px;
     float: right;
     text-align: right;
     background-color: #FFFD98;
@@ -235,13 +235,22 @@ body {
 }
 
 .site-title {
-    font-size: 40px;
-    letter-spacing: 1px;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #3D405B;
 }
 
 .tagline {
     font-size: 28px;
     float: right;
+    font-family: Garamond, Georgia, Serif;
+    text-decoration: italic;
+    text-transform: lowercase;
+    text-variant: small-caps;
+    color: #E07A5F;
 }
 
 
@@ -255,9 +264,49 @@ body {
 
 #main-content .section-title {
     clear: both;
+    margin-bottom: 20px;
 }
 
+.main-content-section h2{
+    background-color: #DEDCCA;
+    color: #9CAFB7;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: left;
+    border-radius: 20px;
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 22px;
+}
 
+.main-content-section p {
+    background-color: #F4F1DE;
+    border-radius: 20px;
+    padding: 22px 20px;
+    margin: 20px 5%;
+    font-size: 20px;
+    line-height: 1.2;
+    /*width: 80%;*/
+}
+.citation {
+    float: right;
+    background-color: #F5F2F1;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    font-family: Arial Black, Arial, sans-serif;
+}
+
+.citation a:link {
+    color: #E07A5F;
+}
+
+.citation a:visited {
+    color: black;
+}
+
+.citation a:hover {
+    color: #E07A5F;
+}
 /* Sidebar */
 
 #sidebar-container {
@@ -281,21 +330,20 @@ body {
 #sidebar .section-title {
     display: block;
     z-index: 2;
-    margin-top: 22px;
-    margin-bottom: 18px;
+    margin-top: 44px;
     text-align: center;
     padding: 10px 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
     clear: both;
     font-size: 28px;
+    font-weight: bold;
+    font-family: Garamond, serif;
+    color: #F5F2E1;
 }
 
 .sidebar-nav {
-    
-    padding: 0 10px 0 10px;
+    margin-right: 10px;
     z-index: 2;
-    border-top: 0;
-    margin-top: 0;
 }
 
 .sidebar-nav li a {
@@ -306,6 +354,19 @@ body {
     margin: 20px 0;
     text-decoration: none;
     text-align: center;
-    color: black;
+    text-transform: lowercase;
+    color: #E07A5F;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: .5px;
 }
 
+.sidebar-nav li a:hover {
+    color: #3D405B;
+    font-weight: bold;
+    
+}
+
+.sidebar-nav li a:visited {
+    color: black;
+    font-weight: bold;
+}
