@@ -166,13 +166,59 @@ table {
 
 /* close commented backslash hack */
 
+/* font stack */
+
+h1 {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
 
 /* Body */
 
 body {
-    background-color: #9AAEF6;
+    background: linear-gradient(to right, #F5F2F1 ,#F2CF98 50%, #F7CCB2);
     box-sizing: border-box;
     width: 100%;
+}
+
+body {
+    font-family: ;
 }
 
 
@@ -183,7 +229,7 @@ body {
     margin-top: 22px;
     float: right;
     text-align: right;
-    background-color: #CFD8FC;
+    background-color: #FFFD98;
     padding: 20px 20px 20px 200px;
     border-radius: 100px;
 }
@@ -222,7 +268,7 @@ body {
     left: 0;
     width: 240px;
     height: 100%;
-    background: linear-gradient(to bottom, #CFD8FC, #6D8AF1);
+    background: linear-gradient(to right, #FFFD98, #F7CCB2,);
     border-right: 2px solid white;
 }
 
@@ -253,7 +299,7 @@ body {
 }
 
 .sidebar-nav li a {
-    background-color: #CFD8FC;
+    background-color: #FFFD98;
     display: block;
     border-radius: 20px;
     padding: 20px;
@@ -262,3 +308,4 @@ body {
     text-align: center;
     color: black;
 }
+
