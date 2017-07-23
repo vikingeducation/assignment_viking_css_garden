@@ -1,10 +1,239 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+/*
+    CSS Reset
+    http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.7;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Fonts */
 
+@font-face {
+	font-family: Norse;
+	src:url(fonts/Norse.woff2);
+	src:url(fonts/Norse.woff);
+	src:url(fonts/Norse.otf);
+	src:url(fonts/Norse.ttf);
+	font-weight:normal;
+}
 
+@font-face {
+	font-family: Norse;
+	src:url(fonts/Norsebold.woff2);
+	src:url(fonts/Norsebold.woff);
+	src:url(fonts/Norsebold.otf);
+	src:url(fonts/Norsebold.ttf);
+	font-weight:bold;
+}
 
+/* Global Styles */
 
- 
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	background-color: #eee;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 1.7em;
+	line-height: 1em;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #f00;
+}
+
+a:hover {
+	color: #a00;
+}
+
+/* Main Header */
+
+#main-header {
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: center;
+  align-items: center;
+	background-image:url(images/vikinggarden.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 18em;
+	text-align: center;
+	color: #fff;
+
+}
+
+.site-title, .tagline {
+	width: 95%;
+	text-shadow: #000 1px 1px 10px;
+}
+
+.site-title {
+	font: 4em 'Norse', serif;
+}
+
+.tagline {
+	font: italic 400 1.1em 'Alegreya', serif;
+}
+
+/* Blog Posts */
+
+body {
+	max-width: 960px;
+	margin:0 auto;
+	background-color: #fff;
+}
+
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-content-section {
+	padding: 1em 2em;
+}
+
+article p, .citation, li {
+	margin-top: 1em;
+}
+
+.section-title {
+	font-family: 'Alegreya', serif;
+}
+
+.citation {
+	display:inline-block;
+	width: 100%;
+	color:#777;
+	text-align:right;
+}
+
+/* Layout */
+#main-content {
+	float:left;
+	width: 75%;
+}
+
+#sidebar {
+	float:left;
+	padding: 1em 1em 0 1em;
+	width: 25%;
+	min-width: 200px;
+}
+
+ul li {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100px;
+	border-radius: 5px;
+}
+
+ul li:first-child {
+	background-image: url(images/chinese.jpg);
+}
+
+ul li:nth-child(2) {
+	background-image: url(images/dutch.jpg);
+}
+
+ul li:nth-child(3) {
+	background-image: url(images/english.jpg);
+}
+
+ul li:nth-child(4) {
+	background-image: url(images/greek.jpg);
+}
+
+ul li:nth-child(5) {
+	background-image: url(images/italian.jpg);
+}
+
+ul li:nth-child(6) {
+	background-image: url(images/japanese.jpg);
+}
+
+ul li:nth-child(7) {
+	background-image: url(images/spanish.jpg);
+}
+
+ul li a {
+	background-color: #fcc;
+	padding: 2px 5px 0 5px;
+	border-radius: 5px 0 5px 0;
+}
+
+.navlink {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media (max-width: 799px) {
+
+#main-content {
+	width:100%;
+}
+
+#sidebar {
+	min-width:100%;;
+}
+
+ul li {
+	min-height: 200px;
+}
+
+}
