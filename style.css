@@ -175,12 +175,21 @@ article p, .citation, li {
 	min-width: 200px;
 }
 
+ul {
+	padding-bottom: 1em;
+}
+
 ul li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	min-height: 100px;
 	border-radius: 5px;
+}
+
+.navlink {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 ul li:first-child {
@@ -215,11 +224,6 @@ ul li a {
 	background-color: #fcc;
 	padding: 2px 5px 0 5px;
 	border-radius: 5px 0 5px 0;
-}
-
-.navlink {
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 @media (max-width: 799px) {
