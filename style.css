@@ -1,7 +1,12 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
-
+h1.site-title{
+    text-align: center;
+    font: bold cursive;
+    font-family: cursive;
+    color: red
+}
 
 
 
