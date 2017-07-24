@@ -3,10 +3,12 @@
  * ----------------------------------- */
 html{
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body{
     max-width: 960px;
+    margin: 0 auto;
 }
 
 
@@ -14,13 +16,14 @@ body{
     width: 100%;
     text-align: center;
     background: url("https://camo.githubusercontent.com/7e97b9c10423e06bf6f91e971d8a9cec5926adfe/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667") no-repeat left center;
-    background-size: 8%;
+    background-size: 5%;
 }
 
 
 .site-title{
     font-weight: bolder;
     font-family: cursive;
+    font-size: 1.25rem;
     color: #0a29d8;
     margin-bottom: -5px
 }
