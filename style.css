@@ -1,10 +1,147 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+body {
+    background-color: black;
+    background-image: url(images/mjolnirimg.png);
+    background-size: 2000px;
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:#E6F2FA;
+    font-size:18pt;
+    
+}
+
+#main-header{
+    text-align: center; 
+    
+}
+.site-title{
+    font-family: 'Julee', cursive;
+    font-size:3.5em;
+    letter-spacing: 4px;
+    text-shadow: ;
+}
+.tagline{
+    font-family: 'Artifika', serif;
+    padding:30px;
+    Width:60%;
+    position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    border-bottom-style: ridge;
+    border-bottom-color: #6B697F;
+    border-bottom-width: .2em;
+}
+#main-content{
+    font-family: 'Artifika', serif;
+    text-align: center;
+}
+.section-content{
+    margin: 0px 150px 0px 150px;
+}
+
+.section-content2{
+    column-count: 2;
+    column-gap: 100ox;
+    column-rule: 1px solid white;
+    margin-bottom: 100px;
+    
+}
+.first-p{
+    text-indent:1em;
+    
+}
+.first-p::first-letter {
+    font-size: 4em;
+}
+
+.vidcontainer{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#vid{
+    width: 100%;
+    height:auto;
+}
+
+
+#sidebar{
+    width:auto;
+    height:  auto;
+    padding:0;
+    margin:0 auto;
+    
+    
+}
+.section-title{
+    font-family: 'Artifika', serif;
+    text-align: center
+}
+
+.nav-links{
+    list-style-type: none;
+    padding:0;
+    position:relative;
+    
+
+}
+    
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Artifika', serif;
+    background-color: #420A48;
+    color:white;
+    display: block;
+    width:150px;
+    height:60px;
+    float:left;
+    padding: 6px;
+    border: 2px solid black;
+    
+}
+
+.nav-link:hover{
+    border-left:2px solid white;
+    border-bottom: 2px solid white
+    
+    }
+
+#sidebar:after{
+    content:"";
+    display:block;
+    clear: both;
+}
 
 
 
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
