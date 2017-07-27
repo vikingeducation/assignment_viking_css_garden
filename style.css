@@ -162,8 +162,40 @@ h2{
     }
 }
 
-@media screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
+  #main-header {
+    height: 100px;
+    width:auto;
+    position: fixed;
+    z-index: 100;
+  }
+
   .tagline {
     font-size: 16px;
+  }
+
+  #sidebar {
+    width:auto;
+    height: auto;
+    margin-top:100px;
+    position: fixed;
+
+  }
+
+#sidebar li {
+  font-size: 14px;
+  width:30%;
+  float:left;
+  padding:0px;
+
+}
+
+  #main-content {
+    margin-left: 0px;
+    border-radius: 0px;
+    height:auto;
+    width:auto;
+    margin-top: 259px;
+
   }
 }
