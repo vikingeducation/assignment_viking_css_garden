@@ -171,7 +171,7 @@ h2{
   }
 
   .tagline {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #sidebar {
@@ -182,11 +182,15 @@ h2{
 
   }
 
+#sidebar .nav-link-list-item {
+  height:12px;
+}
+
 #sidebar li {
   font-size: 14px;
-  width:30%;
+  width:auto;
   float:left;
-  padding:0px;
+  padding:2px;
 
 }
 
@@ -195,7 +199,7 @@ h2{
     border-radius: 0px;
     height:auto;
     width:auto;
-    margin-top: 259px;
+    margin-top: 250px;
 
   }
 }
