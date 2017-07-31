@@ -57,28 +57,302 @@ font-family: 'Quattrocento Sans', sans-serif;
 
 */ 
 
+/* COLORS 
+
+forest green: #264330
+darkest green: #32C363
+darker green: #52D87F
+light green: #A5F4C0
+off white: #DAFDE6
+
+*/
+
 /* MY CSS BELOW */
 
 html {
     background: #78e89e;
+    font-family: 'Quattrocento Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
 }
 
 body {
     line-height: 1.5;
 }
 
-a {
-    color: #DAFDE6;
+
+h1,
+h2,
+h3 {
+    font-family: 'Cormorant Unicase', "Times New Roman", serif;
+    padding: 0 10px;
 }
 
 h1 {
-    font-family: 'Cormorant Unicase', "Times New Roman", serif;
+    font-size: 250%;
+    font-weight: 700;
 }
 
+h2 {
+    font-size: 150%;
+    border-bottom: solid 1px;
+}
 
+h3 {
+    font-size: 140%;
+}
+
+p, 
+.citation {
+    padding: 0 10px 15px 10px;
+}
+
+.citation {
+    font-style: italic;
+}
+
+/* original header */
+/*
+.header-img {
+    position: relative; 
+}
+
+.header-img img {
+    float: left;
+    opacity : 0.4;
+    width: 100%;
+    height: 700px;   
+}
+
+.site-title, 
+.tagline {
+    position: absolute;
+    opacity: 0.75;
+}
+
+.tagline {   
+    right: 0;
+    bottom: -670px;
+    font-style: italic;
+    color: #000;
+}
+
+/* new header */
+
+.new-header-img {
+    position: relative;
+    float: left;
+    opacity : 0.7;
+    width: 100%;
+    height: 700px;  
+    background: 
+        url(Viking-in-Montreal-Botanical-Garden.jpg);
+    background-size: 100%100%;
+}
+
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(25, 24, 24, 0.91))
+}
+
+.new-site-title, 
+.new-tagline {
+    position: absolute;
+    color: #DAFDE6;
+    z-index: 1;
+}
+
+.new-tagline {   
+    right: 0;
+    bottom: 0;
+    font-style: italic;
+}
+
+/* main-content */
+
+#main-content {
+    max-width: 75%;
+    float: left;
+}
+
+/* links */
+
+
+.citation a:link, 
+.citation a:visited, 
+.text-box:link,
+.text-box:visited {
+    color: #466368;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #466368;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.citation a:hover,
+.citation a:active,
+.text-box:hover,
+.text-box:active {
+    color: #264330;
+    border-bottom: 1px solid transparent;
+    transform: scale(1.15);
+    font-weight: 800;
+}
+    
 /* sidebar */ 
+
+aside {
+    float: right;
+    width: 25%;
+    
+}
+aside .section-title {
+    text-align: center;
+}
 
 .gradient {
   background: #466368;
   background: linear-gradient(to bottom, #52D87F, #DAFDE6);
 }
+
+.garden-photo {
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.garden-photo img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.08);
+}
+
+.garden-photo img:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+
+.img-box {
+    position: relative;
+    display: inline-block;
+}
+
+
+.text-box {
+    position: absolute;
+    text-align: center; 
+    width: 30%;
+    margin: auto;
+    top: 40%;
+    right: 0;
+    left: 0;
+    transform: scale (1.1);
+}
+
+/*  SHRINK TEXT LINKS AT 480 PIXELS */
+
+@media only screen and (max-width: 600px) {
+	figure .nav-link { 
+        font-size: 80%;
+        top: 30%;
+	}
+}
+
+
+/*test 1: code to float text over image
+this works but the image is not as responsive.*/
+/*
+.test-garden-photo {
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url("Spanish-Garden-1c5e7bbe394201bd856638b040b88831--spanish-courtyard-spanish-garden.jpg");
+    opacity: .6;
+    
+}
+
+.test-nav-link-list-item {
+    width: 100%;
+    line-height: 1000%;
+}
+*/
+
+/* test 2 works includes resizing for text to be responsive and stay within image box on resize
+
+.test-garden-photo {
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.test-garden-photo img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.08);
+}
+
+.test-garden-photo img:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.test-img-box {
+    position: relative;
+    display: inline-block;
+}
+
+.test-text-box {
+    position: absolute;
+    text-align: center; 
+    width: 50%;
+    margin: auto;
+    top: 40%;
+    right: 0;
+    left: 0;
+    transform: scale (1.1);
+}
+
+/*  SHRINK TEXT LINKS AT 480 PIXELS */
+/*
+@media only screen and (max-width: 600px) {
+	figure .nav-link { 
+        font-size: 80%;
+        top: 30%;
+	}
+}
+*/
+
+
+/* sample code
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.05);
+}
+
+.meal-photo img:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+
+*/
+
+
