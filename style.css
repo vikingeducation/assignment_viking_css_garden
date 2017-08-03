@@ -4,13 +4,20 @@
 html{
     box-sizing: border-box;
     font-size: 16px;
+    background-color: #aead77;
 }
 
 body{
     max-width: 960px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
+p{
+	font-size: 1.125rem;
+	line-height: 1.35;
+	text-align: justify;
+}
 
 #main-header{
     width: 100%;
@@ -24,7 +31,7 @@ body{
     font-weight: bolder;
     font-family: cursive;
     color: #0a29d8;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-bottom: -5px
 }
 
@@ -42,6 +49,13 @@ li{
     list-style: asterisks;
 }*/
 
+
+.norseHead{
+	max-width: 25%;
+	float: left;
+	margin-right: 3%;
+	padding: 5px 0;
+}
 
 
 
