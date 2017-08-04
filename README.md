@@ -1,4 +1,4 @@
-assignment_viking_css_garden
+assignment_viking_css_garden - submitted by Holly Erickson
 ============================
 
 A place for your styling creativity to grow
