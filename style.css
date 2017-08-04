@@ -2,7 +2,111 @@
  * Your Styles Here
  * ----------------------------------- */
 
+.site-title, .tagline {
+	text-align: center;
+}
 
+body {
+	background: -webkit-linear-gradient(left, rgba(0,0,205,0), rgba(0,0,205,0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,205,0), rgba(0,0,205,0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,205,0), rgba(0,0,205,0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(0,0,205,0), rgba(0,0,205,0.8)); /* Standard syntax (must be last) */
+}
+
+h1, h2 {
+	font-family: 'Merienda One', cursive;
+}
+
+article, a{
+	font-family: 'Kanit', sans-serif;
+}
+
+section, div {
+	display: block;
+	position: relative;
+	margin: 70px;
+}
+
+div {
+	height: 400px;
+	width: 20%;
+	vertical-align: middle;
+	margin: 0 auto;
+
+}
+
+div img {
+  	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  z-index: 3;
+  -webkit-animation: slideshow 12s linear 0s infinite;
+  -moz-animation: slideshow 12s linear 0s infinite;
+  -ms-animation: slideshow 12s linear 0s infinite;
+  -o-animation: slideshow 12s linear 0s infinite;
+  animation: slideshow 12s linear 0s infinite;
+}
+
+img:nth-child(2) {
+  z-index: 2;
+  -webkit-animation: slideshow 12s linear 4s infinite;
+  -moz-animation: slideshow 12s linear 4s infinite;
+  -ms-animation: slideshow 12s linear 4s infinite;
+  -o-animation: slideshow 12s linear 4s infinite;
+  animation: slideshow 12s linear 4s infinite;
+}
+
+img:nth-child(3) {
+   z-index: 1;
+  -webkit-animation: slideshow 12s linear 8s infinite;
+  -moz-animation: slideshow 12s linear 8s infinite;
+  -ms-animation: slideshow 12s linear 8s infinite;
+  -o-animation: slideshow 12s linear 8s infinite;
+  animation: slideshow 12s linear 8s infinite;
+}
+
+@-webkit-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-moz-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-ms-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-o-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+
+aside {
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 
 
