@@ -116,6 +116,7 @@ header {
 #sidebar h2 {
 	font-size: 20px;
 	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #top-section h2::first-letter,
@@ -230,10 +231,6 @@ a:hover {
 		font-family: 'Cinzel', cursive;
 }
 
-/* selected link */
-a:active {
-    color: black;
-}
 
 .img-responsive {
   width: 100%;
