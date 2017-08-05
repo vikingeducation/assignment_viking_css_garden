@@ -1,0 +1,12 @@
+@mixin gradient-side {
+    background: #466368;
+    background: linear-gradient(to bottom, #52D87F, #DAFDE6);
+}
+
+@mixin color-header {
+    color: #DAFDE6;
+}
+
+@mixin color-html {
+    background: #78e89e;
+}
