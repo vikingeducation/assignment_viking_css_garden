@@ -45,6 +45,13 @@ hr{
 }
 
 
+@media screen and (max-width: 950px){
+    #main-header{
+        background: none;
+    }
+}
+
+
 .site-title{
     font-weight: bolder;
     font-family: Tahoma, Geneva, sans-serif	;
@@ -64,23 +71,32 @@ li{
     padding: 10px;
     margin: 10px 2px;
     font-size: 1.05rem;
-    border: 1px solid;
+    border: 1px solid beige;
     border-radius: 40%;
 }
 
 aside nav.sidebar-nav{
-	width: 95%;
+    width: 95%;
+    opacity: 0.8;
 }
 
 .nav-link{
 	/*width: 90%;not showing*/
     text-decoration: none;
+    font-weight: bold;
+    color: #fff;
 }
 
 /*.nav-link-list-item{
     display: inline-block;
     list-style: asterisks;
 }*/
+
+.nav-link-list-item:hover, .nav-link:hover{
+    background-color: #fff;
+    color: #000;
+    transition: background-color 1s, color 0.5s, ease-in-out; 
+}
 
 .norseHead{
 	max-width: 25%;
@@ -97,8 +113,17 @@ aside nav.sidebar-nav{
 
 aside{
     border: 1px solid green;
-    margin: 0 10px;
+    margin: 5px 10px;
     text-align: center;
+    background: url('Images/joshua-wilson-norse-garden-web.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+aside .section-title{
+    margin-top: 5px;
+    color: #fff;
 }
 
 .col-6{
