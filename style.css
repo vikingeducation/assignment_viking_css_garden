@@ -18,6 +18,11 @@ p{
 	text-align: justify;
 }
 
+p.firstletter::first-letter{
+    font-size: 165%;
+    font-family: 'Diplomata SC', cursive;
+}
+
 section{
     padding: 0 10px;
     border: 1px solid green;
@@ -56,9 +61,11 @@ hr{
 
 li{
     display: inline-block;
-    padding: 5px;
-    margin: 2px 5px;
+    padding: 10px;
+    margin: 10px 2px;
     font-size: 1.05rem;
+    border: 1px solid;
+    border-radius: 40%;
 }
 
 aside nav.sidebar-nav{
