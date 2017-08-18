@@ -4,7 +4,7 @@
 html{
     box-sizing: border-box;
     font-size: 16px;
-    background-color: #aead77;
+    background: linear-gradient(45deg, #aead77, rgba(216, 215, 143, 0.85))
 }
 
 body{
@@ -39,17 +39,26 @@ hr{
 #main-header{
     width: 100%;
     text-align: center;
-    background: url("https://camo.githubusercontent.com/7e97b9c10423e06bf6f91e971d8a9cec5926adfe/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667") no-repeat left center;
-    background-size: 6%;
-    background-position: 175px 0;
 }
 
+#css3img{
+    width: 6%;
+    position: absolute;
+    left: 20%;
+    top: 27px;
+}
 
-@media screen and (max-width: 950px){
-    #main-header{
-        background: none;
+@media only screen and (max-width: 450px){
+    #css3img{
+        display: none;
     }
 }
+
+
+.section-title{
+    text-align: center;
+}
+
 
 
 .site-title{
