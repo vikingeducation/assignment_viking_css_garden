@@ -1,0 +1,18 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+
+*{
+  box-sizing: border-box;
+  background-color: black;
+  color: #4A595D;
+}
+
+#viking-image {
+  text-align: center;
+  width: 100%;
+}
+
+#viking-image img {
+  width: 100%;
+}
