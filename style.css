@@ -42,15 +42,64 @@ hr{
 }
 
 #css3img{
-    width: 6%;
+    width: 3%;
     position: absolute;
-    left: 20%;
-    top: 27px;
+    left: 32%;
+    top: 36px;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 700px){
     #css3img{
         display: none;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 799px){
+    #css3img{
+        width: 6%;
+        left: 10%;
+        top: 35px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px){
+    #css3img{
+        width: 6%;
+        left: 14%;
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 950px){
+    #css3img{
+        width: 6%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1060px){
+    #css3img{
+        width: 6%;
+        left: 18%;
+    }
+}
+
+@media only screen and (min-width: 1061px) and (max-width: 1250px){
+    #css3img{
+        width: 5%;
+        left: 22%;
+    }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1500px){
+    #css3img{
+        width: 4%;
+        left: 26%;
+    }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px){
+    #css3img{
+        left: 30%;
     }
 }
 
