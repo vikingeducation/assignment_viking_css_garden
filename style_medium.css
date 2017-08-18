@@ -1,5 +1,5 @@
 /* ----------------------------------- *
- * Your Styles Here
+ * Your Styles Here FOR TOM - USE MAX WIDTH
  * ----------------------------------- */
 
 *{
@@ -11,6 +11,8 @@
 #viking-image {
   text-align: center;
   width: 100%;
+  max-width: 1179px;
+  margin: 0 auto;
 }
 
 #viking-image img {
@@ -33,7 +35,7 @@
 
 .tagline {
   display: block;
-  font-size: 1.5em;
+  font-size: .8em;
   font-weight: bold;
   text-align: center;
   color: gray;
@@ -47,11 +49,17 @@
  * Main Content
  * ----------------------------------- */
 
+ main {
+   max-width: 400px;
+   margin: 0 auto;
+ }
+
  main p {
    color: gray;
    text-align: justify;
    margin-left: 30px;
    margin-right: 30px;
+   font-size: 15px;
  }
 
  cite {
@@ -85,6 +93,7 @@
     color: gray;
   }
 
-  hr {
-    display: none;
+  .sidebar-nav {
+    max-width: 180px;
+    margin: 0 auto;
   }

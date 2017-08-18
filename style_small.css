@@ -34,6 +34,7 @@
 
 .tagline {
   text-align: right;
+  font-size: .8em;
   color: gray;
   margin-top: 0px;
   margin-left: 10px;
@@ -50,6 +51,7 @@
    text-align: justify;
    margin-left: 20px;
    margin-right: 20px;
+   font-size: 15px;
  }
 
  cite {
@@ -83,8 +85,7 @@
     color: gray;
   }
 
-  hr {
-    width: 80%;
+  .sidebar-nav {
+    max-width: 180px;
     margin: 0 auto;
-    margin-bottom: 30px;
   }
