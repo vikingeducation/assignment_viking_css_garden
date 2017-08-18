@@ -6,16 +6,22 @@
 
     <title>Viking CSS Garden</title>
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" media="(max-width: 400px)" href="style_small.css" />
+
+    <link rel="stylesheet" media="(min-width: 401px)" href="style_medium.css" />
+
   </head>
   <body>
+
+    <div id="viking-image">
+      <img src="images/viking.png" alt="viking">
+    </div>
 
     <!-- Main Header -->
     <header id="main-header">
       <h1 class="site-title">Viking CSS Garden</h1>
-      <h2 class="tagline">A place for your styling creativity to grow</h2>
+      <h3 class="tagline">A place for your styling creativity to grow</h3>
     </header>
-
 
     <!-- Main Content -->
     <main id="main-content">
@@ -47,7 +53,7 @@
 
     <!-- Sidebar -->
     <aside id="sidebar">
-      <h2 class="section-title">Other Gardens</h2>
+      <h2 class="section-title-last">Other Gardens</h2>
 
       <nav class="sidebar-nav">
         <ul class="nav-links">
@@ -75,6 +81,6 @@
         </ul>
       </nav>
     </aside>
+
   </body>
 </html>
-

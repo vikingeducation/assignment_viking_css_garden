@@ -1,0 +1,91 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+
+*{
+  box-sizing: border-box;
+  background-color: black;
+  color: #4A595D;
+}
+
+#viking-image {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+#viking-image img {
+  width: 100%;
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* ----------------------------------- *
+ * Main Header
+ * ----------------------------------- */
+
+.site-title {
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.tagline {
+  text-align: right;
+  font-size: .8em;
+  color: gray;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/* ----------------------------------- *
+ * Main Content
+ * ----------------------------------- */
+
+ main p {
+   color: gray;
+   text-align: justify;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 15px;
+ }
+
+ cite {
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+ main article {
+   margin: 0 auto;
+ }
+
+ h2 {
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+ } /* also applied to sidebar h2 */
+
+ cite {
+   color: gray;
+ }
+
+ /* ----------------------------------- *
+  * Your Styles Here
+  * ----------------------------------- */
+
+  a {
+    color: gray;
+  }
+
+  li {
+    color: gray;
+  }
+
+  .sidebar-nav {
+    max-width: 180px;
+    margin: 0 auto;
+  }

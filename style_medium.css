@@ -1,0 +1,99 @@
+/* ----------------------------------- *
+ * Your Styles Here FOR TOM - USE MAX WIDTH
+ * ----------------------------------- */
+
+*{
+  box-sizing: border-box;
+  background-color: black;
+  color: #4A595D;
+}
+
+#viking-image {
+  text-align: center;
+  width: 100%;
+  max-width: 1179px;
+  margin: 0 auto;
+}
+
+#viking-image img {
+  width: 80%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+/* ----------------------------------- *
+ * Main Header
+ * ----------------------------------- */
+
+.site-title {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tagline {
+  display: block;
+  font-size: .8em;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50px;
+}
+
+/* ----------------------------------- *
+ * Main Content
+ * ----------------------------------- */
+
+ main {
+   max-width: 400px;
+   margin: 0 auto;
+ }
+
+ main p {
+   color: gray;
+   text-align: justify;
+   margin-left: 30px;
+   margin-right: 30px;
+   font-size: 15px;
+ }
+
+ cite {
+   margin-left: 30px;
+   margin-right: 30px;
+ }
+
+ main article {
+   margin: 0 auto;
+ }
+
+ h2 {
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+ } /* also applied to sidebar h2 */
+
+ cite {
+   color: gray;
+ }
+
+ /* ----------------------------------- *
+  * Your Styles Here
+  * ----------------------------------- */
+
+  a {
+    color: gray;
+  }
+
+  li {
+    color: gray;
+  }
+
+  .sidebar-nav {
+    max-width: 180px;
+    margin: 0 auto;
+  }
