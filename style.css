@@ -133,8 +133,8 @@ hr{
 }
 
 #animated-images img{
-    display: block;
-    width: 50%;
+    display: inline-block;
+    width: 32%;
     margin: auto;
 }
 
