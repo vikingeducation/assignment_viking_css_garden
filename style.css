@@ -54,23 +54,23 @@ table {
  * Main Styles
  * ----------------------------------- */
  body{
-  background: #97D38D;
-  background: linear-gradient(#fff 50%, #97D38D);
+  background: #EBF6E9;
+  background: linear-gradient(#F8F9F0, #EBEED3);
+  
  }
 
-.clearfix::before,
-.clearfix::after {
-  display: table;
-  content: " ";
-}
-.clearfix::after {
-  clear: both;
-}
+ figcaption {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+ }
 
  #main-header {
   text-align: center;
+  /*background-image: url(http://miriadna.com/desctopwalls/images/max/Viking-in-Montreal-Botanical-Garden.jpg);*/
   background-image: url(http://www.cloudberryliving.co.uk/blog/wp-content/uploads/2016/06/sunlit-forest-800-x-600-image-from-Pixadus.jpg);
   background-position: 50%;
+  background-size: cover;
   height: 300px;
   width: 100%;
   margin: 0 auto;
@@ -84,45 +84,62 @@ table {
  }
 
  #main-content{
-  width: 60%;
-  margin: 0 auto 0 100px;
+  width: 55%;
+  /*margin: 0 auto 0 100px;*/
+  margin: 0 auto;
   font-family: "Open Sans", helvetica;
-  line-height: 1.5em;
+  line-height: 1.6em;
   letter-spacing: .05em;
-  color: #777;
-  float: left;
+  color: #333;
  }
 
  #main-content p {
   margin: 50px auto;
+  font-size: 18px;
+ }
+
+ #main-content p:first-letter {
+  font-size: 28px;
  }
 
  #main-content h2 {
   text-align: center;
  }
 
- #sidebar {
-  float: left;
-  margin-left: 50px;
+#main-content img {
+  border-radius: 2%;
  }
 
+ #sidebar {
+  float: left;
+  padding-right: 35px;
+  background: linear-gradient(#FFF, #EEEE93);
+  border-radius: 2%;
+ }
+
+
  #sidebar h2 {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 10px;
-  margin-top: 50px;
   margin-left: 15px;
+  text-decoration: underline;
+ }
+
+ .img-responsive {
+  width: 100%;
+  height: auto;
  }
 
 .nav-link {
   text-decoration: none;
-  color: #777;
-  line-height: 1.4em;
+  color: #333;
+  line-height: 1.7em;
   font-family: "Open Sans";
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 .nav-link:hover {
-  color: #333;
+  color: darkgreen;
   font-weight: bold;
 }
 section {
@@ -142,7 +159,7 @@ section {
  h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #777;
+  color: #333;
   margin-bottom: 40px;
  }
 
