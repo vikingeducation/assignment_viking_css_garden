@@ -1,8 +1,4 @@
 /* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
-
-/* ----------------------------------- *
  * Reset
  * ----------------------------------- */
 
@@ -53,10 +49,31 @@ table {
 /* ----------------------------------- *
  * Main Styles
  * ----------------------------------- */
+ 
  body{
-  background: #EBF6E9;
+  background: ##EBEED3;
   background: linear-gradient(#F8F9F0, #EBEED3);
-  
+ }
+
+ section {
+  margin-bottom: 75px;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+  font-family: "Julius Sans One", helvetica, sans-serif;
+ }
+
+ h1 {
+  font-size: 64px;
+  font-weight: bold;
+  padding-top: 100px;
+ }
+
+ h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
  }
 
  figcaption {
@@ -67,7 +84,6 @@ table {
 
  #main-header {
   text-align: center;
-  /*background-image: url(http://miriadna.com/desctopwalls/images/max/Viking-in-Montreal-Botanical-Garden.jpg);*/
   background-image: url(http://www.cloudberryliving.co.uk/blog/wp-content/uploads/2016/06/sunlit-forest-800-x-600-image-from-Pixadus.jpg);
   background-position: 50%;
   background-size: cover;
@@ -85,9 +101,8 @@ table {
 
  #main-content{
   width: 55%;
-  /*margin: 0 auto 0 100px;*/
   margin: 0 auto;
-  font-family: "Open Sans", helvetica;
+  font-family: "Open Sans", helvetica, sans-serif;
   line-height: 1.6em;
   letter-spacing: .05em;
   color: #333;
@@ -106,7 +121,7 @@ table {
   text-align: center;
  }
 
-#main-content img {
+ #main-content img {
   border-radius: 2%;
  }
 
@@ -134,7 +149,7 @@ table {
   text-decoration: none;
   color: #333;
   line-height: 1.7em;
-  font-family: "Open Sans";
+  font-family: "Open Sans", helvetica, sans-serif;
   margin-left: 40px;
 }
 
@@ -142,26 +157,7 @@ table {
   color: darkgreen;
   font-weight: bold;
 }
-section {
-  margin-bottom: 75px;
- }
 
- h1, h2, h3, h4, h5, h6 {
-  font-family: "Julius Sans One", Helvetica;
- }
-
- h1 {
-  font-size: 64px;
-  font-weight: bold;
-  padding-top: 100px;
- }
-
- h2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 40px;
- }
 
 
 
