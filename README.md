@@ -3,7 +3,7 @@ assignment_viking_css_garden
 
 A place for your styling creativity to grow
 
-[Alfredo's Viking CSS Garden](https://alfasf.github.io/assignment_viking_css_garden/){:target="_blank"}
+[Alfredo's Viking CSS Garden](https://alfasf.github.io/assignment_viking_css_garden/ target="_blank")
 
 
 
