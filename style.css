@@ -2,10 +2,6 @@ body {
   background-color: #EACC7E;
 }
 
-body::before, body::after {
-  clear:both;
-}
-
 h1 {
   font-family: tangerine, cursive;
   font-size: 4em;
@@ -18,8 +14,8 @@ header h2 {
   font-size: 2.5em;
   font-weight: 900;
   color: maroon;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -27,65 +23,71 @@ h2 {
   color: black;
   font-weight: bold;
   font-size: 2.5em;
-  padding: 10px 0px 10px 5px;
+  padding: 10px 0 0 20px;
 }
 
 header {
-  max-width: 100%;
+  max-width: 940px;
   text-align: center;
   margin: auto;
-  padding: 25px;
+  padding: 0;
   background-color: #9aa864;
-  position: relative;
+  padding:  0 0 20px 0;
+}
+
+.main-box {
+  width: 940px;
+  margin: auto;
+  padding: 0;
 }
 .site-title {
   position: relative;
-  padding: 10px;
+  padding: 20px 0 20px 0;
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 .tagline {
-  display: absolute;
   margin: auto;
   width: 100%;
 }
 main {
-  max-width: 66%;
-  margin: 0px 0px 0px 0px;
+  max-width: 70%;
+  margin: 0;
   float: right;
   background-color: #eeeeee;
-  padding: 10px;
-
-}
-
-article {
-  max-width: inherit;
+  padding: 0;
 }
 
 aside {
-  margin: 0px;
-  padding: 40px;
+  padding: 25px;
   background-color: #c54444;
-  position: relative;
+  float: left;
   text-align: center;
-  max-width: 200px;
+  max-width: 33%;
 }
 
 .section-title {
-  margin: 0px 10px 10px 5px;
+  margin: auto;
+}
+
+article {
+  max-width:90%;
+  text-align: left;
+  padding: 0 0 0 15px;
 }
 
 li {
   list-style-type: none;
-  margin: 0px 10px 0px -10px;
-  padding: 0px 0px 0px 1px;
+  font-family: raleway, serif;
+  margin: 0 30px 0 0;
+  padding: 5px 0 5px 0;
   text-align: left;
   font-size: 1em;
 }
 a:link {
   color: black;
   position: relative;
-  text-decoration: underline;
+  text-decoration: none;
   text-align: left;
 }
 a:visited {
@@ -98,18 +100,21 @@ a:hover {
 aside h2 {
   font-weight: bold;
   color: black;
-  padding: 5px 0px 0px 0px;
-  margin: 0px;
+  padding: 5px 0 0 0;
+  margin: 0;
 }
 p:first-letter {
   font-family: raleway, serif;
   font-size: 1.55em;
   color: black;
   font-weight: bold;
-  padding: 0px;
+  padding: 0;
 }
 p {
   font-family: raleway, serif;
   line-height: 1.5em;
-  padding: 5px 0px 0px 5px;
+  padding: 5px 0 0 5px;
+}
+footer {
+  clear: both;
 }
