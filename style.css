@@ -1,10 +1,115 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+body {
+  background-color: #EACC7E;
+}
 
+body::before, body::after {
+  clear:both;
+}
 
+h1 {
+  font-family: tangerine, cursive;
+  font-size: 4em;
+  font-weight: bold;
+  color: maroon;
+}
 
+header h2 {
+  font-family: tangerine, cursive;
+  font-size: 2.5em;
+  font-weight: 900;
+  color: maroon;
+  padding: 0px;
+  margin: 0px;
+}
 
+h2 {
+  font-family: tangerine, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding: 10px 0px 10px 5px;
+}
 
+header {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  background-color: #9aa864;
+  position: relative;
+}
+.site-title {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  margin: 0px;
+}
+.tagline {
+  display: absolute;
+  margin: auto;
+  width: 100%;
+}
+main {
+  max-width: 66%;
+  margin: 0px 0px 0px 0px;
+  float: right;
+  background-color: #eeeeee;
+  padding: 10px;
 
- 
+}
+
+article {
+  max-width: inherit;
+}
+
+aside {
+  margin: 0px;
+  padding: 40px;
+  background-color: #c54444;
+  position: relative;
+  text-align: center;
+  max-width: 200px;
+}
+
+.section-title {
+  margin: 0px 10px 10px 5px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px 10px 0px -10px;
+  padding: 0px 0px 0px 1px;
+  text-align: left;
+  font-size: 1em;
+}
+a:link {
+  color: black;
+  position: relative;
+  text-decoration: underline;
+  text-align: left;
+}
+a:visited {
+  color: maroon;
+}
+a:hover {
+  color: maroon;
+}
+
+aside h2 {
+  font-weight: bold;
+  color: black;
+  padding: 5px 0px 0px 0px;
+  margin: 0px;
+}
+p:first-letter {
+  font-family: raleway, serif;
+  font-size: 1.55em;
+  color: black;
+  font-weight: bold;
+  padding: 0px;
+}
+p {
+  font-family: raleway, serif;
+  line-height: 1.5em;
+  padding: 5px 0px 0px 5px;
+}
