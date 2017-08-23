@@ -133,36 +133,30 @@ hr{
 
 #animated-images img{
     display: inline-block;
-    width: 25%;
 }
 
-
 #animatedimg1{
+    width: 25%;
     position: relative;
     animation-name: boats;
-    animation-delay: 5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
     animation-duration: 10s;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 @keyframes boats{
-    0%{left: 0;}
+    0%{left: 0;}    
+    33%{left: 20%;}
+    66%{left: 50%;}
+    100%{left: 75%;}
 
-    16.5%{left: 15%; 
-        bottom: 5%;}
-
-    16.51%{left: 15%; 
-        top: 5%;}
-    
-    33%{left: 33%; 
-        top: 5%;}
-
-    50%{bottom: 15%;}
-    66%{left: 66%;}
-    83%{left: 5%}
 }
 
+/*Notes: the sun will rise up above the boat pic using transition effect? and z-index to show half the sun, then show a size intermitently between 5% and 6%*/;
+
+/*
 #animated2{
     position: relative;
     animation-name: boats2;
@@ -186,8 +180,13 @@ hr{
 @keyframes boats3{
     66%{left: 66%;}
     100%{left: 100%;}
-}
+}*/
 
+#sun{
+    width: 5%;
+    position: relative;
+    left: 69%;
+}
 
 li{
     display: inline-block;
