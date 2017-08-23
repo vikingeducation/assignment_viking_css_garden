@@ -128,15 +128,66 @@ hr{
 /*Animation*/
 
 #animated-images{
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 #animated-images img{
     display: inline-block;
-    width: 32%;
-    margin: auto;
+    width: 25%;
 }
+
+
+#animatedimg1{
+    position: relative;
+    animation-name: boats;
+    animation-delay: 5s;
+    animation-duration: 10s;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes boats{
+    0%{left: 0;}
+
+    16.5%{left: 15%; 
+        bottom: 5%;}
+
+    16.51%{left: 15%; 
+        top: 5%;}
+    
+    33%{left: 33%; 
+        top: 5%;}
+
+    50%{bottom: 15%;}
+    66%{left: 66%;}
+    83%{left: 5%}
+}
+
+#animated2{
+    position: relative;
+    animation-name: boats2;
+    animation-delay: 20s;
+    animation-duration: 10s;
+}
+
+
+@keyframes boats2{
+    33%{left: 33%;}
+    66%{left: 66%;}
+}
+
+#animated3{
+    padding-top: relative;
+    animation-name: boats3;
+    animation-delay: 20s;
+    animation-duration: 10s;
+}
+
+@keyframes boats3{
+    66%{left: 66%;}
+    100%{left: 100%;}
+}
+
 
 li{
     display: inline-block;
