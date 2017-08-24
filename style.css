@@ -196,14 +196,14 @@ hr{
     left: 68%;
     z-index: -1;
     animation-name: sun;
-    animation-delay: 10s;
-    animation-duration: 10s;
+    animation-delay: 15s;
+    animation-duration: 15s;
     animation-fill-mode: forwards;
 }
 
 @keyframes sun{
     0%{visibility: hidden;}
-    100%{bottom: 82px; 
+    100%{bottom: 92px; 
         width: 6%;
         visibility: visible;
     }
