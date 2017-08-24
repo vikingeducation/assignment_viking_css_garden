@@ -38,20 +38,22 @@ button::-moz-focus-inner,input::-moz-focus-inner {border: 0;padding: 0;}
 textarea {overflow: auto;vertical-align: top;}
 table {border-collapse: collapse;border-spacing: 0;}
 
-* {
-	box-sizing: border-box;
-}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+
 
 h1 { font-size: 2em; font-weight: bold;}
-h2 { font-size: 1.5em; font-weight: bold;}
+h2 { font-size: 1.5em; font-weight: bold}
 h3 { font-size: 1.17em; font-weight: bold;}
 h4 { font-size: 1.12em; font-weight: bold;}
 h5 { font-size: .83em; font-weight: bold;}
 h6 { font-size: .75em; font-weight: bold;}
 
-html	{
-	font-family: 'Open Sans', Helvetica, sans-serif;
-}
 
 body {
 	max-width: 960px;
@@ -59,7 +61,7 @@ body {
 }
 
 #main-header {
-	background: url(vikinggarden.jpg) no-repeat center;
+	background: url(images/vikinggarden.jpg) no-repeat center;
 	display:flex;
 	flex-flow: column wrap;
 	justify-content: center;
@@ -71,25 +73,26 @@ body {
 	text-align: center;
 	margin-bottom: 1em;
 	color: #fff;
-
+	font-family: 'Open Sans', sans-serif;	
 }
 	
-
+.section-title {
+	font-size: 1.7em;
+}
 
 #main-content {
 	
 	width: 70%;
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
-#sidebar {
-	float: left;
-	
-	margin-top: 0;
-	padding-top: 0;
-	padding-right: 20px;
-	
- }
+.citation a { 
+	color: green;
+	text-decoration: none;
+}
+
 
  .main-content-section:nth-child(2) {
  	margin-top: 1em;
@@ -98,6 +101,21 @@ body {
 p {
 	margin-top: 1em;
 }
+
+p::first-letter {
+    font-size: 150%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#sidebar {
+	float: left;
+	margin-top: 0;
+	padding-top: 0;
+	padding-right: 20px;
+	font-family: 'Open Sans', sans-serif;	
+ }
 
  ul li {
 	background-repeat: no-repeat;
@@ -120,46 +138,44 @@ li {
 }
 
 
-
 li a {
 	opacity: 1.0;
 	color: white;
 	font-weight: 700;
 	background-color: grey;
 	text-decoration: none;
+
 }
 
 ul li:nth-child(1) {
-	background-image: url(chinesegarden.jpeg)
+	background-image: url(images/chinesegarden.jpeg)
 
 }
 
-
-
 ul li:nth-child(2) {
-	background-image: url(dutchgarden.jpg)
+	background-image: url(images/dutchgarden.jpg)
 
 }
 
 ul li:nth-child(3) {
-	background-image: url(englishgarden.jpeg)
+	background-image: url(images/englishgarden.jpeg)
 
 }
 
 ul li:nth-child(4) {
-	background-image: url(greekgarden.jpg)
+	background-image: url(images/greekgarden.jpg)
 
 }
 ul li:nth-child(5) {
-	background-image: url(italiangarden.jpg)
+	background-image: url(images/italiangarden.jpg)
 
 }
 ul li:nth-child(6) {
-	background-image: url(japanesegarden.jpeg)
+	background-image: url(images/japanesegarden.jpeg)
 
 }
 ul li:nth-child(7) {
-	background-image: url(spanishgarden.jpg)
+	background-image: url(images/spanishgarden.jpg)
 
 }
 
