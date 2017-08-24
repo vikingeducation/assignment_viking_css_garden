@@ -131,6 +131,13 @@ hr{
     width: 100%;
 }
 
+@media only screen and (max-width: 500px){
+    #animated-images{
+        display: none;
+    }
+}
+
+
 #animated-images img{
     display: inline-block;
 }
@@ -185,8 +192,23 @@ hr{
 #sun{
     width: 5%;
     position: relative;
-    left: 69%;
+    visibility: hidden;
+    left: 68%;
+    z-index: -1;
+    animation-name: sun;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes sun{
+    0%{visibility: hidden;}
+    100%{bottom: 82px; 
+        width: 6%;
+        visibility: visible;
+    }
+}
+
 
 li{
     display: inline-block;
