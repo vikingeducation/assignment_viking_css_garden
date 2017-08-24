@@ -5,6 +5,155 @@
 
 
 
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+#main-header {
+	display: block;
+	position: relative;
+	margin: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 40px;
+	width: 970px;
+	max-height: 360px;
+}
+
+#main-header .site-title {
+ 	display: inline-block;
+ 	float: left;
+ 	position: relative;
+ 	font-family: 'Zilla Slab Highlight', cursive;
+ 	font-size: 72px;
+ 	color: #151515;
+ 	width: 260px;
+ 	height: 260px;
+ 	margin-top: 5px;
+ 	margin-left: 10px;
+ 	margin-bottom: 0px;
+}
+
+#tagline-box {
+	display: block;
+	width: 600px;
+	height: 60px;
+}
+
+#img-box {
+	display: block;
+	left: 290px;
+	position: absolute;
+	width: 720px;
+	height: 260px;
+}
+
+#sword {
+	display: block;
+	float: left;
+	position: static;
+	width: 650px;
+	padding-top: 50px;
+}
+
+.tagline {
+	float: left;
+	margin-top: 2px;
+}
+
+body {
+	background: #466368;
+  	background: linear-gradient(#fff 30%, #D1DFFF);
+}
+
+main {
+	display: block;
+	max-width: 1500px;
+}
+
+#main-header .tagline {
+	font-family: 'Droid Sans Mono', monospace;
+	font-size: 18px;
+	text-align: right;
+	color: #3b5998;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.section-title {
+	display: block;
+	text-align: left;
+	font-family: 'Zilla Slab', serif;
+	font-size: 30px;
+	margin-left: 15px;
+	padding-right: 0px;
+	margin-bottom: 1px;
+}
+
+#main-content {
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 950px;
+	padding-right: 0;
+}
 
 
- 
+.section-content {
+	display: block;
+	box-sizing: border-box;
+	width: 885px;
+	padding-left: 50px;
+	padding-right: -10px;
+	font-family: 'Zilla Slab', serif;
+	color: #585858;
+	font-size: 19px;
+	line-height: 1.5em;
+}
+
+.citation {
+	display: block;
+	text-align: right;
+	font-family: 'Droid Sans Mono', monospace;
+	font-style: normal;
+	margin-right: 80px;
+	color: #3b5998;
+}
+
+#sidebar {
+	display: block;
+	width: 950px;
+	height: 180px;
+	margin: auto;
+	padding-top: 30px;
+	padding-right: 70px;
+}
+
+#sidebar .section-title {
+	text-align: right;
+}
+
+.nav-link-list-item {
+	display: inline-block;
+	float: right;
+	background: #3b5998;
+	width: 200px;
+	padding: 4px;
+	text-align: center;
+	margin: 4px;
+}
+
+.nav-link-list-item a {
+	font-family: 'Droid Sans Mono', monospace;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-link-list-item:hover {
+	background: #FF4C05;
+}
