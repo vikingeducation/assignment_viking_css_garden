@@ -27,6 +27,7 @@ section{
     padding: 0 10px;
     border: 1px solid green;
     margin: 20px 10px;
+    box-shadow: 2px -2px 4px #322f2a;
 }
 
 hr{
