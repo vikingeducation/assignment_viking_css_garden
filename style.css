@@ -246,7 +246,7 @@ aside nav.sidebar-nav{
 
 @media only screen and (min-width: 768px){
 	.nav-link-list-item{
-		font-size: 100%;
+		font-size: 110%;
 	}
 
 	.nav-link-list-item:hover, .nav-link:hover{
