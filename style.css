@@ -7,14 +7,15 @@ body {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  font-family: tangerine;
-  font-size: 3em;
+  font-family: tangerine, cursive;
+  font-size: 2.75em;
   background: linear-gradient(to bottom, #B78E3D, beige)
 }
 .site-title {
   order: 1;
   flex-grow: 2;
   margin: auto;
+  padding: 20px 0 0 0;
   text-align: center;
 }
 .tagline {
@@ -22,11 +23,12 @@ body {
   flex-grow: 1;
   margin: auto;
   text-align: center;
+  padding: 20px 40px 0 0;
 }
 .main-box {
   diplay: flex;
   padding: 0;
-  margin: 0;
+  margin: auto;
   list-style: none;
 
   display: -webkit-box;
@@ -37,11 +39,18 @@ body {
 
   -webkit-flex-flow: row wrap;
   justify-content: center;
+  max-width: 1028px;
 }
 #sidebar {
   order: 2;
   margin: 0;
   text-align: center;
+}
+section h2 {
+  margin: 50px 0 0 0;
+  font-family: raleway, serif;
+  font-size: 1.75em;
+
 }
 aside h2 {
   display: inline-block;
@@ -74,7 +83,7 @@ li:hover {
 }
 #main-content {
   order: 1;
-  width: 66%;
+  max-width: 1028px;
   text-align: center;
   font-family: raleway, serif;
   line-height: 1.5em;
