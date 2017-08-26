@@ -39,7 +39,12 @@ hr{
 
 #main-header{
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
+    background: rgb(203, 208, 157);
 }
 
 #css3img{
