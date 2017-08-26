@@ -4,6 +4,7 @@
 html{
     box-sizing: border-box;
     font-size: 16px;
+    background: linear-gradient(45deg, #aead77, rgba(216, 215, 143, 0.85))
 }
 
 body{
@@ -238,16 +239,20 @@ aside nav.sidebar-nav{
 
 
 .nav-link-list-item{
-	background-color: #ffffff4d;
+	background-color: rgba(255, 255, 255, 0.22);
 	font-size: 85%;
 }
 
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 768px){
+	.nav-link-list-item{
+		font-size: 100%;
+	}
+
 	.nav-link-list-item:hover, .nav-link:hover{
-    background-color: #fff;
-    color: #000;
-    transition: background-color 1s, color 0.5s, ease-in-out; 
+	    background-color: #fff;
+	    color: #000;
+	    transition: background-color 1s, color 0.5s, ease-in-out; 
 }	
 }
 
