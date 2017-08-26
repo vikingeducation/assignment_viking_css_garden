@@ -44,7 +44,12 @@ hr{
     left: 0;
     right: 0;
     text-align: center;
-    background: rgb(203, 208, 157);
+    background: #cbca8f;
+    z-index: 10;
+}
+
+#main-content{
+    margin-top: 150px;
 }
 
 #css3img{
