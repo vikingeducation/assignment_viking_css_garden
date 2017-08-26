@@ -1,10 +1,120 @@
 /* ----------------------------------- *
  * Your Styles Here
+
+ * Colors:
+
+ * #F3563D - Main Red
+ * #2DB456 - Main Green
+ *
+ *
+ *
+ *
+
  * ----------------------------------- */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #DFFFE9;
+  margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  color: #FF9C8C;
+}
+
+p, cite {
+  line-height: 1.7em;
+  color: #565656;
+}
+
+cite {
+  float: right;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  background: url('images/helmet.png') no-repeat 5px 5px transparent;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 5px 24px;
+  vertical-align: middle;
+}
+
+#main-header {
+  text-align: center;
+}
+
+#main-header h1 {
+  color: #2DB456;
+  background-repeat: no-repeat;
+}
+
+.main-content-section {
+  clear: both;
+}
+
+.section-content p#grow-paragraph {
+  width: 50%;
+  float: left;
+}
+
+.section-content img {
+  width: 40%;
+  float: right;
+  margin-top: 20px;
+}
+
+aside img {
+  margin-top: 40px;
+}
+
+a {
+  color: #057F2A;
+}
+
+a:hover {
+  color: #FF7762;
+}
+
+@media only screen and (min-width:550px){
+  #main-header h1 {
+    text-indent: -200px;
+    margin-bottom: 0;
+  }
+
+  #main-content {
+    float: left;
+    margin-left: 100px;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  #main-header h2.tagline {
+    margin-top: 0px;
+    text-indent: 100px;
+  }
+
+  #sidebar {
+    float: right;
+    width: 30%;
+  }
+}
+
+footer {
+  clear: both;
+  height: 40px;
+}
 
 
 
 
 
-
- 
