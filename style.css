@@ -39,7 +39,7 @@ body {
 
   -webkit-flex-flow: row wrap;
   justify-content: center;
-  max-width: 1028px;
+  max-width: 1200px;
 }
 #sidebar {
   order: 2;
@@ -64,12 +64,20 @@ li {
   display: inline-block;
   text-decoration: none;
   order: 3;
-  margin: 0;
   background: linear-gradient(to top, #B78E3D, beige);
-  margin: 0px;
+  margin: 0 0 100px 0;
   width: 150px;
-  height: 20px;
+  height: 25px;
+  border-bottom: 2px solid #926A1B;
+
 }
+li:hover {
+  background: linear-gradient(to top, #926A1B, beige)
+}
+li:visited {
+  background: linear-gradient(to top, #926A1B, beige)
+}
+
 #section-title {
   order: 2;
 }
@@ -78,13 +86,16 @@ li a {
   font-family: Raleway, serif;
   color: black;
 }
-li:hover {
-  background: linear-gradient(to top, #926A1B, beige)
-}
+
 #main-content {
   order: 1;
-  max-width: 1028px;
+  max-width: 900px;
   text-align: center;
   font-family: raleway, serif;
   line-height: 1.5em;
+}
+
+.main-content:first-child {
+  width: 50%;
+
 }
