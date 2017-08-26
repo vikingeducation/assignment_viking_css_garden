@@ -52,6 +52,12 @@ hr{
     margin-top: 150px;
 }
 
+@media only screen and(max-width: 461px){
+    #main-content{
+        margin-top: 190px;
+    }
+}
+
 #css3img{
     width: 3%;
     position: absolute;
