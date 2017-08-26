@@ -1,10 +1,307 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    background: linear-gradient(45deg, #aead77, rgba(216, 215, 143, 0.85))
+}
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p{
+	font-size: 1.125rem;
+	line-height: 1.35;
+	text-align: justify;
+}
+
+p.firstletter::first-letter{
+    font-size: 165%;
+    font-family: 'Diplomata SC', cursive;
+}
+
+section{
+    padding: 0 10px;
+    border: 1px solid green;
+    margin: 20px 10px;
+    box-shadow: 2px -2px 18px #322f2a;
+}
+
+hr{
+	width: 85%;
+	height: 5px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset; 
+}
+
+#main-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #cbca8f;
+    z-index: 10;
+}
+
+#main-content{
+    margin-top: 150px;
+}
+
+@media only screen and(max-width: 461px){
+    #main-content{
+        margin-top: 190px;
+    }
+}
+
+#css3img{
+    width: 3%;
+    position: absolute;
+    left: 32%;
+    top: 36px;
+}
+
+@media only screen and (max-width: 700px){
+    #css3img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 799px){
+    #css3img{
+        width: 6%;
+        left: 10%;
+        top: 35px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px){
+    #css3img{
+        width: 6%;
+        left: 14%;
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 950px){
+    #css3img{
+        width: 6%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1060px){
+    #css3img{
+        width: 6%;
+        left: 18%;
+    }
+}
+
+@media only screen and (min-width: 1061px) and (max-width: 1250px){
+    #css3img{
+        width: 5%;
+        left: 22%;
+    }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1500px){
+    #css3img{
+        width: 4%;
+        left: 26%;
+    }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px){
+    #css3img{
+        left: 30%;
+    }
+}
+
+
+.section-title{
+    text-align: center;
+}
 
 
 
+.site-title{
+    font-weight: bolder;
+    font-family: Tahoma, Geneva, sans-serif	;
+    color: #0a29d8;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    text-shadow: 3px -1px 5px #6e00ff;
+    margin-bottom: -5px;
+}
+
+.tagline{
+    font-size: 0.97rem;
+}
 
 
+/*Animation*/
 
- 
+#animated-images{
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+    #animated-images{
+        display: none;
+    }
+}
+
+
+#animated-images img{
+    display: inline-block;
+}
+
+#animatedimg1{
+    width: 25%;
+    position: relative;
+    animation-name: boats;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes boats{
+    0%{left: 0;}    
+    33%{left: 20%;}
+    66%{left: 50%;}
+    100%{left: 75%;}
+
+}
+
+/*Notes: the sun will rise up above the boat pic using transition effect? and z-index to show half the sun, then show a size intermitently between 5% and 6%*/
+
+/*
+#animated2{
+    position: relative;
+    animation-name: boats2;
+    animation-delay: 20s;
+    animation-duration: 10s;
+}
+
+
+@keyframes boats2{
+    33%{left: 33%;}
+    66%{left: 66%;}
+}
+
+#animated3{
+    padding-top: relative;
+    animation-name: boats3;
+    animation-delay: 20s;
+    animation-duration: 10s;
+}
+
+@keyframes boats3{
+    66%{left: 66%;}
+    100%{left: 100%;}
+}*/
+
+#sun{
+    width: 5%;
+    position: relative;
+    visibility: hidden;
+    left: 68%;
+    z-index: -1;
+    animation-name: sun;
+    animation-delay: 15s;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sun{
+    0%{visibility: hidden;}
+    100%{bottom: 92px; 
+        width: 6%;
+        visibility: visible;
+    }
+}
+
+
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 2px;
+    font-size: 1.05rem;
+    border: 1px solid beige;
+    border-radius: 40%;
+}
+
+aside nav.sidebar-nav{
+    width: 95%;
+    opacity: 0.8;
+}
+
+.nav-link{
+	/*width: 90%;not showing*/
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+/*.nav-link-list-item{
+    display: inline-block;
+    list-style: asterisks;
+}*/
+
+
+.nav-link-list-item{
+	background-color: rgba(255, 255, 255, 0.22);
+	font-size: 85%;
+}
+
+
+@media only screen and (min-width: 768px){
+	.nav-link-list-item{
+		font-size: 110%;
+	}
+
+	.nav-link-list-item:hover, .nav-link:hover{
+	    background-color: #fff;
+	    color: #000;
+	    transition: background-color 1s, color 0.5s, ease-in-out; 
+}	
+}
+
+
+.norseHead{
+	max-width: 25%;
+	float: left;
+	margin-right: 3%;
+	padding: 5px 0;
+}
+
+
+.citation{
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+}
+
+aside{
+    border: 1px solid green;
+    margin: 5px 10px;
+    text-align: center;
+    background: url('Images/joshua-wilson-norse-garden-web.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+aside .section-title{
+    margin-top: 5px;
+    color: #fff;
+}
+
+.col-6{
+    width: 50%;
+    float: left;
+}
