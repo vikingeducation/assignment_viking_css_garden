@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Debugging in the Browser</title>
+
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+  </head>
+  <body>
+    <h1>Debugging in the Browser</h1>
+
+
+    <!--
+
+    1. Forms/Tables
+
+    Notice that the first form/table renders with a normal submit button. That is because the form is forced to close early because it is invalid markup to put the form element inside the table.
+
+    The second form renders with a red submit button because the form renders AROUND the table and closes properly. This allows CSS to target the submit button and turn it red
+
+    -->
+
+    <h2>1. Forms/Tables</h2>
+
+    <table>
+      <form class="my-form" action="/" method="get">
+        <tbody>
+          <tr>
+            <td><input type="text" name="foo"></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="bar"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit"></td>
+          </tr>
+        </tbody>
+      </form>
+    </table>
+
+    <form class="my-form" action="/" method="get">
+      <table>
+        <tbody>
+          <tr>
+            <td><input type="text" name="foo"></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="bar"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+
+    <!--
+
+    2. Clearfixing
+
+    Notice that the first example causes the floated divs to be pushed out of the containing div. This is because floating removes the element from the normal document flow.
+
+    The second example using a CSS clearfix to force contain the floated divs inside the container.
+
+    -->
+
+    <h2>2. Clearfix</h2>
+
+    <div class="blue">
+      <div class="left yellow square"></div>
+      <div class="left yellow square"></div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="clearfix blue">
+      <div class="left yellow square"></div>
+      <div class="left yellow square"></div>
+    </div>
+
+
+    <!-- 
+
+    3. Floats, Padding and Margins
+
+    Notice that the first example doesn't evenly distribute the child divs in quarters across the width of the parent div. This is because the padding and margin add to the width forcing it over the 100% limit. This pushes the last child div on the next "line"
+
+    The second example uses the CSS3 calc function to subtract the margin and padding from the width. This allows all 4 quarter divs to fit into the parent's 100% width
+
+    -->
+
+    <h2>3. Floats, Padding and Margins</h2>
+
+    <div class="clearfix blue">
+      <div class="left yellow quarter padding margin"></div>
+      <div class="left yellow quarter padding margin"></div>
+      <div class="left yellow quarter padding margin"></div>
+      <div class="left yellow quarter padding margin"></div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="clearfix blue">
+      <div class="left yellow quarter-calc padding margin"></div>
+      <div class="left yellow quarter-calc padding margin"></div>
+      <div class="left yellow quarter-calc padding margin"></div>
+      <div class="left yellow quarter-calc padding margin"></div>
+    </div>
+  </body>
+</html>
+
