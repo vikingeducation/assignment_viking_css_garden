@@ -2,9 +2,58 @@
  * Your Styles Here
  * ----------------------------------- */
 
+#main-header {
+  text-align: center;
+}
 
+#icon {
+  max-width: 75%;
+  height: auto;
+}
 
+#icon:hover {
+  opacity: .5;
+}
 
+body {
+  background: #77C0BD;
+}
 
+.section-content p {
+  width: 50%;
+  margin: auto;
+}
 
- 
+#section-content-2 p {
+  display: inline-block;
+  width: 48%;
+  vertical-align: text-top;
+  text-align: justify;
+  padding: 4px;
+  margin: 0px;
+  border: 0px;
+}
+
+#section-content-2 {
+  width:80%;
+  margin: auto;
+  background: linear-gradient(#77C0BD,#428B88);
+}
+
+#citecontain {
+  text-align: center;
+}
+
+li  {
+  display: inline-block;
+  padding: 3px;
+}
+
+nav {
+  width: 75%;
+  margin: auto;
+}
+
+.section-title, .section-title-2 {
+  text-align: center;
+}
