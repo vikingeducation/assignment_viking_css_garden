@@ -2,9 +2,35 @@
  * Your Styles Here
  * ----------------------------------- */
 
+body{
+  background-color: #0064BE;
+  color: #FF9500;
+}
+h1, h2 {
+  font-family: 'Caesar Dressing';
+}
 
+.tagline{
+  font-size: .8em;
+}
 
+.tagline, .section-content{
+  font-family: 'Brawler';
+  color: #E18400;
+}
+.section-title, header{
+  text-align: center;
+}
 
+header{
+  margin-bottom: 5vh;
+}
+#sidebar{
+  float:left;
+  width:10%;
+}
 
-
- 
+section, header{
+  width:auto;
+  margin-left:10%;
+}
