@@ -2,9 +2,67 @@
  * Your Styles Here
  * ----------------------------------- */
 
+html {
+	color: black;
+    font-family: 'Covered By Your Grace', cursive, Helvetica, "Times New Roman", sans-serif;
+ 	text-align: center;
+ 	text-decoration: none;
+}
 
+#main-header {
 
+}
 
+#main-content {
 
+}
 
- 
+.section-content {
+
+}
+
+.citation a{
+	background-color: #ffff99;
+	color: black;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+.citation a:hover{
+	background-color: #505050;
+	color: white;
+}
+
+h1 {
+	background-color: #505050;
+	color:white;
+}
+
+body {
+	background-color: #C2FFC4;
+}
+
+.main-content-section h2 {
+	background-color: #505050;
+	color:white;
+}
+
+.sidebar-nav ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    background-color: #ffff99;
+	list-style-type: none;
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #000;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+    background-color: #555;
+    color: white;
+}
