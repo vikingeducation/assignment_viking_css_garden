@@ -1,10 +1,132 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Encode Sans', sans-serif;
+}
+
+#main-header {
+  width: 100%;
+  background-image: url("Imgs/cssgarden.png");
+  background-position: center;
+  height: 160px;
+}
+
+.site-title {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(243, 248, 254);
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 5px
+  border-bottom: none;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.tagline {
+  font-style: italic;
+  position: relative;
+  bottom: 40px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  color: rgb(243, 248, 254);
+
+}
+
+#main-content {
+  width: 60%;
+  float: left;
+  padding-left: 5%;
+}
+
+#sidebar {
+  width: 22% 0%;
+  float: right;
+  padding-right: 8%;
+  background-color: #557292;
+  padding-right: 40px;
+}
+
+.section-title, h2 {
+  color: #325050;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 26px
+}
+
+.section-content, p {
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 26px;
+  color: #325050;
+}
 
 
+li {
+  list-style: none;
+  border: 20px solid #557292;
+}
 
+.section-title-sidebar {
+  padding-left: 50px;
+  color: White;
+}
 
+a.nav-link:link, a.nav-link:visited {
+  width: 120px;
+  height: auto;
+  background-color: #fff;
+  color: #557292;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a.nav-link:hover, a.nav-link:active {
+  background-color: #557292;
+  border: 1px solid white;
+  color: White;
+}
 
- 
+a:link {
+  text-decoration: none;
+  color: Black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: Black;
+}
+
+a:hover {
+  color: #557292;
+}
+
+a:active {
+  color: #557292;
+}
+
+.citation {
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+#footer {
+  position: relative;
+  margin-top: -100px;
+  height: 100px;
+  clear: both;
+  background-color: #557292;
+}
+
+.footer-content {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: monospace;
+  padding-top: 30px;
+}
