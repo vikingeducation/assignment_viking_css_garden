@@ -2,9 +2,45 @@
  * Your Styles Here
  * ----------------------------------- */
 
-
-
-
-
-
- 
+body{
+  background-color: #0064BE;
+  color: #FF9500;
+  padding:3vw;
+  padding-left:0;
+  padding-top:1vw;
+}
+h1, h2 {
+  font-family: 'Caesar Dressing';
+}
+.tagline, .section-content{
+  font-family: 'Brawler';
+  color: #E18400;
+}
+.section-title, header{
+  text-align: center;
+  padding-bottom:3vh;
+}
+header{
+  font-size: x-large;
+}
+.tagline{
+  font-size: .8em;
+}
+#sidebar{
+  float:left;
+  width:10%;
+}
+section, header{
+  width:auto;
+  margin-left:10%;
+  margin-bottom: 5vh;
+}
+a{
+  color:#B06700;
+}
+li{
+  padding-bottom: 1vh;
+}
+cite{
+  float:right;
+}
