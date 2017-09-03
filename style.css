@@ -2,8 +2,71 @@
  * Your Styles Here
  * ----------------------------------- */
 
+body{
+	background:white;
+	background:linear-gradient(white,rgba(37, 179, 242, 0.86));
+	
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#main-header{
+	text-align:center;
+	color:rgb(21, 22, 23)
+}
+main{
+	
+	float:right;
+	max-width: 75%;
+	color:#2416d4;
+	font: italic 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right:40px;
+}
+aside{
+	margin-top:-5px;
+	display:inline-block;
+	text-align:center;
+	margin-left:40px;
+}
+
+aside li{
+	text-align:left;
+}
+a{
+	color:#2416d4;
+}
+.citation a{
+	color:#e22bd2
+}
+main:after{
+
+	clear:both;
+	background-image: url("ship-32253_1280.png");
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	
+	 
+	background-origin: content-box;
+	content:'';
+  	width: 300px;
+  	height: 300px;
+  	position:relative;
+  	display:block;
+  	//margin:auto;
+
+  	animation:example 50s linear infinite;
+
+}
+@keyframes example {
+    0%   {left:0%}
+    100% {left:100%}
+}
 
 
+
+ 
 
 
 
