@@ -22,10 +22,17 @@ main{
 	max-width: 75%;
 	color:#2416d4;
 	font: italic 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right:40px;
 }
 aside{
-	margin-top:40px;
+	margin-top:-5px;
+	display:inline-block;
+	text-align:center;
+	margin-left:40px;
+}
 
+aside li{
+	text-align:left;
 }
 a{
 	color:#2416d4;
@@ -33,7 +40,7 @@ a{
 .citation a{
 	color:#e22bd2
 }
-aside:after{
+main:after{
 
 	clear:both;
 	background-image: url("ship-32253_1280.png");
