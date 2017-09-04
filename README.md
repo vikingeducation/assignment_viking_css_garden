@@ -1,10 +1,6 @@
-assignment_viking_css_garden
+styling_exercise_viking_css_garden
 ============================
 
-A place for your styling creativity to grow
+Author: Ian D Halverson
 
-
-**NOTE:** *This repo is copyrighted material for your private use only and not to be shared outside of Viking Code School.*
-
-Ian D Halverson
-
+This project is a simple exercise in using CSS/SASS to style a static web page.
