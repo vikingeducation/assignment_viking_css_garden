@@ -1,0 +1,155 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Satisfy');
+
+$title-font: "Satisfy";
+$subtitle-font: "Lobster";
+$bodytext-font: "Comfortaa";
+$title-color: #b6d7a8;
+$subtitle-color: #FFAAAA;
+$borders-color: #FFAAAA;
+$textbox-color: #DDEBCD;
+$background-color: linear-gradient(to top right, #b6d7a8, white);
+$nav-link-color-1: linear-gradient(to top right, white, #FFAAAA);
+$nav-link-color-2: linear-gradient(to top right, white, #FDFC6F);
+$nav-link-text-color: #6F8E4B;
+$bodytext-color: #63744F;
+$citation-bubble-color: rgba(79, 130, 149, .3);
+$textbox-borders: 4px solid $borders-color;
+
+/* HTML reset */
+ HTML {
+	background: white;
+	font-family: Helvetica, "Time New Roman", sans-serif;
+}
+
+/* ----------------------------------- *
+ * Background
+ * ----------------------------------- */
+
+HTML {
+	background: $background-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1410px;
+  min-height: 2000px;
+}
+
+/* ----------------------------------- *
+ * Header & Title Styles
+ * ----------------------------------- */
+
+ #main-header {
+   text-align: center;
+   .site-title {
+     color: $title-color;
+   	font-family: $title-font;
+   	font-size: 90px;
+     margin: 50px 0px 0 0;
+     font-style: italic;
+   }
+   .tagline {
+     color: $subtitle-color;
+     font-family: $subtitle-font;
+     font-size: 28px;
+     margin: -30px 0 0 200px;
+   }
+ }
+
+ /* ----------------------------------- *
+  * Main Content Styles
+  * ----------------------------------- */
+
+ #main-content {
+   width: 1000px;
+   float: left;
+   margin: 50px 0 20px 70px;
+   .main-content-section {
+     background: $textbox-color;
+     border: $textbox-borders;
+     margin: 30px 0 0 10px;
+     .section-title {
+       text-align: center;
+       font-family: $title-font;
+       font-size: 41px;
+       font-style: italic;
+       color: $subtitle-color;
+     }
+     .section-content {
+       margin: 0 45px 30px 45px;
+       line-height: 28px;
+       font-size: 18px;
+       text-indent: 25px;
+       font-family: $bodytext-font;
+       color: $bodytext-color;
+     }
+     .citation {
+       background: $citation-bubble-color;
+       border-radius: 50%;
+       width: 150px;
+       height: 150px;
+       float: right;
+       margin: -50px -20px 100px 0;
+       font-family: $bodytext-font;
+       color: $bodytext-color;
+       text-align: center;
+       font-size: 25px;
+       line-height: 37px;
+       border: 2px solid $bodytext-color;
+       font-weight: 900;
+       a {
+         color: $bodytext-color;
+       }
+     }
+   }
+ }
+
+ /* ----------------------------------- *
+  * Sidebar Styles
+  * ----------------------------------- */
+
+ #sidebar {
+   text-align: center;
+   margin: 20px 0px 0 20px;
+   width: 300px;
+   float: left;
+   .section-title {
+     background: $textbox-color;
+     border: $textbox-borders;
+     font-size: 40px;
+     font-family: $title-font;
+     font-style: italic;
+     color: $subtitle-color;
+     margin-top: 60px;
+     line-height: 100px;
+   }
+   .nav-link-list-item {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     list-style-type: none;
+     border: 2px solid $title-color;
+     .nav-link {
+       position: relative;
+       top: 23px;
+       text-decoration: none;
+       font-family: $bodytext-font;
+       font-size: 16px;
+       font-weight: 100;
+       line-height: 24px;
+       font-weight: 900;
+       color: $nav-link-text-color;
+     }
+   }
+   .nav-link-list-item:hover {
+     outline: 8px solid $title-color;
+   }
+   .nav-link-list-item:nth-child(odd){
+     margin: 0 20px 10px 0;
+     background: $nav-link-color-1;
+   }
+   .nav-link-list-item:nth-child(even){
+     margin: 0 20px 10px 120px;
+     background: $nav-link-color-2;
+   }
+ }
