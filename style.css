@@ -31,7 +31,10 @@ body {
   background-color: #F0F0F0;
   font-family: 'Open Sans', sans-serif;
   color: #484848;
+}
 
+h2 {
+  font-size: 30px;
 
 }
 
@@ -40,16 +43,68 @@ h1 {
   text-align: center;
   font-weight: bold;
   color: black;
-  font-size: 40px;
+  font-size: 55px;
+  padding-top: 15px;
+}
+
+section {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #main-header h2 {
   text-align: center;
   font-size: 25px;
+  font-style: italic;
+  color: #006400;
+  padding-top: 15px;
 }
 
-h2 {
-  font-size: 30px;
-  font-weight:
+p::first-letter {
+  font-size: 25px; /* emphasis on the first letter in each paragraph*/
+  font-weight: bold;
+  color: #006400;
+}
+p {
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
 
+.nav-links li {
+  text-align: center;
+  display: inline-block;
+  padding-left: 10px;
+  width 50px;
+}
+aside {
+  text-align: center;
+  min-width: 696px;
+}
+
+li {
+  padding: 50px;
+  margin: 0;
+}
+
+hr {
+  display: block;
+  position: relative;
+  width: 75%;
+  margin: 8px auto;
+  border-top: 1px solid #484848;
+  border-bottom: 1px solid #484848;
+}
+a:link {
+  color: #006400;
+  text-decoration: none;
+}
+a:visited {
+  color: #006400;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
 }
