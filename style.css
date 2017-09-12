@@ -1,10 +1,104 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+/* ----- Styles for Main Content -----*/
 
+@font-face {
+	font-family: josefinsans;
+	src: url(josefinsans/josefinsans-Bold.ttf);
+}
 
+body {
+	color: #333;
+}
 
+header {
+	width: 100%;
+	text-align: center;
+	height: 90vh;
+	background: url(cherry-laithang-138648.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin-bottom: 131px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #eee;
+}
 
+main{
+	line-height: 27px;
+	font-size: 18px;
+	display: inline-block;
+	width: 50%;
+}
 
+h1, h2, a {
+	font-family: josefinsans;
+}
 
- 
+h1 {
+	font-size: 108px;
+	margin-bottom: 27px;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #6C8A96;
+	line-height: 36px;
+}
+
+main section:first-of-type, #flower_power {
+	margin-bottom: 81px;
+}
+
+#flower_power object {
+	width: 100%;
+}
+
+aside{
+	text-align: right;
+	vertical-align: top;
+	position: relative;
+	margin-right: 5%;
+	width: 25%;
+	display: inline-block;
+	border-right: 2px solid #c8af70;
+	border-bottom: 18px solid #c8af70;
+}
+
+aside h2 {
+	padding: 135px 30px 18px 0px;
+	background:#c8af70;
+}
+
+aside ul {
+	padding: 9px 30px 27px 30px;
+}
+
+aside li:after {
+	margin-left: 25%;
+	width: 75%;
+	content: '';
+	display: block;
+	border-bottom: 3px solid #c8af70;
+	transition: transform .2s ease-in;
+	transform: scale(0);
+	margin-bottom: 9px;
+}
+
+aside li:hover:after {
+	transform-origin: 100% 50%;
+	transform: scale(1);
+}
+
+.citation {
+	position: relative;
+	display: block;
+	margin-top: 27px;
+	padding-bottom: 27px;
+	border-bottom: 3px solid #c8af70;
+	margin-bottom: 108px;
+}

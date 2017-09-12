@@ -1,0 +1,36 @@
+/* ----- Garden Flowers Styles ----- */
+
+svg {
+	width: 100%;
+	margin-bottom: 131px;
+}
+
+
+@keyframes stemsUp{
+	from {
+		transform: translate(0, 100%);
+		visibility: hidden;
+	}
+	to {
+		transform: translate(0, 0);
+		visibility: visible;
+	}
+}
+
+.stems, .leaves, .flowers{
+	animation-name: stemsUp;
+	animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
