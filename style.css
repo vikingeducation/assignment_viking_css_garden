@@ -50,6 +50,10 @@ a {
 	line-height: 36px;
 }
 
+p {
+	margin-bottom: 54px;
+}
+
 main section:first-of-type, #flower_power {
 	margin-bottom: 81px;
 }
