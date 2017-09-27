@@ -1,10 +1,143 @@
 /* ----------------------------------- *
  * Your Styles Here
+ include:
+
+    Floats*
+    Absolute Positioning*
+    Background Images*, Colors* and Gradients*
+    Fonts* and Typography*
+    CSS3 Transitions* and Animations*
+    Use a CSS reset*
+
  * ----------------------------------- */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
 
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+.background-image {
+  position: absolute;
+  height: 140%;
+	width: 100%;
+  background: linear-gradient(
+     rgba(49, 137, 225, 0.5),
+     rgba(49, 137, 225, 0.5)
+    ),url('bg.jpg') no-repeat;
+  background-size: cover;
+  background-position:center;
+}
 
+#main-header{
+  width: 100%;
+  text-align: center;
+  margin-top: 56px;
+	padding-bottom: 40px;
+}
 
+.site-title{
+  font-size: 56px;
+  font-weight: bolder;
+	color: black;
+	font-family: 'Merriweather', serif;
+}
 
- 
+.tagline {
+  margin-top: 24px;
+  font-size: 32px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.section-title{
+	color: black;
+	font-size: 40px;
+	margin-top: 24px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+
+.section-content{
+	color: white;
+	margin-right: 120px;
+	margin-left: 120px;
+	margin-top: 16px;
+	line-height: 160%;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	animation-duration: 1s;
+  animation-name: Grow_In;
+}
+
+@keyframes Grow_In {
+	from {
+		margin-left: 100%;
+	  width: 300%;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.citation {
+		font-size: 16px;
+		color: black;
+		font-style: italic;
+		font-weight: bold;
+		float: left;
+		padding-left: 120px;
+}
+
+#sidebar {
+	text-align: center;
+}
+
+.nav-link-list-item {
+	margin-top: 12px;
+}
+
+.grow:hover{
+	transform: scale(1.3);
+	overflow: hidden;
+}
