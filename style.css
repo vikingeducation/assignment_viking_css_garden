@@ -1,10 +1,99 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+
+html {
+	font-family: "Baskerville", serif;
+	background-color: #363636;
+	color: #D4D4D4;
+} 
+
+a {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
 
 
+hr.divider {
+border: 0;
+height: 2px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #333, #ccc, #333);
+background-image: -moz-linear-gradient(left, #333, #ccc, #333);
+background-image: -ms-linear-gradient(left, #333, #ccc, #333);
+background-image: -o-linear-gradient(left, #333, #ccc, #333);
+}
+
+#main-content {
+	width: 75%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#sidebar {
+	width: 20%;
+	float: right;
+}
+
+#main-header {
+	text-align: center;
+}
+
+h1,
+h2 {
+	font-family: 'Germania One', cursive;
+
+}
+
+.site-title {
+	font-size: 6rem;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h2 {
+	font-size: 2.3rem;
+}
+
+h2.tagline {
+	font-size: 2rem;
+}
+
+p:first-of-type::first-letter {
+    font-size: 4rem;
+	float: left;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+p {
+	font-size: 1.2rem;
+	text-align: justify;
+}
+
+ul {
+	padding-left: 10px ;
+}
+
+.section-title {
+	margin-bottom: 0;
+}
 
 
+li {
+	list-style: none;
+	padding-top: 10px;
+	font-family: 'Germania One', cursive;
+	font-size: 1.5rem;
+}
 
-
- 
+a:hover {
+	text-decoration: underline;
+}
