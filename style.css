@@ -40,4 +40,16 @@ header {
 	display: block;
 	float: right;
 	width: 30%;
+	text-align: center;
+}
+
+.section-title {
+	padding: 15px auto;
+	font-size: 1.5em;
+	font weight: bold;
+}
+
+.citation {
+	font-weight: bold;
+	font-style: italic;
 }
