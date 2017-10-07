@@ -2,9 +2,71 @@
  * Your Styles Here
  * ----------------------------------- */
 
+body {
+	font-family: sans-serif;
+}
 
+header {
+	background-color: rgba(40, 167, 255, 1);
+	background-image: url("https://cdn.pixabay.com/photo/2017/09/26/16/32/autumn-2789234_960_720.jpg");
+	background-size: cover;
+	height: 30vh;
+	color: white;
+}
 
+.site-title {
+	display: block;
+	height: auto;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
+	text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.8);
+}
 
+.tagline {
+	display: block;
+	height: auto;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em ;
+	padding: 10px 0px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+}
 
+#main-content {
+	width: 65%;
+	float: left;
+}
 
- 
+.main-content-section {
+	margin: 15px auto;
+	display: block;
+	width: 90%;
+	background: rgba(40, 167, 255, 0.1);
+}
+
+#sidebar {
+	display: block;
+	float: right;
+	width: 30%;
+	text-align: center;
+}
+
+.section-title {
+	padding: 15px auto;
+	font-size: 1.5em;
+	font weight: bold;
+}
+
+.citation {
+	font-weight: bold;
+	font-style: italic;
+}
+
+p {
+	padding: 7px 0px !important;
+}
