@@ -2,9 +2,42 @@
  * Your Styles Here
  * ----------------------------------- */
 
+body {
+	font-family: sans-serif;
+}
 
+header {
+	background: rgba(40, 167, 255, 1);
+	color: white;
+}
 
+.site-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
+}
 
+.tagline {
+	text-align: center;
+	font-weight: bold;
+	font-weight: 2.5em;
+	padding: 10px 0px;
+}
 
+#main-content {
+	width: 65%;
+	float: left;
+}
 
- 
+.main-content-section {
+	margin: 15px auto;
+	display: block;
+	width: 90%;
+	background: rgba(40, 167, 255, 0.1);
+}
+
+#sidebar {
+	display: block;
+	float: right;
+	width: 30%;
+}
