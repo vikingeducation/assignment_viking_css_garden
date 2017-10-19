@@ -52,6 +52,8 @@ table {
 	width: 100%; 
 	margin-bottom: -2.5rem;
 	background-image: url("images/03-iceland.jpg"), linear-gradient(#477187, white);
+	/* I was trying for a jumbotron-style image at the top of the page, but I found it difficult to implement cleanly without messing with the HTML,
+	which I wasn't supposed to do with this assignment. */ 
 	background-position: center;
 	background-repeat: no-repeat;
 } 
@@ -103,7 +105,9 @@ table {
 	padding-right: 1rem;
 	padding-bottom: 1rem; 
 }
-h2:not(.tagline) { 
+h2:not(.tagline) { /* I thought I was hot stuff when I figured out the :not selector! The fact that I wasn't supposed to fiddle with the HTML forced me
+	to get creative with class and id issues. I needed a greater degree of differentiation between the various h2 headers to achieve the design I wanted,
+	so I had to utilize :not to give this h2 its own styling parameters. */  
 	background-color: #477187;
 	border-radius: 5px;
 } 
@@ -151,19 +155,19 @@ li {
 	transition: .75s ease;
 }
 
-@media only screen and (max-width: 1024px) {
-	.main-content-section {
+@media only screen and (max-width: 1024px) { /* Not a bad little responsiveness implementation. Still looks decent at mobile sizes. */
+	.main-content-section { /* Forces the two main containers to center and wrap. */ 
 	float: none;	
 	flex-wrap: wrap;
 	margin: auto;
 	padding: auto;
 	}
-	#main-content {
+	#main-content { /* Allows sub-containers to expand. */  
 	margin: auto;
 	padding: auto;
 	width: 100%;
 	}
-	#sidebar {
+	#sidebar { /* Forces sidebar beneath main containers and increases its width. */ 
 	flex-wrap: wrap;
 	float: none;
 	margin: auto;
