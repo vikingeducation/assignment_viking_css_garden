@@ -1,10 +1,113 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+@font-face {
+  font-family: Norse;
+  src: url("fonts/Norse.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Viking-Normal;
+  src: url("fonts/Viking-Normal.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "YOLDA___.TTF";
+  src: url("fonts/YOLDA___.TTF") format("truetype");
+}
+
+.site-title{
+  font-family: "Viking-Normal", Georgia, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.tagline {
+  font-family: "Norse";
+  text-align: center;
+  font-size: 18px;
+}
+
+.main-content-section:last-child {
+  height: 850px;
+
+}
+
+.main-content-section:first-child {
+  height: auto;
+}
+
+.section-content {
+  font-size: 20px;
+  font-weight: 700;
+  outline-color: black
+  color: white;
+  vertical-align: top;
+}
+
+.section-title {
+  font-family: "Viking-Normal";
+  text-align: center;
+}
+
+.citation {
+  float: right;
+}
+
+.sidebar-nav {
+
+}
+
+.nav-links {
+
+}
+
+.nav-link-list-item {
+
+}
+
+.nav-link {
+  font-family: "Norse";
+  font-size: 20px;
+}
+
+#main-header {
+
+}
+
+#main-content {
 
 
+}
 
+#sidebar {
 
+}
 
+li {
+  display: inline-block;
+  margin: 2.5%;
+}
 
- 
+body {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e1e6f2, #0a3f93, #c1761b); /* Standard syntax */
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after{
+  clear: both;
+}
+
+main {
+  font-family: "Norse";
+  font-size: 40px;
+  background-image: url("https://cdn.wallpapersafari.com/20/51/C157LE.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
