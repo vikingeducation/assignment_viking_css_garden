@@ -1,0 +1,287 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+
+
+*, body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #E7E8E8;
+}
+
+
+#main-header {
+  background-color: #BFCBC6;
+  border: 2px solid #1f1f2e;
+  text-align: center;
+  color: #006400;
+  height: 112px;
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0px;
+
+}
+
+#image-left {
+  background-repeat: no-repeat;  
+  width: 25%;
+  height: 100%;
+  float: left;
+  display:inline;
+  margin-bottom: 20px;
+}
+
+#image-right {
+  background-repeat: no-repeat;  
+  width: 25%;
+  height: 100%;
+  float: right;
+  display:inline;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-top: .5em;
+  margin-right: 20%;
+  margin-bottom: 1em;
+  font-size: 30px;
+  font-family: 'Cinzel';font-size: 22px;
+}
+
+header h2 {
+  margin-right: 20%;
+  font-family: 'Clicker Script';font-size: 22px;
+}
+
+.section-title {
+  margin-left: 30%;
+  text-align: left;
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  padding-top: 1em;
+
+}
+
+.section-content p, .citation {
+  margin: 1em;
+}
+
+
+.section-title-right {
+  text-align: center;
+  margin-left: 40%;
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  padding-top: 1em;
+}
+
+
+#border {
+  background-color: #E7E8E8;
+  padding-top: 0;
+  border: 2px solid #1f1f2e;
+  border-top: none;
+  border-bottom: none;
+  margin-bottom: 11%;
+}
+
+#main-content h2 {
+  margin-top: 1em;
+}
+
+
+#main-content {
+  padding-top: 90px;
+  width: 50%;
+
+}
+
+#main-content p, .citation {
+  font-family: 'Amiri';font-size: 19px;
+  
+}
+
+.citation {
+  text-decoration: none;
+}
+
+// I usually don't use negative margins, but 
+// couldn't get the two sections to align next 
+// to one another without it. I also had to insert
+// a photo at the bottom of the right side in order
+// for the border to all the way around the page.
+
+#sidebar {
+  margin-left: 50%;
+  margin-top: -144%;
+  background-color: #E7E8E8;
+  border: 2px solid #1f1f2e;
+  width: 50%;
+  border-left: none;
+  border-bottom: none;
+  height: 100%;
+  
+  
+}
+
+#sidebar h2 {
+  margin-right: 30%;
+  margin-top: .5em;
+}
+
+#chinese-image {
+  padding-top: 30px;
+  padding-right: 30%;
+  margin-left: 2em;
+  
+}
+
+#chinese {
+  float: left;
+  margin-left: 10%;
+  margin-top: 7%;
+
+}
+
+#dutch {
+  float: right;
+  margin-top: -280px;
+  padding-right: 8%;
+  margin-left: 20%;
+  
+}
+
+#dutch-image {
+  margin-top: -200px;
+  margin-left: 60%;
+  margin-bottom: 40%;
+  height: 200px;
+  width: 250px;
+
+}
+
+#english {
+float: left;
+margin-left: 10%;
+margin-top: -30%;
+
+}
+
+#english-image {
+  margin-top: -17%;
+  padding-right: 30%;
+  margin-left: 2em;
+  height: 230px;
+  width: 450px;
+}
+
+#greek {
+ float: right;
+ margin-top: -313px;
+ padding-right: 8%;
+ margin-left: 20%;
+}
+
+#greek-image {
+  margin-top: -233px;
+  margin-left: 59%;
+  margin-bottom: 40%;
+  height: 230px;
+  width: 255px;
+}
+
+#italian {
+float: left;
+margin-left: 10%;
+margin-top: -35%;
+}
+
+#italian-image {
+  margin-top: -20%;
+  padding-right: 30%;
+  margin-left: 2em;
+  height: 250px;
+  width: 450px;
+}
+
+#japanese {
+ float: right;
+ margin-top: -355px;
+ padding-right: 8%;
+ margin-left: 20%;
+}
+
+#japanese-image {
+  margin-top: -255px;
+  margin-left: 59%;
+  margin-bottom: 40%;
+  height: 250px;
+  width: 255px;
+}
+
+#english1-image {
+  margin-top: 8%;
+  margin-left:15%;
+  width: 500px;
+  height: 400px;
+  padding-bottom: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  padding-top: 1em;
+}
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #BFCBC6;
+  text-align: center;
+  height: 14%;
+  border: 3px solid #1f1f2e;
+  width: 100%;
+  text-decoration: none;
+
+}
+
+.footer h1 {
+  font-family: 'Glass Antiqua';font-size: 22px;
+  color: #006400;
+
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+ 
