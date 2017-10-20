@@ -2,9 +2,114 @@
  * Your Styles Here
  * ----------------------------------- */
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900);
+
+
+body, h2 {
+    font-family: Lato;
+    margin: auto 50px;
+    color: dimgray;
+
+}
+
+.tagline {
+    
+}
+
+#main-header {
+    text-align: center;
+}
+
+hr {
+    width: 25%;
+}
+
+.section-content {
+    position: relative;
+    margin: 10px 50px;
+    padding: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgray;    
+}
+
+.section-title {
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#sidebar .section-title {
+    text-align: center;
+}
+
+.citation {
+    position: absolute;
+    text-align: right;
+    right: 50px;
+}
+.citation a{
+    text-decoration: none;
+    color: dimgray;
+   
+}
+
+.nav-links {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
 
 
 
+.thin { font-weight: 300; }
+.thick { font-weight: 900; }
 
+.nav-links li a {
+  font-family: Lato;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: dimgray;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
 
+.nav-links li p {
+  font-weight: 100;
+  font-size: 50%;
+  margin: 1px;
+}
+
+[class^="nav-link-"] {
+  display: inline-block;
+  margin: 1em
+}
  
+
+/* link style */
+.nav-link-list-item a:before {
+  content: '';
+  border-bottom: solid 1px gray;
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+}
+
+.nav-link-list-item a:hover:before {
+  border-bottom: solid thin #5CAAEF;
+}
+
+a span:hover {
+  color: #5CAAEF;
+}
+
+.nav-link-list-item a:before {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
