@@ -43,7 +43,6 @@ body {
   width: 25%;
   height: 100%;
   float: left;
-  display:inline;
   margin-bottom: 20px;
 }
 
@@ -52,19 +51,17 @@ body {
   width: 25%;
   height: 100%;
   float: right;
-  display:inline;
   margin-bottom: 20px;
 }
 
-header h1 {
+.site_title {
   margin-top: .5em;
   margin-right: 20%;
   margin-bottom: 1em;
-  font-size: 30px;
   font-family: 'Cinzel';font-size: 22px;
 }
 
-header h2 {
+.tagline {
   margin-right: 20%;
   font-family: 'Clicker Script';font-size: 22px;
 }
@@ -101,7 +98,7 @@ header h2 {
   margin-bottom: 11%;
 }
 
-#main-content h2 {
+#main-content > .section-title {
   margin-top: 1em;
 }
 
@@ -121,11 +118,11 @@ header h2 {
   text-decoration: none;
 }
 
-// I usually don't use negative margins, but 
-// couldn't get the two sections to align next 
-// to one another without it. I also had to insert
-// a photo at the bottom of the right side in order
-// for the border to all the way around the page.
+/* I usually don't use negative margins, but 
+ couldn't get the two sections to align next 
+ to one another without it. I also had to insert
+ a photo at the bottom of the right side in order
+ for the border to all the way around the page.*/
 
 #sidebar {
   margin-left: 50%;
@@ -135,8 +132,6 @@ header h2 {
   width: 50%;
   border-left: none;
   border-bottom: none;
-  height: 100%;
-  
   
 }
 
