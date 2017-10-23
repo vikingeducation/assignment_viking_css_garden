@@ -87,7 +87,7 @@ a:visited {
   padding: 20px 10px 20px 10px;
   background: linear-gradient(to right, #ccc, #fff 90%, #FF5300);
   background-size: 380px;
-  box-shadow: 2px 2px 8px #ccc;
+  box-shadow: 2px 2px 8px #1B2534;
   border: 0px;
   border-radius: 0 20px 0 20px;
   transition: background 0.3s ease-out, border-radius 0.3s ease-out;
