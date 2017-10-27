@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat');
+@import "_colors";
+
+@mixin links ($link-decoration, $hover-decoration) {
+  & {
+    text-decoration: $link-decoration;
+    &:visited {
+      color: $link-hover-color;
+    }
+
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: $hover-decoration;
+    }
+
+    &:active, &:focus {
+      color: $link-color;
+    }
+  }
+}
+
+body {
+  background: $background-gradient;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  color: $subheader-color;
+  margin-bottom: 8px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  color: $header-color;
+  font-size: 28px;
+}
+
+h2 {
+  color: $subheader-color;
+  font-size: 18px;
+}
+
+a {
+  @include links(none, underline);
+  color: $link-color;
+  font-family: Lato, sans-serif;
+  }
+
+.nav-link {
+  @include links(none, none);
+  font-weight: bold;
+  transition: color 0.3s ease-out;
+}
+
+#main-header {
+  margin: 30px auto;
+  padding: 0px;
+  width: 800px;
+  height: 420px;
+  display: block;
+  background-image: url('/content/thor_hammer.jpg');
+  background-repeat:no-repeat;
+  box-shadow: 2px 2px 8px $box-shadow;
+}
+
+
+.site-title {
+
+  padding: 100px 0px 20px 50px;
+  display: block;
+
+}
+
+
+
+.tagline {
+
+  font-style: italic;
+
+  padding-left: 60px;
+
+  display: block;
+
+}
+
+
+
+#main-content {
+
+  max-width: 620px;
+
+  margin: 0 auto;
+
+  display: block;
+}
+
+
+
+.main-content-section {
+
+  margin-bottom: 24px;
+
+  vertical-align: baseline;
+
+  padding: 0 10px;
+
+}
+
+
+
+.section-title {
+
+  margin-bottom: 12px;
+
+}
+
+
+.citation {
+
+  margin-left: 10px;
+
+  font-style: italic;
+
+}
+
+
+
+#sidebar {
+
+  display: block;
+
+  width: 170px;
+
+  position: fixed;
+
+  top: 480px;
+
+  right: 0px;
+
+  @media (max-width: 930px) {
+
+      position: static;
+
+      vertical-align: middle;
+
+      margin: 0 auto;
+
+  }
+}
+
+.nav-link-list-item {
+
+  margin-bottom: 12px;
+
+  padding: 20px 10px 20px 10px;
+
+  background: $link-gradient;
+
+  background-size: 380px;
+
+  box-shadow:2px 2px 8px $box-shadow;
+
+  border: 0px;
+
+  border-radius: 0 20px 0 20px;
+
+  transition: background 0.3s ease-out, border-radius 0.3s ease-out;
+
+  cursor: pointer;
+
+  &:hover {
+
+    background-position: -210px 0;
+
+    border-radius: 20px 0 20px 0;
+
+  }
+
+}
