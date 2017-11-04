@@ -1,8 +1,2 @@
-assignment_viking_css_garden
-============================
-
-A place for your styling creativity to grow
-
-
-**NOTE:** *This repo is copyrighted material for your private use only and not to be shared outside of Viking Code School.*
-
+Styled an HTML template.  Here's the preview: https://sarahschoonmaker.github.io/assignment_viking_css_garden/
+Not mobile responsive yet. 

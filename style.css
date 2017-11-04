@@ -1,10 +1,230 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  margin: auto;
+  background:#D3C9C1;
 
+}
 
+.header {
+  background-color: #BFCBC6;
+  border: 2px solid #1f1f2e;
+  text-align: center;
+  color: #006400;
+  height: 112px;
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0px;
 
+}
 
+#image-left {
+  background-repeat: no-repeat;  
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
 
+#image-right {
+  background-repeat: no-repeat;  
+  width: 25%;
+  height: 100%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.site-title {
+  margin-top: .5em;
+  margin-right: 20%;
+  margin-bottom: 1em;
+  font-family: 'Cinzel';font-size: 22px;
+}
+
+.tagline {
+  margin-top: .5em;
+  margin-right: 20%;
+  margin-bottom: 1em;
+  font-family: 'Cinzel';font-size: 18px;
+}
+
+#primary {
+ float: left;
+ width: 50%;
+ bottom: 40px;
+ clear:both;
+}
+
+cite {
+  padding-bottom: 20%;
+}
 
  
+aside {
+ display: block; 
+ float: right;
+ width: 50%;
+ margin-top: -30%;
+
+}
+
+cite {
+  padding-left:3em;
+  font-family: 'Buda';font-size: 15px;
+  
+}
+cite a {
+  text-decoration: none;
+
+}
+
+.section-title {
+  margin-top: 20%;
+  text-align: center;
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  padding-top: 1em;
+}
+
+.section-content {
+  margin:1em;
+  font-family: 'Buda';font-size: 22px;
+
+}
+
+.section-title-two {
+  margin-top: 2em;
+  text-align: center;
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  
+}
+
+.section-title-right {
+  text-align: center;
+  margin-top: 80%;
+  margin-left: 10%;
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  padding-top: 1em;
+}
+
+#chinese-image {
+  padding-top: 15px;
+  padding-right: 30%;
+  margin-left: 1em;
+  
+}
+
+#chinese {
+  float: left;
+  margin-left: 10%;
+  margin-top: 7%;
+
+}
+
+#dutch {
+  margin-top: -42.5%;
+  
+  padding-right: 8%;
+  margin-left: 65%;
+  
+}
+
+#dutch-image {
+  margin-top: .73em;
+  margin-left: 57%;
+  margin-bottom: 40%;
+  height: 200px;
+  width: 250px;
+
+}
+
+#english {
+float: left;
+margin-left: 10%;
+margin-top: -30%;
+
+}
+
+#english-image {
+  margin-top: -17%;
+  margin-left: 1em;
+  height: 230px;
+  width: 250px;
+}
+
+#greek {
+ float: right;
+ margin-top: -313px;
+ padding-right: 10%;
+ margin-left: 20%;
+}
+
+#greek-image {
+  margin-top: -233px;
+  margin-left: 57%;
+  margin-right: 1em;
+  margin-bottom: 40%;
+  height: 230px;
+  width: 250px;
+}
+
+#italian {
+float: left;
+margin-left: 10%;
+margin-top: -35%;
+}
+
+#italian-image {
+  margin-top: -20%;
+  padding-right: 30%;
+  margin-left: 1em;
+  height: 250px;
+  width: 250px;
+}
+
+#japanese {
+ float: right;
+ margin-top: -355px;
+ padding-right: 8%;
+ margin-left: 20%;
+}
+
+#japanese-image {
+  margin-top: -255px;
+  margin-left: 57%;
+  margin-bottom: 40%;
+  height: 250px;
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #006400;
+  font-family: 'Caudex';font-size: 22px;
+  
+}
+
+#footer { 
+position:fixed;
+   bottom:0;
+   width:100%;
+   height:60px;
+  background-color: #232330;
+}
+
+.vline
+{
+    position:fixed;
+    top:21%;
+    left:50%;
+    bottom:10%; margin:0;
+    border:none;
+    border-right:solid 1px black;
+    z-index:10;
+}
