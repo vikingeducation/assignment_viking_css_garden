@@ -1,10 +1,183 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html {
+  font-family: "Times New Roman", sans-serif;
+}
+
+/*start background*/
+body {
+  background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-507671.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 80%;
+  background-position: 50% 90px;
+}
+
+#box1 {
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  width:100%;
+  height:90px;
+  background: #2b78e4;
+  z-index: -1;
+}
+
+#box2 {
+  position: fixed;
+  top: 90px;
+  left: 0%;
+  width:100%;
+  height:50px;
+  background: #eeeeee;
+  z-index: -1;
+}
+/*end background*/
+
+/*start main title box*/
+#main-header {
+  position: fixed;
+  top: 0px;
+  left: 10%;
+  width:80%;
+  height:90px;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.site-title {
+  position: relative;
+  top: -40px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.tagline {
+  position: relative;
+  top: -85px;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+/*end main title box*/
+
+/*start nav bar*/
+.nav-link-list-item {
+  display: inline-block;
+  height: 48px;
+  width: 10%;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+}
+
+.nav-link {
+  font-family: helvetica;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+.nav-link-list-item:hover {
+   box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+#navitem1 {
+  position: fixed;
+  top: 74px;
+  left: 10%;
+  height: 47px;
+  width: 10%;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+#navitem2 {
+  position: fixed;
+  top: 90px;
+  left: 20%;
+  }
+  #navitem3 {
+  position: fixed;
+  top: 90px;
+  left: 30%;
+  }
+  #navitem4 {
+  position: fixed;
+  top: 90px;
+  left: 40%;
+  }
+  #navitem5 {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  }
+  #navitem6 {
+  position: fixed;
+  top: 90px;
+  left: 60%;
+  }
+  #navitem7 {
+  position: fixed;
+  top: 90px;
+  left: 70%;
+  }
+  #navitem8 {
+  position: fixed;
+  top: 90px;
+  left: 80%;
+  }
+/*end nav bar*/
+
+/*start body text styling*/
+.section-title {
+  text-align: center;
+  font-size: 26px;
+  font-style: bold;
+}
+.section-content {
+  font-family: arial;
+  font-size: 16px;
+  color: #111111;
+}
+/*end body text styling*/
 
 
+/*start right side fixed memo*/
+  #rightfixed {
+   position:fixed;
+   top: 250px;
+   left: 58%;
+   height: 220px;
+   width:27.5%;
+   padding: 8px;
+   background: #eeeeee;
+   opacity: 0.85;
+   border-style: solid;
+   border-width: 1px;
+   border-color: #333333;
+  }
+ /*end right side fixed memo*/
 
-
-
-
- 
+ /*start main content*/
+   #maincontent {
+   position:relative;
+   top: 160px;
+   left: 17.5%;
+   height: 1550px;
+   width:32.5%;
+   z-index: -2;
+   padding: 8px;
+   background: #eeeeee;
+   opacity: 0.85;
+   border-style: solid;
+   border-width: 1px;
+   border-color: #333333;
+  }
+   /*end main content*/
