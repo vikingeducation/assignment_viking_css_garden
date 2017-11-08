@@ -2,6 +2,144 @@
  * Your Styles Here
  * ----------------------------------- */
 
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Default Color*/
+
+body {
+  color: #2b2118;
+  background: #f7f3e3;
+}
+
+/* Headings */
+.site-title,
+.tagline,
+.section-title {
+  color: #6f1a07;
+  text-align: center;
+}
+
+#main-header {
+  background: url("assets/header-img.jpg");
+  background-size: 300px auto;
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  height: 200px;
+  padding: 20px 0 0 10%; 
+}
+
+.site-title {
+  font: bold 60px Lora, Arial, sans-serif;
+  margin: 20px auto 10px auto;
+}
+
+.tagline,
+.section-title {
+  font: bold 24px Lora, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Content */
+#main-content {
+  font: 18px "Cormorant Garamond", "Times New Roman", serif;
+  float: right;
+  margin-right: 170px;
+  margin-top: -30px;
+  width: 60%;
+  padding: 20px;
+}
+
+.section-content p {
+  margin-bottom: 20px;
+}
+
+.citation {
+  font-size: 24px;
+}
+
+/* Sidebar */
+#sidebar {
+  margin: 50px 0 0 20px;
+  width: 20%;
+}
+
+#sidebar .section-title {
+  color: #b3b6b7;
+  text-align: left;
+}
+
+.nav-links .nav-link-list-item {
+  border-left: 3px solid #b3b6b7;
+  font: bold 18px Lora, Arial, sans-serif;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-list-item:hover {
+  border-left: 3px solid #6f1a07;
+}
+
+/* Links */
+a {
+  color: #af9164;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6f1a07;
+}
+
+
+
+
 
 
 
