@@ -87,10 +87,28 @@ body {
   margin-bottom: 20px;
 }
 
+/* Floats & Clearfix*/
+.right {
+  float: right;
+}
+
+.clear {
+  clear:both;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+
 /* Content */
 #main-content {
   font: 18px "Cormorant Garamond", "Times New Roman", serif;
-  float: right;
   margin-right: 170px;
   margin-top: -30px;
   width: 60%;
