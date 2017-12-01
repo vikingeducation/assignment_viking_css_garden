@@ -11,7 +11,7 @@
    License: none (public domain)
 */
 
-span, applet, object, iframe, html,
+span, applet, object, iframe, html, body,
 h1, h3, h4, h5, h6, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -33,27 +33,27 @@ html {
 }
 
 header {
-  height: 400px;
+  height: 30%;
   margin: 0 auto;
   text-align: center;
   background-image: url("/image/banner-image.jpg");
   background-position: right top;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .container {
   text-align: center;
-  background-color: #8F7E5C;
+  background-color: #CDD7D7;
 }
 
 #main-content {
   display: inline-block;
   width: 50%;
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
-  border: 1px solid black;
-  background-color: #586A90;
+  background-color: #ADB7D0;
 }
 
 .main-content-section {
@@ -68,9 +68,21 @@ header {
   font-size: xx-large;
 }
 
+#sidebar {
+  display: inline-block;
+  vertical-align: top;
+  clear: left;
+  width: 200px;
+  margin: 10px;
+  padding: 0px;
+}
+
 #sidebar h2 {
   text-align: center;
   font-size: large;
+	font-style: italic;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .section-content p{
@@ -80,23 +92,13 @@ header {
   vertical-align: top;
 }
 
-#sidebar {
-  display: inline-block;
-  vertical-align: top;
-  clear: left;
-  width: 200px;
-  margin: 10px;
-  padding: 0px;
-  /*border: 1px dashed black;*/
-}
-
 /* CSS for nav styling*/
 ul, li{
   list-style: none;
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #D7B87B;
+  background-color: #FFE4CE;
 
 }
 
@@ -104,12 +106,12 @@ li a {
   border-collapse: collapse;
   display: block;
   color: #000;
+	font-size: medium;
   padding: 8px 16px;
-  border: 1px solid #84714C;
+  border: 1px solid #FFE4CE;
   text-align: center;
 }
 
 li a:hover {
-  background-color: #84714C;
-  color: white;
+  background-color: #ECB587;
 }
