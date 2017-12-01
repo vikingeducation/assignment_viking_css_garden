@@ -11,7 +11,7 @@
    License: none (public domain)
 */
 
-span, applet, object, iframe,
+span, applet, object, iframe, html,
 h1, h3, h4, h5, h6, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -19,7 +19,7 @@ b, u, i,
 dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
+article, canvas, details, embed,
 figure, figcaption, footer, hgroup,
 menu, output, ruby, section, summary,
 time, mark, audio, video {
@@ -27,23 +27,19 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 }
-/* HTML5 display-role reset for older browsers */
-article, details, figcaption, figure,
-footer, hgroup, menu, section {
-	display: block;
-}
 
 html {
   font-family: 'Assistant', sans-serif;
 }
 
 header {
-  display: block;
   height: 400px;
   margin: 0 auto;
   text-align: center;
   background-image: url("/image/banner-image.jpg");
   background-position: right top;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .container {
@@ -51,17 +47,25 @@ header {
 }
 
 #main-content {
-  position: relative;
+  display: inline-block;
+  float: left;
   width: 50%;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  border: 1px solid black;
-  text-align: center;
+  border: 10px solid black;
+  background-color: #586A90;
 }
 
-h2.section-title {
+.main-content-section {
+  display: block;
+  border: 3px solid black;
+  padding: 0 1em 1em 1em;
+  margin: 1em;
+}
+
+.section-title {
   text-align: center;
-  font-size: 200%
+  font-size: xx-large;
 }
 
 .section-content{
@@ -70,40 +74,33 @@ h2.section-title {
 }
 
 #sidebar {
-  width: 50%;
-  margin: 0 auto;
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
   padding: 0px;
   border: 1px dashed black;
 }
 
-.sidebar-nav {
-  text-align: right;
-  clear: both;
-}
-
-
-
-
-
 /* CSS for nav styling*/
-ul {
+ul, li{
   list-style: none;
   margin: 0;
   padding: 0;
   width: 200px;
   background-color: #D7B87B;
+
 }
 
 li a {
-    border-collapse: collapse;
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    border: 1px solid #84714C;
-    text-align: center;
+  border-collapse: collapse;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  border: 1px solid #84714C;
+  text-align: center;
 }
 
 li a:hover {
-    background-color: #84714C;
-    color: white;
+  background-color: #84714C;
+  color: white;
 }
