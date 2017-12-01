@@ -1,10 +1,117 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+ /* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+ */
 
+ /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+span, applet, object, iframe, html, body,
+h1, h3, h4, h5, h6, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, canvas, details, embed,
+figure, figcaption, footer, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 
+html {
+  font-family: 'Assistant', sans-serif;
+}
 
+header {
+  height: 30%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/image/banner-image.jpg");
+  background-position: right top;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
+}
 
- 
+.container {
+  text-align: center;
+  background-color: #CDD7D7;
+}
+
+#main-content {
+  display: inline-block;
+  width: 50%;
+  margin: 10px 0;
+  padding: 0;
+  background-color: #ADB7D0;
+}
+
+.main-content-section {
+  display: block;
+  border: 3px solid black;
+  padding: 0 1em 1em 1em;
+  margin: 1em;
+}
+
+.section-title {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#sidebar {
+  display: inline-block;
+  vertical-align: top;
+  clear: left;
+  width: 200px;
+  margin: 10px;
+  padding: 0px;
+}
+
+#sidebar h2 {
+  text-align: center;
+  font-size: large;
+	font-style: italic;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.section-content p{
+  column-count: 2;
+  text-align: left;
+  margin: -5px;
+  vertical-align: top;
+}
+
+/* CSS for nav styling*/
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFE4CE;
+
+}
+
+li a {
+  border-collapse: collapse;
+  display: block;
+  color: #000;
+	font-size: medium;
+  padding: 8px 16px;
+  border: 1px solid #FFE4CE;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #ECB587;
+}
