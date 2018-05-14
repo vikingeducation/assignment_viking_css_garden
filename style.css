@@ -1,10 +1,89 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
+.container-fluid {
+   margin-bottom: 10%;
+  }
+
+.floating-box {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+
+.floating-box-right {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
 
 
+.background {
+  background-image: url('https://cdn.segmentnext.com/wp-content/uploads/2018/01/Atreus-and-Lore-Implications-in-God-of-War-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  filter: blur(3px);
+  -mo-filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  weight: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
 
-
-
-
+.content{
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 50px;
+  left: 0;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  right: 0;
+  z-index: 2;
+  padding: 10px 10px;
+}
  
+.header {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  top: 0;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 15, 1);
+  z-index: 3;
+  left: 0;
+  right: 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#heart {
+  color: red;
+  font-size: 65%;
+}
+
+ul {
+  text-align: justify;
+  padding: 15px 15px 15px 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+img {
+  margin-bottom: 3%;
+}
+
+sidebar {
+  position: clearfix
+}
