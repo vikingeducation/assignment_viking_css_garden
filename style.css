@@ -1,12 +1,31 @@
-/* ----------------------------------- *
- * Your Styles Here
- * ----------------------------------- */
-*
-{
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-image: url("norse mythology.jpg");
 
+body {
+   font-family: Courgette fantasy sans-serif helvetica;  
+  ; font-size: 25px; margin-left:1.5em;margin-right:1.5em; margin-bottom: 0%; margin-top: 0.2em;background-image: url(image/maxresdefault.jpg);background-repeat: no-repeat;
+   background-position: center; background-size: cover; background-blend-mode:lighten; 
+  }
+#main-header{
+  background-color:#d5e641d2; color: rgb(136, 20, 5); text-align: center;display: block; margin-left:0% margin-right:0%
+  padding: 0px 5px 0.2px 5px; display: block; border-radius: 15px; box-sizing: border-box;
 }
+.site-title{
+font-style: oblique; font-size: 3em;  font-weight: bold; text-transform:capitalize; padding-top: 10px; ; 
+}
+.tagline{
+  font-style: italic; font-size: 1.5; color: rgb(241, 244, 248);border-bottom: 3px solid black; border-bottom-width: 8px; margin-bottom: 0%;
+  }
+#main-content{
+   margin-top: 0%;background-color: rgba(151, 215, 231, 0.404);
+  }
+  h2.section-title{
+   font-style: helvetica; font-size: 1.5em;  text-align: center; color: rgb(0, 0, 0); margin: 1% 0% 3% 0%; margin-bottom: 2px; text-decoration-line: underline; 
+  }
+  p {
+    color:rgb(1, 16, 22); line-height: 1.6em; padding: 4px 7px 4px 7px;
+  }
+    #sidebar{
+background-color: rgba(210, 216, 132, 0.507); float: right;width: 100%; height: 10em;
+  }
+  #sidebar-nav{
+    
+  }
