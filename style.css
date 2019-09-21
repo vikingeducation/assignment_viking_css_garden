@@ -92,15 +92,12 @@ h1.site-title:hover{
   color: rgb(4, 4, 68)
 }
 #sidebar{
-  width: 100; margin: auto;background-color: rgba(48, 32, 94, 0.822);position: absolute; top: 18%; left: 80%; border-radius: 15px;
+  width: 100; margin: auto;background-color: rgba(48, 32, 94, 0.822);position: absolute; top: 13%; left: 80%; border-radius: 15px;
   }
 #sidebar h2.section-title {
-color: black; color: rgb(218, 165, 32); font-style: italic;
+color: black; color: rgb(218, 165, 32); font-style: italic; 
 }
   
-.sidebar-nav {
-  
-}
 .nav-links{
   margin: 0;
   padding: 0;
@@ -109,11 +106,9 @@ color: black; color: rgb(218, 165, 32); font-style: italic;
 }
 .nav-link-list-item {
   display: block;box-sizing: border-box;
-  margin: 50px; padding: 0px 50px 0px 10px;  font-size: 24px; 
+  margin: 50px 50px 80px 50px; padding: 0px 50px 0px 10px;  font-size: 24px; 
 }
-a.nav-links{
-  
-}
+
 a:visited{
   color: brown;
   }
