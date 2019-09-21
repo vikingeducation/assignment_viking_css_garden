@@ -1,31 +1,75 @@
 
-body {
+
+ body {
    font-family: Courgette fantasy sans-serif helvetica;  
-  ; font-size: 25px; margin-left:1.5em;margin-right:1.5em; margin-bottom: 0%; margin-top: 0.2em;background-image: url(image/maxresdefault.jpg);background-repeat: no-repeat;
-   background-position: center; background-size: cover; background-blend-mode:lighten; 
+   font-size: 18px;  margin-bottom: 0%; margin-top: 0.2em;background-image: url(image/maxresdefault.jpg);background-repeat: no-repeat;
+   background-size: cover; background-position: center;
   }
+
 #main-header{
-  background-color:#d5e641d2; color: rgb(136, 20, 5); text-align: center;display: block; margin-left:0% margin-right:0%
-  padding: 0px 5px 0.2px 5px; display: block; border-radius: 15px; box-sizing: border-box;
+  background: rgb(7, 1, 43);
+   color: rgb(231, 229, 235); text-align: center;
+ margin: 0%; padding: 0%; border-radius: 15px; box-sizing: border-box;height:5em;
+ 
 }
 .site-title{
-font-style: oblique; font-size: 3em;  font-weight: bold; text-transform:capitalize; padding-top: 10px; ; 
+font-style: fantasy; font-size: 45px;text-indent: 20px;  font-weight: bolder; text-transform:uppercase; padding:5px 5px 3px 5px; margin: 20px 20px 0px 20px;border-radius: 15px;
+background-color: rgba(108, 223, 214, 0.603);
+float: left;
 }
 .tagline{
-  font-style: italic; font-size: 1.5; color: rgb(241, 244, 248);border-bottom: 3px solid black; border-bottom-width: 8px; margin-bottom: 0%;
-  }
+  font-style: italic; font-size:20px; color: rgb(241, 244, 248);border-bottom: 3px solid black; border-bottom-width: 3px; margin:20px;
+  float: right;position: relative;
+}
 #main-content{
-   margin-top: 0%;background-color: rgba(151, 215, 231, 0.404);
+   width: 80%;margin-top: 20px;background-color: rgba(85, 130, 141, 0.404);border-radius:15px;clear: both;
   }
   h2.section-title{
-   font-style: helvetica; font-size: 1.5em;  text-align: center; color: rgb(0, 0, 0); margin: 1% 0% 3% 0%; margin-bottom: 2px; text-decoration-line: underline; 
+   font-style: helvetica; font-size: 1.5em;  text-align: left; color: rgb(246, 248, 147); margin:10px 20px 5px 20px;padding:7px 20px 5px 20px;
+   display: block;font-weight: bold;
+     
   }
-  p {
-    color:rgb(1, 16, 22); line-height: 1.6em; padding: 4px 7px 4px 7px;
+  .section-content{
+    width:100%;
   }
-    #sidebar{
-background-color: rgba(210, 216, 132, 0.507); float: right;width: 100%; height: 10em;
+   p {
+    color:rgb(10, 10, 0); line-height: 1.6em; padding: 4px 7px 4px 7px;margin-left:1.5em;margin-right:1.5em;background-color: rgba(225, 226, 233, 0.308);border-bottom-left-radius: 1em; border-bottom-right-radius: 1em;
+ font-size:25px;
   }
-  #sidebar-nav{
-    
+    a:link{
+    color: deepskyblue;
   }
+  
+h1.site-title:hover{
+  color: rgb(4, 4, 68)
+}
+#sidebar{
+  width: 100; margin: auto;background-color: rgba(48, 32, 94, 0.822);position: absolute; top: 18%; left: 80%; border-radius: 15px;
+  }
+#sidebar h2.section-title {
+color: black; color: rgb(218, 165, 32); font-style: italic;
+}
+  
+.sidebar-nav {
+  
+}
+.nav-links{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+.nav-link-list-item {
+  display: block;box-sizing: border-box;
+  margin: 50px; padding: 0px 50px 0px 10px;  font-size: 24px; 
+}
+a.nav-links{
+  
+}
+a:visited{
+  color: brown;
+  }
+  a:hover{
+    color: antiquewhite;
+  }
+ 
