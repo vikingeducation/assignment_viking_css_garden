@@ -1,0 +1,3 @@
+#Started practicing git again...
+lets see how that goes
+okay imma add something again
